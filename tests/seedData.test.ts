@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { proofread } from "@/lib/proofread";
 import { countChars, splitParagraphs } from "@/lib/text";
 import { seedData } from "@/repositories/local/seedData";
 
@@ -99,6 +100,20 @@ describe("/data 預設教材", () => {
       const minChars = wtById.get(e.writingTypeId)?.requirements?.minChars ?? 0;
       expect(countChars(e.content), e.id).toBeGreaterThanOrEqual(minChars);
     });
+  });
+
+  it("範文同詞語用字：無粵語口語、無簡體字、寫法統一", () => {
+    const problems = [
+      ...essays.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
+      ...vocabulary.map((v) => ({ id: v.word, issues: proofread(`${v.definition}${v.example}`) })),
+    ].filter((p) => p.issues.length);
+    expect(problems).toEqual([]);
+  });
+
+  it("用字檢查捉到口語同簡體字，但唔會誤報「關係」", () => {
+    expect(proofread("佢哋唔係咁").map((i) => i.kind)).toContain("口語");
+    expect(proofread("这是")[0]?.kind).toBe("簡體字");
+    expect(proofread("我們的關係很好")).toEqual([]);
   });
 
   it("計字唔計標點同空白", () => {
