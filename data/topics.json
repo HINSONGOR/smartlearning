@@ -1,0 +1,66 @@
+[
+  {
+    "id": "good-student",
+    "questionTypeId": "expository-method",
+    "title": "如何成為一個好學生？",
+    "hints": ["好學生不只成績好，還包括品德和態度", "方法要具體，例如「專心上課」、「自律溫習」"],
+    "keyConcepts": ["專心", "自律", "尊重", "責任感"],
+    "order": 1
+  },
+  {
+    "id": "self-discipline",
+    "questionTypeId": "expository-method",
+    "title": "如何培養自律的習慣？",
+    "hints": ["自律就是沒有人提醒，也會自己做好", "可以從訂立時間表、戒除壞習慣入手"],
+    "keyConcepts": ["時間表", "目標", "堅持"],
+    "order": 2
+  },
+  {
+    "id": "cherish-life",
+    "questionTypeId": "expository-method",
+    "title": "我們應如何珍惜美好的生活？",
+    "hints": ["美好的生活包括家人、健康和資源", "方法可以是懂得感恩、不浪費"],
+    "keyConcepts": ["感恩", "珍惜資源", "關心家人"],
+    "order": 3
+  },
+  {
+    "id": "smartphone-impact",
+    "questionTypeId": "expository-impact",
+    "title": "智能電話對青少年的影響",
+    "hints": ["正面：方便學習和聯絡", "負面：容易沉迷，影響視力和睡眠"],
+    "keyConcepts": ["資訊", "沉迷", "自制"],
+    "order": 1
+  },
+  {
+    "id": "reading-benefits",
+    "questionTypeId": "expository-benefit",
+    "title": "閱讀對小學生有甚麼好處？",
+    "hints": ["可以從知識、語文能力、品格三方面思考", "例子可以用自己讀過的書"],
+    "keyConcepts": ["知識", "語文能力", "想像力"],
+    "order": 1
+  },
+  {
+    "id": "online-learning-pros-cons",
+    "questionTypeId": "expository-pros-cons",
+    "title": "網上學習的利與弊",
+    "hints": ["（待補充）"],
+    "keyConcepts": [],
+    "order": 1
+  },
+  {
+    "id": "why-pets",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼愈來愈多人飼養寵物？",
+    "hints": ["（待補充）"],
+    "keyConcepts": [],
+    "order": 1
+  },
+  {
+    "id": "reduce-food-waste",
+    "questionTypeId": "expository-suggestion",
+    "title": "對減少學校午膳浪費的建議",
+    "hints": ["（待補充）"],
+    "keyConcepts": [],
+    "order": 1
+  }
+]

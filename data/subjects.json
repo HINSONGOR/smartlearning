@@ -1,0 +1,59 @@
+[
+  {
+    "id": "chinese",
+    "name": "中文",
+    "order": 1,
+    "modules": [
+      {
+        "id": "chinese-writing",
+        "kind": "writing",
+        "name": "中文作文",
+        "description": "學識說明文嘅寫作公式同技巧",
+        "icon": "📝",
+        "status": "active",
+        "order": 1
+      },
+      {
+        "id": "chinese-general",
+        "kind": "general",
+        "name": "中文",
+        "description": "",
+        "icon": "📖",
+        "status": "coming_soon",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "english",
+    "name": "英文",
+    "order": 2,
+    "modules": [
+      {
+        "id": "english-writing",
+        "kind": "writing",
+        "name": "英文作文",
+        "description": "",
+        "icon": "✍️",
+        "status": "coming_soon",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "general-studies",
+    "name": "常識",
+    "order": 3,
+    "modules": [
+      {
+        "id": "general-studies-general",
+        "kind": "general",
+        "name": "常識",
+        "description": "",
+        "icon": "🌏",
+        "status": "coming_soon",
+        "order": 4
+      }
+    ]
+  }
+]

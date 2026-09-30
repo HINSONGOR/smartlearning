@@ -1,0 +1,116 @@
+[
+  {
+    "id": "expository-method",
+    "writingTypeId": "expository",
+    "name": "方法型",
+    "description": "題目問「如何」、「怎樣」做到一件事，要說明具體方法。",
+    "formula": "背景＋提出主題 → 方法① → 方法② → 總結＋建議",
+    "structure": [
+      { "label": "第1段", "parts": ["背景", "提出主題"] },
+      { "label": "第2段", "parts": ["方法①", "解釋", "例子"] },
+      { "label": "第3段", "parts": ["方法②", "解釋", "例子"] },
+      { "label": "第4段", "parts": ["總結", "建議"] }
+    ],
+    "thinkingSteps": [
+      "圈出題目要達到的目標（例如：成為好學生）",
+      "想出兩個最重要、不重複的方法",
+      "每個方法都要說明「為甚麼有用」",
+      "每個方法配合一個生活或學校例子",
+      "最後總結，並鼓勵讀者一起實行"
+    ],
+    "isPlaceholder": false,
+    "order": 1
+  },
+  {
+    "id": "expository-impact",
+    "writingTypeId": "expository",
+    "name": "影響型",
+    "description": "題目問某事物帶來甚麼「影響」，要說明正面和負面兩方面。",
+    "formula": "背景 → 正面影響 → 負面影響 → 總結＋建議",
+    "structure": [
+      { "label": "第1段", "parts": ["背景"] },
+      { "label": "第2段", "parts": ["正面影響", "例子"] },
+      { "label": "第3段", "parts": ["負面影響", "例子"] },
+      { "label": "第4段", "parts": ["總結", "建議"] }
+    ],
+    "thinkingSteps": [
+      "先說明這事物和我們生活的關係",
+      "想出一個最明顯的正面影響",
+      "想出一個最明顯的負面影響",
+      "兩種影響都要有例子",
+      "總結時提出如何減少負面影響"
+    ],
+    "isPlaceholder": false,
+    "order": 2
+  },
+  {
+    "id": "expository-benefit",
+    "writingTypeId": "expository",
+    "name": "好處型",
+    "description": "題目問某件事有甚麼「好處」，要說明兩個或以上好處。",
+    "formula": "背景＋提出主題 → 好處① → 好處② → 總結＋建議",
+    "structure": [
+      { "label": "第1段", "parts": ["背景", "提出主題"] },
+      { "label": "第2段", "parts": ["好處①", "解釋", "例子"] },
+      { "label": "第3段", "parts": ["好處②", "解釋", "例子"] },
+      { "label": "第4段", "parts": ["總結", "建議"] }
+    ],
+    "thinkingSteps": [
+      "想想這件事對「知識」、「身體」、「心情」、「品德」哪方面有好處",
+      "選出兩個最有說服力、不重複的好處",
+      "每個好處都要說明原因",
+      "每個好處配合一個例子",
+      "總結並鼓勵讀者去做"
+    ],
+    "isPlaceholder": false,
+    "order": 3
+  },
+  {
+    "id": "expository-pros-cons",
+    "writingTypeId": "expository",
+    "name": "利弊型",
+    "description": "（待補充）題目要求分析一件事的好處和壞處。",
+    "formula": "背景 → 好處 → 壞處 → 總結＋個人看法",
+    "structure": [
+      { "label": "第1段", "parts": ["背景", "提出主題"] },
+      { "label": "第2段", "parts": ["好處", "例子"] },
+      { "label": "第3段", "parts": ["壞處", "例子"] },
+      { "label": "第4段", "parts": ["總結", "個人看法"] }
+    ],
+    "thinkingSteps": ["（待補充）"],
+    "isPlaceholder": true,
+    "order": 4
+  },
+  {
+    "id": "expository-cause",
+    "writingTypeId": "expository",
+    "name": "原因型",
+    "description": "（待補充）題目問「為甚麼」，要說明現象背後的原因。",
+    "formula": "背景＋現象 → 原因① → 原因② → 總結＋建議",
+    "structure": [
+      { "label": "第1段", "parts": ["背景", "現象"] },
+      { "label": "第2段", "parts": ["原因①", "解釋", "例子"] },
+      { "label": "第3段", "parts": ["原因②", "解釋", "例子"] },
+      { "label": "第4段", "parts": ["總結", "建議"] }
+    ],
+    "thinkingSteps": ["（待補充）"],
+    "isPlaceholder": true,
+    "order": 5
+  },
+  {
+    "id": "expository-suggestion",
+    "writingTypeId": "expository",
+    "name": "建議型",
+    "description": "（待補充）題目要求就一個問題提出改善建議。",
+    "formula": "背景＋問題 → 建議① → 建議② → 總結＋呼籲",
+    "structure": [
+      { "label": "第1段", "parts": ["背景", "問題"] },
+      { "label": "第2段", "parts": ["建議①", "解釋", "例子"] },
+      { "label": "第3段", "parts": ["建議②", "解釋", "例子"] },
+      { "label": "第4段", "parts": ["總結", "呼籲"] }
+    ],
+    "thinkingSteps": ["（待補充）"],
+    "isPlaceholder": true,
+    "order": 6
+  }
+]

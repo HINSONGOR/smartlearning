@@ -1,0 +1,34 @@
+[
+  {
+    "id": "expository",
+    "moduleId": "chinese-writing",
+    "name": "說明文",
+    "description": "清楚說明方法、原因、影響或好處",
+    "status": "active",
+    "order": 1
+  },
+  {
+    "id": "narrative",
+    "moduleId": "chinese-writing",
+    "name": "記敘文",
+    "description": "",
+    "status": "coming_soon",
+    "order": 2
+  },
+  {
+    "id": "argumentative",
+    "moduleId": "chinese-writing",
+    "name": "議論文",
+    "description": "",
+    "status": "coming_soon",
+    "order": 3
+  },
+  {
+    "id": "practical",
+    "moduleId": "chinese-writing",
+    "name": "實用文",
+    "description": "",
+    "status": "coming_soon",
+    "order": 4
+  }
+]
