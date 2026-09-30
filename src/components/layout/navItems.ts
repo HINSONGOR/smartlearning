@@ -9,6 +9,5 @@ export interface NavItem {
 export const navItems: NavItem[] = [
   { href: "/", label: "學習", icon: "📚", alsoActive: ["/learn"] },
   { href: "/vocabulary", label: "詞語庫", icon: "🔤", alsoActive: ["/dictation"] },
-  { href: "/write", label: "寫作區", icon: "✏️" },
   { href: "/admin", label: "內容管理", icon: "🔒" },
 ];
