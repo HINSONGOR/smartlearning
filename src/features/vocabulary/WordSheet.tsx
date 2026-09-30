@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type { Vocabulary } from "@/domain/types";
+import { SpeakButton } from "@/features/speech/SpeakButton";
 
 interface Props {
   word: Vocabulary | null;
@@ -43,6 +44,10 @@ export function WordSheet({ word, onClose }: Props) {
               ×
             </button>
           </div>
+          <div className="flex flex-wrap items-start gap-2">
+            <SpeakButton text={word.word} lang="yue" />
+            <SpeakButton text={word.word} lang="cmn" />
+          </div>
           <div className="flex flex-wrap gap-2 text-sm">
             <span className="rounded-lg bg-primary-soft px-2 py-1 text-primary">{word.category}</span>
             <span className="rounded-lg bg-accent-soft px-2 py-1 text-accent">程度 {word.level}</span>
@@ -55,6 +60,9 @@ export function WordSheet({ word, onClose }: Props) {
             <section>
               <h3 className="font-bold text-muted">例句</h3>
               <p className="text-lg">{word.example}</p>
+              <div className="mt-2">
+                <SpeakButton text={word.example} lang="yue" compact />
+              </div>
             </section>
           )}
         </div>

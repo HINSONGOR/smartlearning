@@ -7,13 +7,18 @@ import { ChangeNotifier } from "./changes";
 import { CurriculumService } from "./CurriculumService";
 import { EssayService } from "./EssayService";
 import { ExampleService } from "./ExampleService";
+import { TTSService, type TTSProvider } from "./tts/TTSService";
+import { WebSpeechProvider } from "./tts/WebSpeechProvider";
 import { VocabularyService } from "./VocabularyService";
 
 /**
  * 唯一組裝 Service 同 Repository 嘅地方。
  * 將來轉用雲端資料庫，只需要喺呢度換 Repository 實作，UI 同 Service 都唔使改。
  */
-export function createServices(store: KeyValueStore) {
+export function createServices(
+  store: KeyValueStore,
+  ttsProvider: TTSProvider = new WebSpeechProvider(),
+) {
   const changes = new ChangeNotifier();
   return {
     changes,
@@ -33,6 +38,7 @@ export function createServices(store: KeyValueStore) {
       exampleSchema,
       changes,
     ),
+    tts: new TTSService(ttsProvider),
   };
 }
 
