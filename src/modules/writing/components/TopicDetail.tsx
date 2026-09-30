@@ -188,6 +188,7 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
                 levels={levels}
                 structure={questionType.structure}
                 terms={terms}
+                minChars={writingType.requirements?.minChars}
                 onWordClick={setOpenWordId}
               />
             )}
@@ -224,12 +225,14 @@ function EssaysPanel({
   levels,
   structure,
   terms,
+  minChars,
   onWordClick,
 }: {
   essays: Essay[];
   levels: Level[];
   structure: QuestionType["structure"];
   terms: ReturnType<typeof buildTerms>;
+  minChars?: number;
   onWordClick: (id: string) => void;
 }) {
   const available = levels.filter((l) => essays.some((e) => e.level === l.id));
@@ -241,6 +244,7 @@ function EssaysPanel({
   const essay = essays.find((e) => e.level === level);
 
   if (!essay) return <p className="text-lg text-muted">呢條題目暫時未有範文。</p>;
+  const chars = countChars(essay.content);
 
   const copy = async () => {
     try {
@@ -275,7 +279,9 @@ function EssaysPanel({
       </div>
 
       <div className="flex flex-wrap items-center gap-2">
-        <span className="text-muted">{countChars(essay.content)} 字</span>
+        <span className={chars < (minChars ?? 0) ? "font-bold text-danger" : "text-muted"}>
+          {chars} 字{minChars && chars < minChars ? `（未夠 ${minChars} 字）` : ""}
+        </span>
         {essay.tags.includes("待審閱") && (
           <span className="rounded-lg bg-danger-soft px-2 py-0.5 text-sm text-danger">待審閱</span>
         )}

@@ -278,17 +278,6 @@
     "order": 1
   },
   {
-    "id": "why-pets",
-    "questionTypeId": "expository-cause",
-    "title": "為甚麼愈來愈多人飼養寵物？",
-    "outline": [],
-    "hints": [
-      "（待補充）"
-    ],
-    "keyConcepts": [],
-    "order": 1
-  },
-  {
     "id": "reduce-food-waste",
     "questionTypeId": "expository-suggestion",
     "title": "對減少學校午膳浪費的建議",
@@ -518,5 +507,120 @@
       "改善人際關係"
     ],
     "order": 7
+  },
+  {
+    "id": "cherish-time",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼我們要珍惜時間？",
+    "outline": [
+      "背景＋時間有限、不能追回",
+      "原因① 提高學習效率",
+      "原因② 養成自律的習慣",
+      "合理安排時間，生活更充實"
+    ],
+    "hints": [
+      "同類問法：「珍惜時間的重要性」也可以用這篇"
+    ],
+    "keyConcepts": [
+      "時間有限",
+      "學習效率",
+      "自律"
+    ],
+    "order": 1
+  },
+  {
+    "id": "why-exercise",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼我們要做運動？",
+    "outline": [
+      "背景＋提出問題",
+      "原因① 強身健體",
+      "原因② 培養自律",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「為甚麼我們要珍惜時間？」範文，把主題換掉，兩個原因換成：強身健體＋培養自律"
+    ],
+    "keyConcepts": [
+      "強身健體",
+      "培養自律"
+    ],
+    "order": 2
+  },
+  {
+    "id": "why-read",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼我們要閱讀？",
+    "outline": [
+      "背景＋提出問題",
+      "原因① 增加知識",
+      "原因② 提升語文能力",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「為甚麼我們要珍惜時間？」範文，把主題換掉，兩個原因換成：增加知識＋提升語文能力"
+    ],
+    "keyConcepts": [
+      "增加知識",
+      "提升語文能力"
+    ],
+    "order": 3
+  },
+  {
+    "id": "why-protect-environment",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼我們要保護環境？",
+    "outline": [
+      "背景＋提出問題",
+      "原因① 保持環境清潔",
+      "原因② 保護地球資源",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「為甚麼我們要珍惜時間？」範文，把主題換掉，兩個原因換成：保持環境清潔＋保護地球資源"
+    ],
+    "keyConcepts": [
+      "保持環境清潔",
+      "保護地球資源"
+    ],
+    "order": 4
+  },
+  {
+    "id": "why-cherish-food",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼我們要珍惜食物？",
+    "outline": [
+      "背景＋提出問題",
+      "原因① 避免浪費食物",
+      "原因② 節約生產食物所需的資源",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「為甚麼我們要珍惜時間？」範文，把主題換掉，兩個原因換成：避免浪費食物＋節約生產食物所需的資源"
+    ],
+    "keyConcepts": [
+      "避免浪費食物",
+      "節約生產食物所需的資源"
+    ],
+    "order": 5
+  },
+  {
+    "id": "why-self-discipline",
+    "questionTypeId": "expository-cause",
+    "title": "為甚麼要培養自律習慣？",
+    "outline": [
+      "背景＋提出問題",
+      "原因① 提高學習效率",
+      "原因② 養成良好生活習慣",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「為甚麼我們要珍惜時間？」範文，把主題換掉，兩個原因換成：提高學習效率＋養成良好生活習慣"
+    ],
+    "keyConcepts": [
+      "提高學習效率",
+      "養成良好生活習慣"
+    ],
+    "order": 6
   }
 ]

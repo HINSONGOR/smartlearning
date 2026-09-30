@@ -40,10 +40,13 @@
       "時間管理"
     ],
     "questionTypeIds": [
-      "expository-method"
+      "expository-method",
+      "expository-cause"
     ],
     "topicIds": [
-      "self-discipline"
+      "self-discipline",
+      "cherish-time",
+      "why-self-discipline"
     ]
   },
   {
@@ -258,10 +261,13 @@
     "category": "學習",
     "tags": [],
     "questionTypeIds": [
-      "expository-benefit"
+      "expository-benefit",
+      "expository-cause"
     ],
     "topicIds": [
-      "time-management-benefits"
+      "time-management-benefits",
+      "cherish-time",
+      "why-self-discipline"
     ]
   },
   {
@@ -301,6 +307,22 @@
     ],
     "topicIds": [
       "reading-benefits"
+    ]
+  },
+  {
+    "id": "daily-routine",
+    "title": "每天預留溫習、閱讀和運動時間",
+    "content": "每天預留時間溫習、閱讀和做運動，慢慢建立有規律的生活。",
+    "category": "生活",
+    "tags": [
+      "時間管理"
+    ],
+    "questionTypeIds": [
+      "expository-cause"
+    ],
+    "topicIds": [
+      "cherish-time",
+      "why-self-discipline"
     ]
   }
 ]

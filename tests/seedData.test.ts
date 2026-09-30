@@ -96,6 +96,8 @@ describe("/data 預設教材", () => {
       const expected = e.paragraphLabels?.length ?? qtById.get(e.questionTypeId)!.structure.length;
       expect(paragraphs, e.id).toHaveLength(expected);
 
+      // 用戶原稿唔自動改，字數不足會喺畫面提示；Claude 寫嘅一定要達標
+      if (e.tags.includes("原稿")) return;
       const minChars = wtById.get(e.writingTypeId)?.requirements?.minChars ?? 0;
       expect(countChars(e.content), e.id).toBeGreaterThanOrEqual(minChars);
     });
