@@ -27,7 +27,7 @@ description: 將用戶提供嘅中文說明文範文（Word .docx 或貼上嘅�
 |---|---|---|---|
 | 方法型 `expository-method` | 方法1 方法2 | 如何、怎樣、應怎樣 | 兩個方法（首先…其次…） |
 | 影響型 `expository-impact` | 正反 | 對…的影響 | 一段好處、一段壞處（首先…然而…） |
-| 好處型 `expository-benefit` | 正正 | …的好處、有甚麼好處 | 兩個好處（首先…其次…） |
+| 好處型 `expository-benefit` | 正正 | …的好處、有甚麼好處、為甚麼我們要……？、……的重要性 | 兩個好處（首先…其次…） |
 | 利弊型 `expository-pros-cons` | 正反 | 利與弊、利弊 | 同影響型 |
 | 原因型 `expository-cause` | — | 為甚麼 | 兩個原因 |
 | 建議型 `expository-suggestion` | — | 建議、改善 | 兩個建議 |
@@ -46,6 +46,19 @@ description: 將用戶提供嘅中文說明文範文（Word .docx 或貼上嘅�
   - A：較豐富詞彙、成語、較成熟句式
   - tags 用 `["Claude 改寫", "待審閱"]`
 - id 格式：`<topicId>-<level 細楷>`，例如 `protect-environment-b`。
+
+## 3b. 「主題包」文件
+
+用戶有啲文件唔只一篇範文，仲有萬用句式、論點清單、可套用題目。拆法：
+
+- 萬用開頭／結尾／段落句式：
+  - 屬於**題型**通用嘅，放入 `questionTypes.json` 對應段落嘅 `template`；用戶提供嘅會取代 Claude 寫嘅
+  - 屬於**某個主題**嘅，放入該題目嘅 `hints`
+- 「N 個常用好處／方法」清單：
+  - 題型通用嘅，放入題型嘅 `ideaBank`（`point` + `usage`）
+  - 同某主題有關、有具體例子嘅，放入 `examples.json`
+- 「可以套用嘅題目」：每條新增做題目，有 `outline`；`hints` 寫「可套用「<範文題目>」範文，把兩段換成：A＋B」。已經有嘅題目就只補 hints。
+- 「思考步驟」或者「考試組合」：放入題型嘅 `thinkingSteps`。
 
 ## 4. 寫入資料
 

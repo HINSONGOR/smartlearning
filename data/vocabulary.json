@@ -902,5 +902,56 @@
     ],
     "questionTypeIds": [],
     "topicIds": []
+  },
+  {
+    "id": "w044",
+    "word": "擴闊眼界",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "增加見識，看到更多事物。",
+    "example": "透過閱讀不同種類的書籍，我們可以認識更多事物，擴闊自己的眼界。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "reading-benefits"
+    ]
+  },
+  {
+    "id": "w045",
+    "word": "有所提高",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "有一定程度的進步。",
+    "example": "久而久之，我們的中文水平也會有所提高。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "reading-benefits"
+    ]
+  },
+  {
+    "id": "w046",
+    "word": "十分有益",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "非常有好處。",
+    "example": "由此可見，閱讀對我們十分有益。",
+    "category": "好詞",
+    "level": "C",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "reading-benefits"
+    ]
   }
 ]

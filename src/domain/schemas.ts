@@ -75,6 +75,10 @@ export const questionTypeSchema = z.object({
   structure: z.array(paragraphPlanSchema).min(1),
   /** 寫作思路：一步一步點諗 */
   thinkingSteps: z.array(text),
+  /** 常用論點庫，例如「10 個最常用好處」，usage 係可以套用嘅題材 */
+  ideaBank: z
+    .array(z.object({ point: text, usage: z.string().default("") }))
+    .default([]),
   /** 仲未有正式內容 */
   isPlaceholder: z.boolean().default(false),
   order: z.number(),

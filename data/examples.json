@@ -250,5 +250,57 @@
       "waste-sorting-benefits",
       "waste-impact"
     ]
+  },
+  {
+    "id": "time-management-homework",
+    "title": "先做重要功課",
+    "content": "我們可以先完成重要的功課，再安排休息和娛樂時間。",
+    "category": "學習",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "time-management-benefits"
+    ]
+  },
+  {
+    "id": "waste-sorting-bins",
+    "title": "垃圾分類放入回收箱",
+    "content": "我們可以把紙張、膠樽和其他垃圾分類，放進適當的回收箱。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "waste-sorting-benefits"
+    ]
+  },
+  {
+    "id": "group-project",
+    "title": "專題研習分工合作",
+    "content": "小組做專題研習時，同學可以分工合作，各自完成不同工作。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "cooperation-benefits"
+    ]
+  },
+  {
+    "id": "reading-science-history",
+    "title": "閱讀科學書和歷史故事",
+    "content": "閱讀科學書籍，可以學習不同的科學知識；閱讀歷史故事，也可以了解過去發生的事情。",
+    "category": "學習",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "reading-benefits"
+    ]
   }
 ]
