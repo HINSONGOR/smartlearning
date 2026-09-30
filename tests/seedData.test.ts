@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { countChars, splitParagraphs } from "@/lib/text";
 import { seedData } from "@/repositories/local/seedData";
 
 const {
@@ -73,10 +74,34 @@ describe("/data 預設教材", () => {
       .forEach((e) => expect(topicById.get(e.topicId!)!.questionTypeId, e.id).toBe(e.questionTypeId));
   });
 
-  it("粵拼格式正確（每個音節：字母＋聲調 1–6）", () => {
-    vocabulary.forEach((v) => {
-      expect(v.jyutping, v.word).toMatch(/^[a-z]+[1-6]( [a-z]+[1-6])*$/);
-      expect(v.jyutping.split(" "), v.word).toHaveLength([...v.word].length);
+  it("有填粵拼嘅詞語，格式正確（每個音節：字母＋聲調 1–6）", () => {
+    vocabulary
+      .filter((v) => v.jyutping)
+      .forEach((v) => {
+        expect(v.jyutping, v.word).toMatch(/^[a-z]+[1-6]( [a-z]+[1-6])*$/);
+        expect(v.jyutping.split(" "), v.word).toHaveLength([...v.word].length);
+      });
+  });
+
+  it("詞語唔重複", () => {
+    const words = vocabulary.map((v) => v.word);
+    expect(new Set(words).size).toBe(words.length);
+  });
+
+  it("範文段數對應題型結構，字數達到考試要求", () => {
+    const qtById = new Map(questionTypes.map((q) => [q.id, q]));
+    const wtById = new Map(writingTypes.map((w) => [w.id, w]));
+    essays.forEach((e) => {
+      const paragraphs = splitParagraphs(e.content);
+      const expected = e.paragraphLabels?.length ?? qtById.get(e.questionTypeId)!.structure.length;
+      expect(paragraphs, e.id).toHaveLength(expected);
+
+      const minChars = wtById.get(e.writingTypeId)?.requirements?.minChars ?? 0;
+      expect(countChars(e.content), e.id).toBeGreaterThanOrEqual(minChars);
     });
+  });
+
+  it("計字唔計標點同空白", () => {
+    expect(countChars("首先，我們要訂立目標。\n\n例如：AI！")).toBe(13);
   });
 });

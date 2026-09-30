@@ -4,62 +4,251 @@
     "title": "先做功課，後看電視",
     "content": "每天放學回家後，先完成功課和溫習，才看電視或玩耍。",
     "category": "學習",
-    "tags": ["自律"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["good-student", "self-discipline"]
+    "tags": [
+      "自律"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student",
+      "self-discipline"
+    ]
   },
   {
     "id": "help-classmate",
     "title": "幫助跌倒的同學",
     "content": "小息時同學跌倒受傷，我立即扶起他，並陪他到醫療室。",
     "category": "學校",
-    "tags": ["品德"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["good-student"]
+    "tags": [
+      "品德"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student"
+    ]
   },
   {
     "id": "timetable",
     "title": "訂立溫習時間表",
     "content": "考試前兩星期訂立時間表，每天溫習兩科，最後輕鬆應付考試。",
     "category": "學習",
-    "tags": ["自律", "時間管理"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["self-discipline"]
+    "tags": [
+      "自律",
+      "時間管理"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "self-discipline"
+    ]
   },
   {
     "id": "phone-online-dictionary",
     "title": "用手機查字典",
     "content": "做功課遇到不懂的字詞，可以用智能電話上的網上字典即時查閱。",
     "category": "生活",
-    "tags": ["科技"],
-    "questionTypeIds": ["expository-impact"],
-    "topicIds": ["smartphone-impact"]
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact"
+    ]
   },
   {
     "id": "phone-late-night",
     "title": "深夜玩手機",
     "content": "表哥常常深夜玩手機遊戲，第二天上課沒精神，視力也變差了。",
     "category": "生活",
-    "tags": ["科技", "健康"],
-    "questionTypeIds": ["expository-impact"],
-    "topicIds": ["smartphone-impact"]
+    "tags": [
+      "科技",
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact"
+    ]
   },
   {
     "id": "reading-science-book",
     "title": "從科普書認識宇宙",
     "content": "我讀了一本介紹太陽系的科普書，認識了八大行星，常識課時更能舉手回答問題。",
     "category": "學習",
-    "tags": ["閱讀"],
-    "questionTypeIds": ["expository-benefit"],
-    "topicIds": ["reading-benefits"]
+    "tags": [
+      "閱讀"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "reading-benefits"
+    ]
   },
   {
     "id": "food-waste-lunch",
     "title": "午膳剩食",
     "content": "（待補充）每天午膳後，垃圾桶裏都有不少剩飯剩菜。",
     "category": "社會",
-    "tags": ["環保"],
-    "questionTypeIds": ["expository-suggestion"],
-    "topicIds": ["reduce-food-waste"]
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-suggestion"
+    ],
+    "topicIds": [
+      "reduce-food-waste"
+    ]
+  },
+  {
+    "id": "env-plastic",
+    "title": "減少使用塑膠",
+    "content": "外出購物時自備環保袋，外出時帶自己的水樽。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment",
+      "care-environment",
+      "reduce-waste",
+      "green-living",
+      "save-energy",
+      "reduce-food-waste-method",
+      "save-water",
+      "reduce-plastic",
+      "waste-sorting-benefits",
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "env-sorting",
+    "title": "做好垃圾分類",
+    "content": "把紙張、膠樽分類，再放進回收箱。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment",
+      "care-environment",
+      "reduce-waste",
+      "green-living",
+      "save-energy",
+      "reduce-food-waste-method",
+      "save-water",
+      "reduce-plastic",
+      "waste-sorting-benefits",
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "env-water",
+    "title": "節約用水",
+    "content": "關好水龍頭，不浪費食水。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment",
+      "care-environment",
+      "reduce-waste",
+      "green-living",
+      "save-energy",
+      "reduce-food-waste-method",
+      "save-water",
+      "reduce-plastic",
+      "waste-sorting-benefits",
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "env-electricity",
+    "title": "節約用電",
+    "content": "離開房間時關燈、關冷氣。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment",
+      "care-environment",
+      "reduce-waste",
+      "green-living",
+      "save-energy",
+      "reduce-food-waste-method",
+      "save-water",
+      "reduce-plastic",
+      "waste-sorting-benefits",
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "env-food",
+    "title": "減少食物浪費",
+    "content": "吃多少才拿多少。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment",
+      "care-environment",
+      "reduce-waste",
+      "green-living",
+      "save-energy",
+      "reduce-food-waste-method",
+      "save-water",
+      "reduce-plastic",
+      "waste-sorting-benefits",
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "env-reuse",
+    "title": "重用物品",
+    "content": "舊物品清潔後再次使用。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment",
+      "care-environment",
+      "reduce-waste",
+      "green-living",
+      "save-energy",
+      "reduce-food-waste-method",
+      "save-water",
+      "reduce-plastic",
+      "waste-sorting-benefits",
+      "waste-impact"
+    ]
   }
 ]

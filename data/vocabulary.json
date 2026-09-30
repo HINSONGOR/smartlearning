@@ -6,11 +6,18 @@
     "pinyin": "zì lǜ",
     "definition": "自己約束自己的行為。",
     "example": "我們應該培養自律的習慣。",
-    "category": "說明文",
+    "category": "好詞",
     "level": "B",
-    "tags": ["品德"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["good-student", "self-discipline"]
+    "tags": [
+      "品德"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student",
+      "self-discipline"
+    ]
   },
   {
     "id": "pui-joeng",
@@ -19,11 +26,18 @@
     "pinyin": "péi yǎng",
     "definition": "有計劃地使人或事物慢慢形成、發展。",
     "example": "閱讀可以培養我們的想像力。",
-    "category": "說明文",
+    "category": "好詞",
     "level": "C",
     "tags": [],
-    "questionTypeIds": ["expository-method", "expository-benefit"],
-    "topicIds": ["good-student", "self-discipline", "reading-benefits"]
+    "questionTypeIds": [
+      "expository-method",
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "good-student",
+      "self-discipline",
+      "reading-benefits"
+    ]
   },
   {
     "id": "zyun-zyu",
@@ -32,11 +46,17 @@
     "pinyin": "zhuān zhù",
     "definition": "集中精神在一件事情上。",
     "example": "上課時要專注聆聽老師講解。",
-    "category": "說明文",
+    "category": "好詞",
     "level": "C",
-    "tags": ["學習"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["good-student"]
+    "tags": [
+      "學習"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student"
+    ]
   },
   {
     "id": "zan-sik",
@@ -45,11 +65,17 @@
     "pinyin": "zhēn xī",
     "definition": "重視並愛護，不隨便浪費。",
     "example": "我們要珍惜和家人相處的時間。",
-    "category": "說明文",
+    "category": "好詞",
     "level": "C",
-    "tags": ["品德"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["cherish-life"]
+    "tags": [
+      "品德"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
   },
   {
     "id": "cam-mai",
@@ -57,25 +83,18 @@
     "jyutping": "cam4 mai4",
     "pinyin": "chén mí",
     "definition": "深深迷上某事物，不能自拔。",
-    "example": "有些青少年沉迷打機，忽略了學業。",
-    "category": "說明文",
+    "example": "有些同學沉迷手機遊戲，甚至深夜仍然玩手機。",
+    "category": "好詞",
     "level": "B",
-    "tags": ["科技"],
-    "questionTypeIds": ["expository-impact"],
-    "topicIds": ["smartphone-impact"]
-  },
-  {
-    "id": "tok-fut-si-je",
-    "word": "拓闊視野",
-    "jyutping": "tok3 fut3 si6 je5",
-    "pinyin": "tuò kuò shì yě",
-    "definition": "增加見識，看到更廣闊的世界。",
-    "example": "多看課外書可以拓闊視野。",
-    "category": "說明文",
-    "level": "A",
-    "tags": ["學習"],
-    "questionTypeIds": ["expository-benefit"],
-    "topicIds": ["reading-benefits"]
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact"
+    ]
   },
   {
     "id": "ci-zi-ji-hang",
@@ -84,11 +103,18 @@
     "pinyin": "chí zhī yǐ héng",
     "definition": "長久地堅持下去，不會半途而廢。",
     "example": "學習要持之以恆，才會有進步。",
-    "category": "說明文",
+    "category": "好詞",
     "level": "A",
-    "tags": ["成語"],
-    "questionTypeIds": ["expository-method"],
-    "topicIds": ["good-student", "self-discipline"]
+    "tags": [
+      "成語"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student",
+      "self-discipline"
+    ]
   },
   {
     "id": "zung-kut-ji-jin",
@@ -99,7 +125,781 @@
     "example": "總括而言，閱讀對我們有很多好處。",
     "category": "連接詞",
     "level": "B",
-    "tags": ["總結"],
+    "tags": [
+      "總結"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w001",
+    "word": "首先",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用來帶出第一個重點。",
+    "example": "首先，我們要訂立清楚而簡單的目標。",
+    "category": "連接詞",
+    "level": "C",
+    "tags": [
+      "第2段開首"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w002",
+    "word": "其次",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用來帶出第二個重點。",
+    "example": "其次，我們要珍惜時間，好好利用每一天。",
+    "category": "連接詞",
+    "level": "C",
+    "tags": [
+      "第3段開首"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w003",
+    "word": "此外",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "除了上面所說的以外，再補充一點。",
+    "example": "此外，AI提供的資料也可能出現錯誤。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "補充"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w004",
+    "word": "然而",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示轉折，帶出相反的意思。",
+    "example": "然而，過度使用網絡也會帶來負面影響。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "壞處段開首"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w005",
+    "word": "例如",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用來舉出例子。",
+    "example": "例如，小學生可以每天跑步、跳繩或踢足球。",
+    "category": "連接詞",
+    "level": "C",
+    "tags": [
+      "舉例"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w006",
+    "word": "因此",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示因為前面的原因，得出後面的結果。",
+    "example": "因此，保持樂觀的心情十分重要。",
+    "category": "連接詞",
+    "level": "C",
+    "tags": [
+      "因果"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w007",
+    "word": "由此可見",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "從上面的內容，可以看出一個結論。",
+    "example": "由此可見，平板電腦能夠為我們帶來便利。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "小結"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w008",
+    "word": "那麼",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "承接上文，帶出問題。",
+    "example": "那麼，我們應該如何培養自律的習慣呢？",
+    "category": "連接詞",
+    "level": "C",
+    "tags": [
+      "第1段提問"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w009",
+    "word": "不但……還……",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示除了前一樣，還有更進一步的一樣。",
+    "example": "運動不但能強健身體，還能令我們保持心情愉快。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "關聯詞"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w010",
+    "word": "既……也……",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示兩樣情況同時存在。",
+    "example": "網絡既能幫助青少年學習，也可能帶來不良影響。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "關聯詞"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w011",
+    "word": "只要……便……",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示有了前面的條件，就會有後面的結果。",
+    "example": "只要肯努力，下次便有機會取得更好的成績。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "關聯詞"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w012",
+    "word": "如果……便……",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示假設，如果發生前面的事，就會有後面的結果。",
+    "example": "如果把時間花在沒有意義的事情上，便很容易浪費寶貴的時間。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "關聯詞"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w013",
+    "word": "無論……還是……",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "表示在任何情況下結果都一樣。",
+    "example": "無論是學習、工作，還是娛樂，我們都可以看到AI的蹤影。",
+    "category": "連接詞",
+    "level": "A",
+    "tags": [
+      "關聯詞"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w014",
+    "word": "久而久之",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "經過很長的時間以後。",
+    "example": "久而久之便可能令學習能力下降。",
+    "category": "連接詞",
+    "level": "A",
+    "tags": [
+      "時間"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w015",
+    "word": "日新月異",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "每天每月都有新的變化，形容發展得很快。",
+    "example": "隨着科技日新月異，智能電話已成為現代人生活中不可缺少的工具。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "成語",
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact",
+      "tablet-learning"
+    ]
+  },
+  {
+    "id": "w016",
+    "word": "不可缺少",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "非常重要，不能沒有。",
+    "example": "網絡已成為我們日常生活中不可缺少的一部分。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact",
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "w017",
+    "word": "適可而止",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "做到適當的程度就停止，不要過分。",
+    "example": "只要懂得適可而止，網絡便能成為我們學習和成長的好幫手。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "成語"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "internet-impact",
+      "smartphone-impact"
+    ]
+  },
+  {
+    "id": "w018",
+    "word": "一去不復返",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "過去了就不會再回來。",
+    "example": "時間一去不復返，我們要好好利用每一天。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "時間"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w019",
+    "word": "付諸行動",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "把想法真正做出來。",
+    "example": "我們可以從珍惜物品和珍惜時間做起，並在日常生活中付諸行動。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w020",
+    "word": "身在福中不知福",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "生活幸福，自己卻不知道。",
+    "example": "俗話說：「身在福中不知福。」",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "俗語",
+      "開首"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w021",
+    "word": "後悔莫及",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "後悔也來不及了。",
+    "example": "若不珍惜學習機會，長大後便難以找到理想工作，後悔莫及。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "成語"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w022",
+    "word": "理所當然",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "按道理應該是這樣。",
+    "example": "讓好生活不再被視為理所當然。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "成語"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w023",
+    "word": "精神不振",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "沒有精神，很疲倦。",
+    "example": "結果睡眠不足，第二天上課時精神不振。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact"
+    ]
+  },
+  {
+    "id": "w024",
+    "word": "擴闊視野",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "增加見識，看到更廣闊的世界。",
+    "example": "網絡讓我們可以隨時尋找不同的知識，擴闊視野。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "學習"
+    ],
+    "questionTypeIds": [
+      "expository-benefit",
+      "expository-impact"
+    ],
+    "topicIds": [
+      "reading-benefits",
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "w025",
+    "word": "增長知識",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "令知識增加。",
+    "example": "智能電話能幫助青少年學習和增長知識。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "學習"
+    ],
+    "questionTypeIds": [
+      "expository-impact",
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "smartphone-impact",
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "w026",
+    "word": "提高學習效率",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用較少時間學到更多東西。",
+    "example": "觀看網上教學影片，可以提高學習效率。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "學習"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact",
+      "internet-impact",
+      "ai-impact"
+    ]
+  },
+  {
+    "id": "w027",
+    "word": "健康的體魄",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "強壯健康的身體。",
+    "example": "只要持之以恆，便能保持健康的體魄。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "exercise-benefits"
+    ]
+  },
+  {
+    "id": "w028",
+    "word": "抵抗力",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "身體抵抗疾病的能力。",
+    "example": "做運動能增強抵抗力，減少生病的機會。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "exercise-benefits"
+    ]
+  },
+  {
+    "id": "w029",
+    "word": "減輕壓力",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "令緊張、辛苦的感覺減少。",
+    "example": "運動也能幫助小學生減輕壓力，改善情緒。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "心情"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "exercise-benefits",
+      "stay-optimistic"
+    ]
+  },
+  {
+    "id": "w030",
+    "word": "正面的態度",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "積極、樂觀地看事情。",
+    "example": "只要我們用正面的態度面對問題，便能減少煩惱。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "心情"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "stay-optimistic"
+    ]
+  },
+  {
+    "id": "w031",
+    "word": "自制力",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "控制自己的能力。",
+    "example": "成為一個有責任心和有自制力的人。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "品德"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "self-discipline"
+    ]
+  },
+  {
+    "id": "w032",
+    "word": "責任心",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "認真做好自己應做的事的態度。",
+    "example": "成為一個有責任心和有自制力的人。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "品德"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "self-discipline",
+      "good-student"
+    ]
+  },
+  {
+    "id": "w033",
+    "word": "節儉",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "不浪費，省着用。",
+    "example": "這樣不但可以減少浪費，也能養成節儉的習慣。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "品德"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w034",
+    "word": "一時大意",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "一下子不小心。",
+    "example": "避免因一時大意而把東西弄壞。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w035",
+    "word": "過分依賴",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "太靠別人或別的東西，自己不去做。",
+    "example": "如果人類過分依賴AI，便可能減少自己思考的機會。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "ai-impact"
+    ]
+  },
+  {
+    "id": "w036",
+    "word": "盲目相信",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "不經思考便完全相信。",
+    "example": "AI提供的資料也可能出現錯誤，所以我們不能盲目相信。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "ai-impact"
+    ]
+  },
+  {
+    "id": "w037",
+    "word": "分辨真偽",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "分清楚是真還是假。",
+    "example": "我們應該學會分辨資料的真偽。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "ai-impact",
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "w038",
+    "word": "充實而快樂",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "生活有意義，而且開心。",
+    "example": "便能過着充實而快樂的生活。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "結尾"
+    ],
+    "questionTypeIds": [],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "w039",
+    "word": "健康快樂地成長",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "身體健康、心情愉快地長大。",
+    "example": "我們應該選擇適合自己的運動，並注意安全，才能健康快樂地成長。",
+    "category": "好詞",
+    "level": "C",
+    "tags": [
+      "結尾"
+    ],
+    "questionTypeIds": [],
+    "topicIds": [
+      "exercise-benefits",
+      "stay-optimistic"
+    ]
+  },
+  {
+    "id": "w040",
+    "word": "息息相關",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "關係非常密切。",
+    "example": "現今，環境與我們的生活息息相關。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment"
+    ]
+  },
+  {
+    "id": "w041",
+    "word": "日益嚴重",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "一天比一天嚴重。",
+    "example": "環境污染問題日益嚴重。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment"
+    ]
+  },
+  {
+    "id": "w042",
+    "word": "出一分力",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "盡自己的能力去幫忙。",
+    "example": "只要大家一起努力，就能為保護環境出一分力。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "protect-environment"
+    ]
+  },
+  {
+    "id": "w043",
+    "word": "除此之外",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "除了上面所說的，還有。",
+    "example": "除此之外，我們也要節約用水和用電。",
+    "category": "連接詞",
+    "level": "B",
+    "tags": [
+      "補充"
+    ],
     "questionTypeIds": [],
     "topicIds": []
   }

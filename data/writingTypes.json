@@ -5,7 +5,8 @@
     "name": "說明文",
     "description": "清楚說明方法、原因、影響或好處",
     "status": "active",
-    "order": 1
+    "order": 1,
+    "requirements": { "minChars": 300, "timeLimitMinutes": 35 }
   },
   {
     "id": "narrative",

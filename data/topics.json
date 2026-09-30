@@ -3,47 +3,275 @@
     "id": "good-student",
     "questionTypeId": "expository-method",
     "title": "如何成為一個好學生？",
-    "hints": ["好學生不只成績好，還包括品德和態度", "方法要具體，例如「專心上課」、「自律溫習」"],
-    "keyConcepts": ["專心", "自律", "尊重", "責任感"],
+    "outline": [
+      "背景＋好學生的重要性",
+      "方法① 認真學習",
+      "方法② 自律守規",
+      "做到以上兩點，便能成為好學生"
+    ],
+    "hints": [
+      "好學生不只成績好，還包括品德和態度"
+    ],
+    "keyConcepts": [
+      "專心",
+      "自律",
+      "尊重",
+      "責任感"
+    ],
     "order": 1
+  },
+  {
+    "id": "healthy-habits",
+    "questionTypeId": "expository-method",
+    "title": "如何培養健康的生活習慣？",
+    "outline": [
+      "背景＋健康生活的重要性",
+      "方法① 均衡飲食",
+      "方法② 多做運動、早睡早起",
+      "持之以恆，便能保持健康"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "均衡飲食",
+      "運動",
+      "作息定時"
+    ],
+    "order": 2
+  },
+  {
+    "id": "spare-time",
+    "questionTypeId": "expository-method",
+    "title": "如何善用課餘時間？",
+    "outline": [
+      "背景＋善用時間的重要性",
+      "方法① 先完成學業",
+      "方法② 安排閱讀、運動和興趣活動",
+      "做好時間分配，便能兼顧學習和休息"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "時間分配",
+      "興趣",
+      "休息"
+    ],
+    "order": 3
   },
   {
     "id": "self-discipline",
     "questionTypeId": "expository-method",
     "title": "如何培養自律的習慣？",
-    "hints": ["自律就是沒有人提醒，也會自己做好", "可以從訂立時間表、戒除壞習慣入手"],
-    "keyConcepts": ["時間表", "目標", "堅持"],
-    "order": 2
+    "outline": [
+      "背景＋自律的重要性",
+      "方法① 訂立目標",
+      "方法② 安排時間、堅持到底",
+      "由小事做起，慢慢培養自律習慣"
+    ],
+    "hints": [
+      "自律就是沒有人提醒，也會自己做好"
+    ],
+    "keyConcepts": [
+      "目標",
+      "時間表",
+      "堅持"
+    ],
+    "order": 4
+  },
+  {
+    "id": "protect-environment",
+    "questionTypeId": "expository-method",
+    "title": "如何保護環境？",
+    "outline": [
+      "背景＋環境污染日益嚴重＋保護環境的重要性",
+      "方法① 減少使用塑膠",
+      "方法② 做好垃圾分類",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "萬用開頭句：現今，＿＿與我們的生活息息相關。可是，＿＿問題日益嚴重。因此，我們應該＿＿，才能擁有一個美好的生活環境。",
+      "萬用結尾句：總括而言，＿＿十分重要。我們應該＿＿，並＿＿，才能＿＿。只要大家一起努力，就能為保護環境出一分力。",
+      "六個環保方法：減少使用塑膠、做好垃圾分類、節約用水、節約用電、減少食物浪費、重用物品"
+    ],
+    "keyConcepts": [
+      "即棄用品",
+      "節約能源",
+      "回收"
+    ],
+    "order": 5
   },
   {
     "id": "cherish-life",
     "questionTypeId": "expository-method",
-    "title": "我們應如何珍惜美好的生活？",
-    "hints": ["美好的生活包括家人、健康和資源", "方法可以是懂得感恩、不浪費"],
-    "keyConcepts": ["感恩", "珍惜資源", "關心家人"],
-    "order": 3
+    "title": "應怎樣珍惜好生活？",
+    "outline": [
+      "背景＋美好生活並非必然",
+      "方法① 珍惜物品",
+      "方法② 珍惜時間",
+      "懂得感恩、不浪費"
+    ],
+    "hints": [
+      "美好的生活包括家人、健康和資源"
+    ],
+    "keyConcepts": [
+      "感恩",
+      "不浪費",
+      "珍惜時間"
+    ],
+    "order": 6
+  },
+  {
+    "id": "stay-optimistic",
+    "questionTypeId": "expository-method",
+    "title": "如何保持樂觀的心情？",
+    "outline": [
+      "背景＋樂觀的重要性",
+      "方法① 勇敢面對困難",
+      "方法② 培養興趣、與家人朋友傾談",
+      "用正面態度面對生活"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "正面態度",
+      "興趣",
+      "傾訴"
+    ],
+    "order": 7
   },
   {
     "id": "smartphone-impact",
     "questionTypeId": "expository-impact",
     "title": "智能電話對青少年的影響",
-    "hints": ["正面：方便學習和聯絡", "負面：容易沉迷，影響視力和睡眠"],
-    "keyConcepts": ["資訊", "沉迷", "自制"],
+    "outline": [
+      "背景＋智能電話普及",
+      "好處：方便學習、查找資料",
+      "壞處：容易沉迷、影響健康和學習",
+      "有利也有弊，應該合理使用"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "資訊",
+      "沉迷",
+      "自律"
+    ],
     "order": 1
+  },
+  {
+    "id": "internet-impact",
+    "questionTypeId": "expository-impact",
+    "title": "網絡對青少年的影響",
+    "outline": [
+      "背景＋網絡普及",
+      "好處：學習方便、增長知識",
+      "壞處：沉迷上網、接觸不良資訊",
+      "有利也有弊，應該健康使用網絡"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "資訊",
+      "沉迷",
+      "上網時間表"
+    ],
+    "order": 2
+  },
+  {
+    "id": "ai-impact",
+    "questionTypeId": "expository-impact",
+    "title": "AI對人類生活的影響",
+    "outline": [
+      "背景＋AI日漸普及",
+      "好處：提高學習和工作效率",
+      "壞處：過分依賴、資料可能出錯",
+      "有利也有弊，應該善用AI"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "效率",
+      "依賴",
+      "分辨真偽"
+    ],
+    "order": 3
+  },
+  {
+    "id": "tablet-learning",
+    "questionTypeId": "expository-impact",
+    "title": "平板電腦對學習的影響",
+    "outline": [
+      "背景＋平板電腦普及",
+      "好處：學習更生動有趣",
+      "壞處：影響視力、減少戶外活動",
+      "好處＋壞處＋建議"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "電子學習",
+      "視力",
+      "自制"
+    ],
+    "order": 4
   },
   {
     "id": "reading-benefits",
     "questionTypeId": "expository-benefit",
     "title": "閱讀對小學生有甚麼好處？",
-    "hints": ["可以從知識、語文能力、品格三方面思考", "例子可以用自己讀過的書"],
-    "keyConcepts": ["知識", "語文能力", "想像力"],
+    "outline": [
+      "背景＋閱讀的重要性",
+      "好處① 增加知識、擴闊視野",
+      "好處② 提高語文能力、培養想像力",
+      "應該培養每天閱讀的習慣"
+    ],
+    "hints": [
+      "例子可以用自己讀過的書"
+    ],
+    "keyConcepts": [
+      "知識",
+      "語文能力",
+      "想像力"
+    ],
     "order": 1
+  },
+  {
+    "id": "extracurricular-benefits",
+    "questionTypeId": "expository-benefit",
+    "title": "參加課外活動的好處",
+    "outline": [
+      "背景＋課外活動的重要性",
+      "好處① 強身健體、培養興趣",
+      "好處② 結交朋友、學習合作",
+      "應該積極參加適合自己的課外活動"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "興趣",
+      "友誼",
+      "合作"
+    ],
+    "order": 2
+  },
+  {
+    "id": "exercise-benefits",
+    "questionTypeId": "expository-benefit",
+    "title": "運動對小學生的好處",
+    "outline": [
+      "背景＋運動的重要性",
+      "好處① 身體更健康",
+      "好處② 減輕壓力、改善情緒",
+      "選擇適合的運動，並注意安全"
+    ],
+    "hints": [],
+    "keyConcepts": [
+      "健康",
+      "抵抗力",
+      "減壓"
+    ],
+    "order": 3
   },
   {
     "id": "online-learning-pros-cons",
     "questionTypeId": "expository-pros-cons",
     "title": "網上學習的利與弊",
-    "hints": ["（待補充）"],
+    "outline": [],
+    "hints": [
+      "（待補充）"
+    ],
     "keyConcepts": [],
     "order": 1
   },
@@ -51,7 +279,10 @@
     "id": "why-pets",
     "questionTypeId": "expository-cause",
     "title": "為甚麼愈來愈多人飼養寵物？",
-    "hints": ["（待補充）"],
+    "outline": [],
+    "hints": [
+      "（待補充）"
+    ],
     "keyConcepts": [],
     "order": 1
   },
@@ -59,8 +290,173 @@
     "id": "reduce-food-waste",
     "questionTypeId": "expository-suggestion",
     "title": "對減少學校午膳浪費的建議",
-    "hints": ["（待補充）"],
+    "outline": [],
+    "hints": [
+      "（待補充）"
+    ],
     "keyConcepts": [],
     "order": 1
+  },
+  {
+    "id": "care-environment",
+    "questionTypeId": "expository-method",
+    "title": "小學生可以怎樣愛護環境？",
+    "outline": [
+      "背景＋主題",
+      "方法① 自備環保袋",
+      "方法② 垃圾分類",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：自備環保袋＋垃圾分類"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 8
+  },
+  {
+    "id": "reduce-waste",
+    "questionTypeId": "expository-method",
+    "title": "如何減少垃圾？",
+    "outline": [
+      "背景＋主題",
+      "方法① 減少使用塑膠",
+      "方法② 重用物品",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：減少使用塑膠＋重用物品"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 9
+  },
+  {
+    "id": "green-living",
+    "questionTypeId": "expository-method",
+    "title": "如何實踐環保生活？",
+    "outline": [
+      "背景＋主題",
+      "方法① 垃圾分類",
+      "方法② 節約能源",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：垃圾分類＋節約能源"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 10
+  },
+  {
+    "id": "save-energy",
+    "questionTypeId": "expository-method",
+    "title": "我們可以怎樣節約能源？",
+    "outline": [
+      "背景＋主題",
+      "方法① 節約用電",
+      "方法② 節約用水",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：節約用電＋節約用水"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 11
+  },
+  {
+    "id": "reduce-food-waste-method",
+    "questionTypeId": "expository-method",
+    "title": "如何減少食物浪費？",
+    "outline": [
+      "背景＋主題",
+      "方法① 吃多少拿多少",
+      "方法② 珍惜食物",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：吃多少拿多少＋珍惜食物"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 12
+  },
+  {
+    "id": "save-water",
+    "questionTypeId": "expository-method",
+    "title": "如何節約用水？",
+    "outline": [
+      "背景＋主題",
+      "方法① 關好水龍頭",
+      "方法② 重用食水",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：關好水龍頭＋重用食水"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 13
+  },
+  {
+    "id": "reduce-plastic",
+    "questionTypeId": "expository-method",
+    "title": "如何減少使用塑膠？",
+    "outline": [
+      "背景＋主題",
+      "方法① 自備環保袋",
+      "方法② 自備水樽",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：自備環保袋＋自備水樽"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 14
+  },
+  {
+    "id": "waste-sorting-benefits",
+    "questionTypeId": "expository-benefit",
+    "title": "為甚麼要做好垃圾分類？",
+    "outline": [
+      "背景＋主題",
+      "好處① 保持環境清潔",
+      "好處② 方便回收",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：保持環境清潔＋方便回收"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 4
+  },
+  {
+    "id": "waste-impact",
+    "questionTypeId": "expository-impact",
+    "title": "垃圾對環境有甚麼影響？",
+    "outline": [
+      "背景＋主題",
+      "影響① 環境污染",
+      "影響② 影響人類生活",
+      "總結＋呼籲"
+    ],
+    "hints": [
+      "可套用「如何保護環境？」範文，只需把兩段換成：環境污染＋影響人類生活"
+    ],
+    "keyConcepts": [
+      "環保"
+    ],
+    "order": 5
   }
 ]

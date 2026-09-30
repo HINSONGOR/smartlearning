@@ -44,18 +44,30 @@ export const writingTypeSchema = z.object({
   description: z.string().default(""),
   status: statusSchema,
   order: z.number(),
+  /** 考試要求，例如最少字數（不計標點）同限時 */
+  requirements: z
+    .object({
+      minChars: z.number().int().positive(),
+      timeLimitMinutes: z.number().int().positive(),
+    })
+    .optional(),
 });
 
 export const paragraphPlanSchema = z.object({
   label: text, // 第1段
   parts: z.array(text).min(1), // ["背景", "提出主題"]
-  tip: z.string().optional(),
+  /** 填充句式，空格用 ＿＿ 表示 */
+  template: z.string().optional(),
+  /** 📌 記住：一句話記住呢段點寫 */
+  remember: z.string().optional(),
 });
 
 export const questionTypeSchema = z.object({
   id,
   writingTypeId: id,
   name: text,
+  /** 口訣，例如「方法1 方法2」、「正反」、「正正」 */
+  mnemonic: z.string().default(""),
   description: text,
   /** 一行公式，例如「背景 → 方法① → 方法② → 總結＋建議」 */
   formula: text,
@@ -72,6 +84,8 @@ export const topicSchema = z.object({
   id,
   questionTypeId: id,
   title: text,
+  /** 本題四段大綱，第 N 項對應題型結構第 N 段 */
+  outline: z.array(text).default([]),
   /** 寫作提示 */
   hints: z.array(text).default([]),
   keyConcepts: z.array(text).default([]),
@@ -91,8 +105,10 @@ export const essaySchema = z.object({
   questionTypeId: id,
   topicId: z.string().optional(),
   level: levelIdSchema,
-  /** 段落之間用空行分隔 */
+  /** 段落之間用空行分隔；第 N 段預設對應題型結構第 N 段 */
   content: text,
+  /** 範文結構同題型公式唔同時，用嚟逐段覆蓋標籤 */
+  paragraphLabels: z.array(text).optional(),
   tags: z.array(text).default([]),
   ...timestamps,
 });
@@ -100,7 +116,7 @@ export const essaySchema = z.object({
 export const vocabularySchema = z.object({
   id,
   word: text,
-  jyutping: text,
+  jyutping: z.string().default(""),
   pinyin: z.string().default(""),
   definition: text,
   example: z.string().default(""),
