@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Vocabulary } from "@/domain/types";
 import { SpeakButton } from "@/features/speech/SpeakButton";
+import { StrokeOrderPlayer } from "@/features/strokeOrder/StrokeOrderPlayer";
 
 interface Props {
   word: Vocabulary | null;
@@ -25,7 +26,7 @@ export function WordSheet({ word, onClose }: Props) {
       ref={ref}
       onClose={onClose}
       onClick={(e) => e.target === e.currentTarget && onClose()}
-      className="m-0 mt-auto w-full max-w-none rounded-t-3xl bg-surface p-0 text-text backdrop:bg-black/50 md:m-auto md:max-w-lg md:rounded-3xl"
+      className="m-0 mt-auto w-full max-w-none rounded-t-3xl bg-surface p-0 text-text backdrop:bg-black/50 md:m-auto md:max-w-lg md:rounded-3xl max-h-[90dvh] overflow-y-auto"
     >
       {word && (
         <div className="space-y-4 p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))]">
@@ -65,8 +66,44 @@ export function WordSheet({ word, onClose }: Props) {
               </div>
             </section>
           )}
+          <StrokeSection key={word.id} word={word.word} />
         </div>
       )}
     </dialog>
+  );
+}
+
+/** ✍️ 筆順：詞語入面每個字都可以揀嚟睇 */
+function StrokeSection({ word }: { word: string }) {
+  const chars = [...new Set([...word].filter((c) => /\p{Script=Han}/u.test(c)))];
+  const [selected, setSelected] = useState(chars[0]);
+  if (!selected) return null;
+
+  return (
+    <section>
+      <h3 className="mb-2 font-bold text-muted">✍️ 筆順</h3>
+      {chars.length > 1 && (
+        <div role="tablist" aria-label="揀字" className="mb-3 flex flex-wrap gap-2">
+          {chars.map((c) => (
+            <button
+              key={c}
+              type="button"
+              role="tab"
+              aria-selected={selected === c}
+              onClick={() => setSelected(c)}
+              className={`h-12 w-12 rounded-2xl text-2xl ${
+                selected === c ? "bg-primary text-on-primary" : "bg-surface-2"
+              }`}
+            >
+              {c}
+            </button>
+          ))}
+        </div>
+      )}
+      <StrokeOrderPlayer key={selected} char={selected} />
+      <p className="mt-3 text-center text-xs text-muted">
+        筆順資料：Hanzi Writer／Make Me a Hanzi（Arphic Public License），字形同香港標準可能有少許出入
+      </p>
+    </section>
   );
 }

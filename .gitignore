@@ -45,3 +45,6 @@ next-env.d.ts
 
 # 審閱用快照（由 data 產生）
 /review/
+
+# 筆順資料（由 scripts/copy-stroke-data.mjs 產生）
+/public/stroke-data/

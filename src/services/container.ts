@@ -7,6 +7,12 @@ import { ChangeNotifier } from "./changes";
 import { CurriculumService } from "./CurriculumService";
 import { EssayService } from "./EssayService";
 import { ExampleService } from "./ExampleService";
+import {
+  cdnStrokeSource,
+  localStrokeSource,
+  StrokeOrderService,
+  type StrokeDataSource,
+} from "./strokeOrder/StrokeOrderService";
 import { TTSService, type TTSProvider } from "./tts/TTSService";
 import { WebSpeechProvider } from "./tts/WebSpeechProvider";
 import { VocabularyService } from "./VocabularyService";
@@ -18,6 +24,7 @@ import { VocabularyService } from "./VocabularyService";
 export function createServices(
   store: KeyValueStore,
   ttsProvider: TTSProvider = new WebSpeechProvider(),
+  strokeSources: StrokeDataSource[] = [localStrokeSource(), cdnStrokeSource()],
 ) {
   const changes = new ChangeNotifier();
   return {
@@ -39,6 +46,7 @@ export function createServices(
       changes,
     ),
     tts: new TTSService(ttsProvider),
+    strokeOrder: new StrokeOrderService(strokeSources),
   };
 }
 

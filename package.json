@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare:strokes": "node scripts/copy-stroke-data.mjs",
+    "predev": "node scripts/copy-stroke-data.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/copy-stroke-data.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
