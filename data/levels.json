@@ -3,18 +3,21 @@
     "id": "C",
     "name": "基礎",
     "description": "簡單詞語、簡單句子，容易理解及背誦",
-    "order": 1
+    "order": 1,
+    "status": "active"
   },
   {
     "id": "B",
     "name": "標準",
     "description": "一般小六程度，完整四段，有解釋及例子",
-    "order": 2
+    "order": 2,
+    "status": "active"
   },
   {
     "id": "A",
     "name": "進階",
     "description": "較豐富詞語、較成熟句式，表達較完整",
-    "order": 3
+    "order": 3,
+    "status": "coming_soon"
   }
 ]

@@ -35,6 +35,8 @@ export const levelSchema = z.object({
   name: text,
   description: text,
   order: z.number(),
+  /** coming_soon：範文暫時唔顯示（資料保留） */
+  status: statusSchema.default("active"),
 });
 
 export const writingTypeSchema = z.object({

@@ -235,7 +235,10 @@ function EssaysPanel({
   minChars?: number;
   onWordClick: (id: string) => void;
 }) {
-  const available = levels.filter((l) => essays.some((e) => e.level === l.id));
+  const available = levels.filter(
+    (l) => l.status === "active" && essays.some((e) => e.level === l.id),
+  );
+  const upcoming = levels.filter((l) => l.status !== "active");
   const [level, setLevel] = useState<LevelId | undefined>(
     available.find((l) => l.id === "B")?.id ?? available[0]?.id,
   );
@@ -258,7 +261,11 @@ function EssaysPanel({
 
   return (
     <section className="space-y-4">
-      <div role="radiogroup" aria-label="範文程度" className="grid grid-cols-3 gap-2">
+      <div
+        role="radiogroup"
+        aria-label="範文程度"
+        className={`grid gap-2 ${available.length + upcoming.length >= 3 ? "grid-cols-3" : "grid-cols-2"}`}
+      >
         {available.map((l) => (
           <button
             key={l.id}
@@ -275,6 +282,14 @@ function EssaysPanel({
             </span>
             <span className="hidden text-sm text-muted sm:block">{l.description}</span>
           </button>
+        ))}
+        {upcoming.map((l) => (
+          <div key={l.id} aria-disabled className="rounded-2xl border-2 border-dashed border-border p-3 opacity-60">
+            <span className="block text-xl font-bold">
+              {l.id} {l.name}
+            </span>
+            <span className="text-sm text-muted">第二版推出</span>
+          </div>
         ))}
       </div>
 
