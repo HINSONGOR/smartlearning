@@ -1,26 +1,75 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * 主題色 tokens。
+ * 所有元件只用下面 @theme 對應出嚟嘅 class（bg-bg、bg-surface、text-muted…），
+ * 唔直接寫顏色，咁將來加新主題只需要喺呢度加一組 [data-theme=...]。
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #f4f5fb;
+  --surface: #ffffff;
+  --surface-2: #eceef8;
+  --text: #1b1d2a;
+  --muted: #5b6078;
+  --border: #dde0ee;
+  --primary: #6a45f5;
+  --primary-soft: #ece7ff;
+  --on-primary: #ffffff;
+  --accent: #2f74e8;
+  --accent-soft: #e3edff;
+  --danger: #d33a4a;
+  --danger-soft: #fde8ea;
+  --success: #1f9d63;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f1020;
+  --surface: #1a1b2e;
+  --surface-2: #24263d;
+  --text: #eef0ff;
+  --muted: #a4a9c6;
+  --border: #30334f;
+  --primary: #8e70ff;
+  --primary-soft: #2c2556;
+  --on-primary: #ffffff;
+  --accent: #5b9bff;
+  --accent-soft: #1d2b4d;
+  --danger: #ff6b7a;
+  --danger-soft: #45202a;
+  --success: #3ccf8e;
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-success: var(--success);
+  --font-sans: "PingFang HK", "Microsoft JhengHei", "Noto Sans HK",
+    "Heiti TC", system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  /* 小朋友閱讀：基本字體 18px */
+  font-size: 112.5%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.7;
 }
