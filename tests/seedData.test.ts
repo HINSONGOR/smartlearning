@@ -36,13 +36,12 @@ describe("/data 預設教材", () => {
     expect(levels.map((l) => l.id).sort()).toEqual(["A", "B", "C"]);
   });
 
-  it("說明文有 6 種題型，每種都有四段結構", () => {
+  it("說明文有 5 種題型，每種都有四段結構", () => {
     const expository = questionTypes.filter((q) => q.writingTypeId === "expository");
     expect(expository.map((q) => q.name)).toEqual([
       "方法型",
-      "影響型",
+      "利弊／影響型",
       "好處型",
-      "利弊型",
       "原因型",
       "建議型",
     ]);

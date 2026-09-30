@@ -268,14 +268,22 @@
   },
   {
     "id": "online-learning-pros-cons",
-    "questionTypeId": "expository-pros-cons",
+    "questionTypeId": "expository-impact",
     "title": "網上學習的利與弊",
-    "outline": [],
-    "hints": [
-      "（待補充）"
+    "outline": [
+      "背景＋網上學習普及",
+      "好處：隨時隨地學習",
+      "壞處：容易分心、少了與人交流",
+      "有利也有弊，應該善用網上學習"
     ],
-    "keyConcepts": [],
-    "order": 1
+    "hints": [
+      "可參考「網絡對青少年的影響」範文，把兩段換成網上學習的好處和壞處"
+    ],
+    "keyConcepts": [
+      "網上學習",
+      "自律"
+    ],
+    "order": 6
   },
   {
     "id": "reduce-food-waste",

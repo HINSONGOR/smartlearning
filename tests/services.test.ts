@@ -17,9 +17,9 @@ describe("CurriculumService", () => {
     expect(modules[0]).toMatchObject({ status: "active", subjectId: "chinese" });
   });
 
-  it("說明文 6 個題型按次序", async () => {
+  it("說明文 5 個題型按次序", async () => {
     const qts = await services.curriculum.listQuestionTypes("expository");
-    expect(qts.map((q) => q.name)).toEqual(["方法型", "影響型", "好處型", "利弊型", "原因型", "建議型"]);
+    expect(qts.map((q) => q.name)).toEqual(["方法型", "利弊／影響型", "好處型", "原因型", "建議型"]);
   });
 });
 

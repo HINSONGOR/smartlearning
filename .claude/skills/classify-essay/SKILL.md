@@ -1,6 +1,6 @@
 ---
 name: classify-essay
-description: 將用戶提供嘅中文說明文範文（Word .docx 或貼上嘅文字）分類做邊種題型（方法型「方法1 方法2」、影響型「正反」、好處型「正正」…），再加入 data/essays.json 同 data/topics.json。用戶話「幫我分類」、「呢篇係咩題型」、提供新範文、或者 @ 一個範文 .docx 時使用。
+description: 將用戶提供嘅中文說明文範文（Word .docx 或貼上嘅文字）分類做邊種題型（方法型「方法1 方法2」、利弊／影響型「正反」、好處型「正正」…），再加入 data/essays.json 同 data/topics.json。用戶話「幫我分類」、「呢篇係咩題型」、提供新範文、或者 @ 一個範文 .docx 時使用。
 ---
 
 # 範文分類及加入教材
@@ -26,9 +26,8 @@ description: 將用戶提供嘅中文說明文範文（Word .docx 或貼上嘅�
 | 題型 | 口訣 | 題目字眼 | 第2段／第3段 |
 |---|---|---|---|
 | 方法型 `expository-method` | 方法1 方法2 | 如何、怎樣、應怎樣 | 兩個方法（首先…其次…） |
-| 影響型 `expository-impact` | 正反 | 對…的影響 | 一段好處、一段壞處（首先…然而…） |
+| 利弊／影響型 `expository-impact` | 正反 | 對…的影響、利與弊、利弊、好處和壞處 | 一段好處、一段壞處（首先…然而…） |
 | 好處型 `expository-benefit` | 正正 | …的好處、有甚麼好處 | 兩個好處（首先…其次…） |
-| 利弊型 `expository-pros-cons` | 正反 | 利與弊、利弊 | 同影響型 |
 | 原因型 `expository-cause` | 原因1 原因2 | 為甚麼……？、……的重要性 | 兩個原因（內容常常同好處一樣） |
 | 建議型 `expository-suggestion` | — | 建議、改善 | 兩個建議 |
 

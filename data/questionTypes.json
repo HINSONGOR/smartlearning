@@ -59,9 +59,9 @@
   {
     "id": "expository-impact",
     "writingTypeId": "expository",
-    "name": "影響型",
+    "name": "利弊／影響型",
     "mnemonic": "正反",
-    "description": "題目問某事物帶來甚麼「影響」，要說明正面和負面兩方面。",
+    "description": "題目問某事物帶來甚麼「影響」，或者有甚麼「利弊」、「好處和壞處」，都要說明正面（好處）和負面（壞處）兩方面。",
     "formula": "背景＋主題 → 好處＋例子 → 壞處＋例子 → 總結＋建議",
     "structure": [
       {
@@ -214,49 +214,6 @@
     ]
   },
   {
-    "id": "expository-pros-cons",
-    "writingTypeId": "expository",
-    "name": "利弊型",
-    "mnemonic": "正反",
-    "description": "（待補充）題目要求分析一件事的好處和壞處。",
-    "formula": "背景 → 好處 → 壞處 → 總結＋個人看法",
-    "structure": [
-      {
-        "label": "第1段",
-        "parts": [
-          "背景",
-          "提出主題"
-        ]
-      },
-      {
-        "label": "第2段",
-        "parts": [
-          "好處",
-          "例子"
-        ]
-      },
-      {
-        "label": "第3段",
-        "parts": [
-          "壞處",
-          "例子"
-        ]
-      },
-      {
-        "label": "第4段",
-        "parts": [
-          "總結",
-          "個人看法"
-        ]
-      }
-    ],
-    "thinkingSteps": [
-      "（待補充）"
-    ],
-    "isPlaceholder": true,
-    "order": 4
-  },
-  {
     "id": "expository-cause",
     "writingTypeId": "expository",
     "name": "原因型",
@@ -311,7 +268,7 @@
       "套入四段公式"
     ],
     "isPlaceholder": false,
-    "order": 5,
+    "order": 4,
     "mnemonic": "原因1 原因2",
     "ideaBank": [
       {
@@ -398,6 +355,6 @@
       "（待補充）"
     ],
     "isPlaceholder": true,
-    "order": 6
+    "order": 5
   }
 ]
