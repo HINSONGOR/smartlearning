@@ -1,7 +1,7 @@
 "use client";
 
-import { useSyncExternalStore } from "react";
-import { applyTheme, isTheme, themes, type Theme } from "@/lib/theme";
+import { useLayoutEffect, useSyncExternalStore } from "react";
+import { applyTheme, isTheme, restoreTheme, themes, type Theme } from "@/lib/theme";
 
 function subscribe(onChange: () => void) {
   const observer = new MutationObserver(onChange);
@@ -21,6 +21,12 @@ function getTheme(): Theme | null {
 export function ThemeToggle() {
   // 伺服器唔知道主題，所以 server snapshot 係 null
   const theme = useSyncExternalStore(subscribe, getTheme, () => null);
+
+  // 開發模式 React 會重新掛載 <html> 並清走 data-theme，喺畫面出現前補返（正式版無影響）
+  useLayoutEffect(() => {
+    if (!getTheme()) restoreTheme();
+  }, []);
+
   const index = themes.findIndex((t) => t.id === theme);
   const next = themes[(index + 1) % themes.length];
 

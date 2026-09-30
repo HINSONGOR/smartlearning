@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Essay, Level, LevelId, QuestionType, Topic, WritingType } from "@/domain/types";
 import { WordSheet } from "@/features/vocabulary/WordSheet";
 import { useServiceQuery } from "@/hooks/useServiceQuery";
@@ -21,6 +21,16 @@ const steps = ["認識題目", "寫作公式", "構思", "重點詞語", "例子
 
 export function TopicDetail({ topic, writingType, questionType, levels }: Props) {
   const [step, setStep] = useState(0);
+  const navRef = useRef<HTMLElement>(null);
+
+  // 轉步驟時：將目前步驟嘅掣捲入畫面；如果喺頁底撳「下一步」，捲返上去睇新內容
+  useEffect(() => {
+    const nav = navRef.current;
+    if (!nav) return;
+    const current = nav.querySelector<HTMLElement>("[aria-current=step]");
+    if (current) nav.scrollTo({ left: current.offsetLeft - nav.clientWidth / 2 + current.clientWidth / 2, behavior: "smooth" });
+    if (nav.getBoundingClientRect().top < 0) nav.scrollIntoView({ block: "start", behavior: "smooth" });
+  }, [step]);
   const [openWordId, setOpenWordId] = useState<string | null>(null);
 
   const vocabulary = useServiceQuery((s) => s.vocabulary.list(), []);
@@ -36,7 +46,10 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
 
   return (
     <>
-      <nav aria-label="學習步驟" className="-mx-4 mb-6 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <nav
+        ref={navRef}
+        aria-label="學習步驟"
+        className="-mx-4 mb-6 scroll-mt-24 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         <ol className="flex w-max gap-2">
           {steps.map((name, i) => (
             <li key={name}>

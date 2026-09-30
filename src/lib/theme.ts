@@ -24,6 +24,18 @@ export function isTheme(value: unknown): value is Theme {
   return themes.some((t) => t.id === value);
 }
 
+/** 讀返已儲存（或者系統）嘅主題，套用喺 <html>；唔會改動儲存值 */
+export function restoreTheme() {
+  let theme: string | null = null;
+  try {
+    theme = localStorage.getItem(THEME_STORAGE_KEY);
+  } catch {
+    // 用唔到 localStorage 就跟系統
+  }
+  if (!isTheme(theme)) theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  document.documentElement.dataset.theme = theme;
+}
+
 export function applyTheme(theme: Theme) {
   document.documentElement.dataset.theme = theme;
   try {
