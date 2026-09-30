@@ -98,13 +98,13 @@
   {
     "id": "food-waste-lunch",
     "title": "午膳剩食",
-    "content": "（待補充）每天午膳後，垃圾桶裏都有不少剩飯剩菜。",
+    "content": "每天午膳後，垃圾桶裏都有不少剩飯剩菜。",
     "category": "社會",
     "tags": [
       "環保"
     ],
     "questionTypeIds": [
-      "expository-suggestion"
+      "expository-method"
     ],
     "topicIds": [
       "reduce-food-waste"

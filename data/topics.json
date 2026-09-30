@@ -287,14 +287,24 @@
   },
   {
     "id": "reduce-food-waste",
-    "questionTypeId": "expository-suggestion",
+    "questionTypeId": "expository-method",
     "title": "對減少學校午膳浪費的建議",
-    "outline": [],
-    "hints": [
-      "（待補充）"
+    "outline": [
+      "背景＋問題：午膳剩食很多",
+      "建議① 按食量取餐",
+      "建議② 宣傳珍惜食物",
+      "總結＋呼籲全校一起減少浪費"
     ],
-    "keyConcepts": [],
-    "order": 1
+    "hints": [
+      "這是「建議」題：第1段先講問題，第4段呼籲大家一起做",
+      "可參考「如何保護環境？」或「應怎樣珍惜好生活？」範文"
+    ],
+    "keyConcepts": [
+      "剩食",
+      "按食量取餐",
+      "珍惜食物"
+    ],
+    "order": 15
   },
   {
     "id": "care-environment",
@@ -446,12 +456,13 @@
     "questionTypeId": "expository-impact",
     "title": "垃圾對環境有甚麼影響？",
     "outline": [
-      "背景＋主題",
-      "影響① 環境污染",
-      "影響② 影響人類生活",
-      "總結＋呼籲"
+      "背景＋垃圾問題日益嚴重",
+      "壞影響① 環境污染",
+      "壞影響② 影響人類生活",
+      "總結＋建議減少製造垃圾"
     ],
     "hints": [
+      "這題兩段都寫壞影響（垃圾沒有明顯好處）",
       "可套用「如何保護環境？」範文，只需把兩段換成：環境污染＋影響人類生活"
     ],
     "keyConcepts": [
