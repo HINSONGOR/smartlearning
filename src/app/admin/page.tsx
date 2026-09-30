@@ -1,5 +1,5 @@
-import { PagePlaceholder } from "@/components/ui/PagePlaceholder";
+import { AdminDashboard } from "@/features/admin/AdminDashboard";
 
 export default function AdminPage() {
-  return <PagePlaceholder icon="🔒" title="內容管理" />;
+  return <AdminDashboard />;
 }

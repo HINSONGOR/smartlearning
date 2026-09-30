@@ -3,6 +3,7 @@ import { createBrowserStore, type KeyValueStore } from "@/repositories/local/key
 import { LocalCrudRepository } from "@/repositories/local/LocalCrudRepository";
 import { LocalCurriculumRepository } from "@/repositories/local/LocalCurriculumRepository";
 import { seedData } from "@/repositories/local/seedData";
+import { PinService } from "./admin/PinService";
 import { ChangeNotifier } from "./changes";
 import { CurriculumService } from "./CurriculumService";
 import { EssayService } from "./EssayService";
@@ -47,6 +48,7 @@ export function createServices(
     ),
     tts: new TTSService(ttsProvider),
     strokeOrder: new StrokeOrderService(strokeSources),
+    pin: new PinService(store),
   };
 }
 

@@ -27,9 +27,9 @@ export class CurriculumService {
     return (await this.repo.getLevels()).slice().sort(byOrder);
   }
 
-  async listWritingTypes(moduleId: string) {
+  async listWritingTypes(moduleId?: string) {
     return (await this.repo.getWritingTypes())
-      .filter((w) => w.moduleId === moduleId)
+      .filter((w) => !moduleId || w.moduleId === moduleId)
       .sort(byOrder);
   }
 
