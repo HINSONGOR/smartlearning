@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navItems } from "./navItems";
+import { navItems, type NavItem } from "./navItems";
 
-function isActive(pathname: string, href: string) {
-  return href === "/"
-    ? pathname === "/" || pathname.startsWith("/learn")
-    : pathname.startsWith(href);
+function isActive(pathname: string, { href, alsoActive = [] }: NavItem) {
+  if (href === "/" ? pathname === "/" : pathname.startsWith(href)) return true;
+  return alsoActive.some((p) => pathname.startsWith(p));
 }
 
 /** 平板／桌面：頂部橫向導航 */
@@ -16,7 +15,7 @@ export function TopNav() {
   return (
     <nav aria-label="主要導航" className="hidden gap-2 md:flex">
       {navItems.map((item) => {
-        const active = isActive(pathname, item.href);
+        const active = isActive(pathname, item);
         return (
           <Link
             key={item.href}
@@ -47,7 +46,7 @@ export function BottomNav() {
     >
       <ul className="grid grid-cols-4">
         {navItems.map((item) => {
-          const active = isActive(pathname, item.href);
+          const active = isActive(pathname, item);
           return (
             <li key={item.href}>
               <Link

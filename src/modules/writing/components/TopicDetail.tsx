@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Essay, Level, LevelId, QuestionType, Topic, WritingType } from "@/domain/types";
 import { WordSheet } from "@/features/vocabulary/WordSheet";
@@ -141,7 +142,15 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
 
         {step === 3 && (
           <section>
-            <p className="mb-3 text-muted">撳詞語睇解釋同例句</p>
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+              <p className="text-muted">撳詞語睇解釋、聽讀音同睇筆順</p>
+              <Link
+                href={`/dictation?topic=${topic.id}`}
+                className="inline-flex h-12 items-center rounded-2xl bg-primary-soft px-4 font-medium text-primary"
+              >
+                ✏️ 默本題詞語
+              </Link>
+            </div>
             <Loading value={topicWords}>
               {(words) => (
                 <ul className="flex flex-wrap gap-2">

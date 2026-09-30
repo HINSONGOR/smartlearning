@@ -72,3 +72,41 @@ export async function createHanziWriterRenderer(
     },
   };
 }
+
+/** 手寫測驗：學生喺螢幕逐筆寫，寫錯三次會提示正確筆畫 */
+export interface StrokeQuiz {
+  destroy(): void;
+}
+
+export async function createHanziWriterQuiz(
+  el: HTMLElement,
+  char: string,
+  data: CharStrokeData,
+  { size, colors }: Omit<RendererOptions, "speed">,
+  onComplete: (result: { mistakes: number }) => void,
+): Promise<StrokeQuiz> {
+  const { default: HanziWriter } = await import("hanzi-writer");
+  el.innerHTML = "";
+  const writer = HanziWriter.create(el, char, {
+    width: size,
+    height: size,
+    padding: Math.round(size * 0.06),
+    showOutline: false,
+    showCharacter: false,
+    strokeColor: colors.stroke,
+    outlineColor: colors.outline,
+    highlightColor: colors.highlight,
+    drawingColor: colors.stroke,
+    charDataLoader: () => data,
+  });
+  writer.quiz({
+    showHintAfterMisses: 3,
+    onComplete: ({ totalMistakes }) => onComplete({ mistakes: totalMistakes }),
+  });
+  return {
+    destroy() {
+      writer.cancelQuiz();
+      el.innerHTML = "";
+    },
+  };
+}

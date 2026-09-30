@@ -2,11 +2,13 @@ export interface NavItem {
   href: string;
   label: string;
   icon: string;
+  /** 其他屬於呢個分頁嘅網址 */
+  alsoActive?: string[];
 }
 
 export const navItems: NavItem[] = [
-  { href: "/", label: "學習", icon: "📚" },
-  { href: "/vocabulary", label: "詞語庫", icon: "🔤" },
+  { href: "/", label: "學習", icon: "📚", alsoActive: ["/learn"] },
+  { href: "/vocabulary", label: "詞語庫", icon: "🔤", alsoActive: ["/dictation"] },
   { href: "/write", label: "寫作區", icon: "✏️" },
   { href: "/admin", label: "內容管理", icon: "🔒" },
 ];
