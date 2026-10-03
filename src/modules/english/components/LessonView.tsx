@@ -2,6 +2,7 @@ import type { EnglishWritingLesson, WritingFormula } from "@/domain/english";
 import {
   FormulaPanel,
   QuestionList,
+  RequirementsPanel,
   SampleEssays,
   Section,
   SentencesPanel,
@@ -32,6 +33,11 @@ export function LessonView({
       </div>
 
       <div className="space-y-10">
+        {lesson.requirements && (
+          <Section title="Writing Requirements">
+            <RequirementsPanel requirements={lesson.requirements} />
+          </Section>
+        )}
         {formula && (
           <Section title="Writing Formula">
             <FormulaPanel formula={formula} />
@@ -53,7 +59,7 @@ export function LessonView({
           </Section>
         )}
         <Section title="Student Writing">
-          <StudentWriting initial={lesson.studentWriting} />
+          <StudentWriting initial={lesson.studentWriting} minWords={lesson.requirements?.minWords} />
         </Section>
       </div>
     </div>

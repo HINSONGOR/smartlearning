@@ -93,6 +93,15 @@ export const englishLessonSchema = z.object({
       }),
     )
     .default([]),
+  /** 寫作要求同評分（跟試卷） */
+  requirements: z
+    .object({
+      pronoun: z.string().optional(),
+      tense: z.string().optional(),
+      minWords: z.number().int().positive().optional(),
+      marks: z.array(z.object({ label: text, score: z.number().positive() })).default([]),
+    })
+    .optional(),
   /** 學生作文輸入區嘅預設內容（通常留空） */
   studentWriting: z.string().optional(),
   order: z.number(),
@@ -106,4 +115,5 @@ export type EnglishQuestion = z.infer<typeof englishQuestionSchema>;
 export type WritingFormula = z.infer<typeof writingFormulaSchema>;
 export type EnglishCategory = z.infer<typeof englishCategorySchema>;
 export type PictureFormat = z.infer<typeof pictureFormatSchema>;
+export type WritingRequirements = NonNullable<z.infer<typeof englishLessonSchema>["requirements"]>;
 export type EnglishWritingLesson = z.infer<typeof englishLessonSchema>;

@@ -7,6 +7,7 @@ import type {
   SampleLevel,
   VocabularyCategory,
   WritingFormula,
+  WritingRequirements,
 } from "@/domain/english";
 import { countWords, splitParagraphs } from "@/lib/text";
 
@@ -66,6 +67,26 @@ function Choices({ options, answer }: { options: string[]; answer?: string }) {
       {picked && answer !== undefined && (
         <p role="status" className={`mt-2 font-bold ${picked === answer ? "text-success" : "text-danger"}`}>
           {picked === answer ? "✓ Correct!" : `✗ Not quite. The answer is “${answer}”.`}
+        </p>
+      )}
+    </div>
+  );
+}
+
+/** 寫作要求：人稱、時態、字數、評分 */
+export function RequirementsPanel({ requirements }: { requirements: WritingRequirements }) {
+  const total = requirements.marks.reduce((sum, m) => sum + m.score, 0);
+  const chip = "rounded-xl bg-accent-soft px-3 py-1.5 text-accent";
+  return (
+    <div className="space-y-2">
+      <div className="flex flex-wrap gap-2 text-lg">
+        {requirements.pronoun && <span className={chip}>Pronoun: {requirements.pronoun}</span>}
+        {requirements.tense && <span className={chip}>Tense: {requirements.tense}</span>}
+        {requirements.minWords && <span className={chip}>At least {requirements.minWords} words</span>}
+      </div>
+      {requirements.marks.length > 0 && (
+        <p className="text-muted">
+          Marks: {requirements.marks.map((m) => `${m.label} ${m.score}`).join(" + ")} = {total}
         </p>
       )}
     </div>
@@ -198,8 +219,9 @@ export function SampleEssays({ samples }: { samples: EnglishWritingLesson["sampl
   );
 }
 
-export function StudentWriting({ initial = "" }: { initial?: string }) {
+export function StudentWriting({ initial = "", minWords }: { initial?: string; minWords?: number }) {
   const [text, setText] = useState(initial);
+  const words = countWords(text);
   return (
     <div className="space-y-2">
       <textarea
@@ -210,7 +232,10 @@ export function StudentWriting({ initial = "" }: { initial?: string }) {
         className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-lg leading-relaxed outline-none focus:border-primary"
       />
       <div className="flex flex-wrap items-center justify-between gap-2 text-muted">
-        <span>{countWords(text)} words</span>
+        <span className={minWords && words >= minWords ? "font-bold text-success" : undefined}>
+          {words}
+          {minWords ? ` / ${minWords}` : ""} words
+        </span>
         <span className="text-sm">作文唔會儲存，重新整理頁面會清空。</span>
       </div>
     </div>

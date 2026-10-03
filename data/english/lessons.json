@@ -48,7 +48,7 @@
     "writingFormula": {
       "title": "4-Part Story Formula（萬用故事公式）",
       "points": [
-        "Write about 100 words.",
+        "Write at least 100 words.",
         "Use the simple past tense (e.g. went, saw, was).",
         "Use the pronoun 'I'.",
         "This formula also works for: losing a school bag, losing a phone, losing a pet, missing the bus, getting lost in a shopping mall, having an accident."
@@ -249,16 +249,15 @@
           "Claude 改寫",
           "待審閱"
         ],
-        "content": "Last Sunday, I went to the city centre by bus with my family. We got off the bus, and it drove away.\n\nThen I realised that my wallet was missing. I looked in my bag and my pockets. It was not there. I had left it on the bus! I was very worried.\n\nI went to the Lost and Found office to ask for help. A kind lady had my wallet. She gave it back to me.\n\nI was very happy. I said, \"Thank you!\" After that, I always looked after my things carefully."
+        "content": "Last Sunday, I went to the city centre by bus with my family. We got off the bus, and it drove away.\n\nThen I could not find my wallet. I looked in my bag and my pockets, but it was not there. I realised that I had left it on the bus. I was very worried.\n\nI went to the Lost and Found office to ask for help. A kind lady was there. She had my wallet! Someone had found it on the bus. She gave it back to me.\n\nI was very happy. I said, \"Thank you very much!\" After that, I always looked after my things carefully."
       },
       {
         "level": "B",
         "title": "A Lost Wallet",
         "tags": [
-          "原稿",
-          "文法已修正"
+          "原稿"
         ],
-        "content": "Last Sunday, I went to the city centre with my family. I wanted to take a bus home. When I arrived at the bus stop, I saw my bus, but I was too late. The bus left before I could get on it.\n\nI was worried because I could not find my wallet. I looked in my school bag and my pockets, but it was not there. I thought I had lost it on the bus.\n\nI went to the Lost and Found office and told a staff member about my wallet. Luckily, a kind person had found it and handed it in. The staff member gave it back to me.\n\nI was very happy and thanked her. That day, I learned to take good care of my belongings."
+        "content": "Last Sunday, I went to the city centre with my family. We waited at the bus stop and soon our bus arrived. We got on the bus and went to the city centre.\n\nWhen we arrived, we got off the bus. The bus drove away, and I suddenly realised that my wallet was missing. I checked my school bag and my pockets, but I could not find it. I thought I had left it on the bus.\n\nI was worried, so I went to the Lost and Found office and asked for help. Luckily, a kind person had found my wallet and handed it in. The staff member gave it back to me.\n\nI was very happy and thanked her. That day, I learned to take good care of my belongings."
       },
       {
         "level": "A",
@@ -269,6 +268,25 @@
         ],
         "content": "Last Sunday was a sunny day, so my family and I decided to visit the city centre. We hopped on Bus 12, chatting excitedly about our plans for the day.\n\nWhen the bus reached our stop, we got off in a hurry. As the bus pulled away, I reached into my pocket and my heart sank. My wallet was gone! I searched my school bag frantically, but it was nowhere to be found. I must have dropped it on the bus.\n\nWithout wasting a second, we rushed to the Lost and Found office and asked for help. To my relief, a friendly staff member held up a brown wallet. \"Is this yours?\" she asked with a smile. An honest passenger had handed it in!\n\nI thanked her again and again. That day, I learned to keep my belongings safe and never to be careless again."
       }
-    ]
+    ],
+    "requirements": {
+      "pronoun": "I",
+      "tense": "Simple Past",
+      "minWords": 100,
+      "marks": [
+        {
+          "label": "Content",
+          "score": 12
+        },
+        {
+          "label": "Language",
+          "score": 12
+        },
+        {
+          "label": "Organisation",
+          "score": 4
+        }
+      ]
+    }
   }
 ]

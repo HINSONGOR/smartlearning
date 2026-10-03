@@ -49,6 +49,18 @@ describe("data/english 英文作文資料", () => {
     });
   });
 
+  it("範文達到字數要求，並且用指定人稱", () => {
+    lessons.forEach((l) => {
+      const req = l.requirements;
+      l.sampleEssays.forEach((s) => {
+        if (req?.minWords) {
+          expect(countWords(s.content), `${l.id}-${s.level}`).toBeGreaterThanOrEqual(req.minWords);
+        }
+        if (req?.pronoun === "I") expect(s.content, `${l.id}-${s.level}`).toMatch(/\bI\b/);
+      });
+    });
+  });
+
   it("英文字數計法", () => {
     expect(countWords("Last Sunday, I went to the city centre.")).toBe(8);
     expect(countWords("  ")).toBe(0);
