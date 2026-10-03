@@ -28,6 +28,12 @@ npm run build
 npm start
 ```
 
+## 網上版（GitHub Pages）
+
+網址：<https://hinsongor.github.io/smartlearning/>
+
+每次 push 去 GitHub 嘅 `main`，`.github/workflows/deploy.yml` 會自動跑測試、build 靜態網站同發佈，大約 2 至 3 分鐘後網站更新。測試唔通過就唔會發佈，網站保持舊版本。喺 GitHub repo 嘅「Actions」分頁可以睇進度。
+
 ## 功能
 
 | 位置 | 功能 |

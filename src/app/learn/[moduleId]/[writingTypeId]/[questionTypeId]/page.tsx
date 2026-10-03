@@ -5,6 +5,17 @@ import { routes } from "@/lib/routes";
 import { FormulaCards } from "@/modules/writing/components/FormulaCards";
 import { getServices } from "@/services/container";
 
+export const dynamicParams = false;
+export async function generateStaticParams() {
+  const { curriculum } = getServices();
+  const types = (await curriculum.listWritingTypes()).filter((w) => w.status === "active");
+  const questionTypes = await curriculum.listQuestionTypes();
+  return questionTypes.flatMap((q) => {
+    const w = types.find((t) => t.id === q.writingTypeId);
+    return w ? [{ moduleId: w.moduleId, writingTypeId: w.id, questionTypeId: q.id }] : [];
+  });
+}
+
 export default async function QuestionTypePage({
   params,
 }: PageProps<"/learn/[moduleId]/[writingTypeId]/[questionTypeId]">) {

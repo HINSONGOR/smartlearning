@@ -4,6 +4,16 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { routes } from "@/lib/routes";
 import { getServices } from "@/services/container";
 
+export const dynamicParams = false;
+export async function generateStaticParams() {
+  const { curriculum } = getServices();
+  const modules = (await curriculum.listHomeModules()).filter((m) => m.status === "active");
+  const types = await curriculum.listWritingTypes();
+  return types
+    .filter((w) => w.status === "active" && modules.some((m) => m.id === w.moduleId))
+    .map((w) => ({ moduleId: w.moduleId, writingTypeId: w.id }));
+}
+
 export default async function WritingTypePage({
   params,
 }: PageProps<"/learn/[moduleId]/[writingTypeId]">) {

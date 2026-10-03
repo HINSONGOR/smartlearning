@@ -6,6 +6,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "智學堂｜中文作文",
   description: "小六中文作文學習系統",
+  // 家庭學習用，唔需要俾搜尋器收錄
+  robots: { index: false, follow: false },
 };
 
 export const viewport: Viewport = {

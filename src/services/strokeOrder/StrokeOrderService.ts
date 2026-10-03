@@ -1,3 +1,5 @@
+import { basePath } from "@/lib/basePath";
+
 /**
  * 筆順資料服務：Character → Stroke Data。
  * 畫面（renderer）唔理資料由邊度嚟；將來換香港標準筆順資料，只需要加一個 StrokeDataSource。
@@ -48,7 +50,7 @@ export class UrlStrokeDataSource implements StrokeDataSource {
 
 /** 本機：public/stroke-data（由 scripts/copy-stroke-data.mjs 產生） */
 export const localStrokeSource = () =>
-  new UrlStrokeDataSource((c) => `/stroke-data/${encodeURIComponent(c)}.json`);
+  new UrlStrokeDataSource((c) => `${basePath}/stroke-data/${encodeURIComponent(c)}.json`);
 
 /** 網上：教材以外嘅字（例如家長自己加嘅詞語） */
 export const cdnStrokeSource = () =>
