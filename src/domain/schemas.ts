@@ -15,7 +15,7 @@ export const levelIdSchema = z.enum(["A", "B", "C"]);
 export const learningModuleSchema = z.object({
   id,
   /** 用嚟決定用邊套頁面顯示，例如 writing；未有對應頁面時用 general */
-  kind: z.enum(["writing", "general"]),
+  kind: z.enum(["writing", "english-writing", "general"]),
   name: text,
   description: z.string().default(""),
   icon: z.string().default("📘"),

@@ -31,11 +31,11 @@
     "modules": [
       {
         "id": "english-writing",
-        "kind": "writing",
-        "name": "英文作文",
-        "description": "",
+        "kind": "english-writing",
+        "name": "English Writing",
+        "description": "Picture Writing 看圖作文",
         "icon": "✍️",
-        "status": "coming_soon",
+        "status": "active",
         "order": 2
       }
     ]

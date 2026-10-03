@@ -1,3 +1,4 @@
+import type { EnglishCategory, EnglishWritingLesson, PictureFormat } from "@/domain/english";
 import type {
   Essay,
   Example,
@@ -36,3 +37,10 @@ export interface CrudRepository<T extends { id: string }> {
 export type EssayRepository = CrudRepository<Essay>;
 export type VocabularyRepository = CrudRepository<Vocabulary>;
 export type ExampleRepository = CrudRepository<Example>;
+
+/** 英文作文：類別、圖片格式、題目（目前只讀） */
+export interface EnglishWritingRepository {
+  getCategories(): Promise<EnglishCategory[]>;
+  getPictureFormats(): Promise<PictureFormat[]>;
+  getLessons(): Promise<EnglishWritingLesson[]>;
+}

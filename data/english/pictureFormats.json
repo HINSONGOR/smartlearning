@@ -1,0 +1,28 @@
+[
+  {
+    "id": "four-panel",
+    "categoryId": "picture-writing",
+    "name": "4-Panel Picture",
+    "nameZh": "四格圖作文",
+    "description": "Write a story about four pictures.",
+    "panelCount": 4,
+    "status": "active",
+    "order": 1,
+    "writingFormula": {
+      "title": "4-Panel Story Formula",
+      "points": [
+        "Write in the past tense (e.g. walked, saw, was).",
+        "Write one paragraph for each picture, or join Pictures 2 and 3 together.",
+        "Answer both questions in your story.",
+        "Add feelings (happy, worried, surprised) to make your story interesting.",
+        "End with what the character learnt or how he/she felt."
+      ],
+      "panelGuide": [
+        { "label": "Picture 1 – Beginning", "prompt": "When? Where? Who? What was he/she doing?" },
+        { "label": "Picture 2 – Problem", "prompt": "What happened? What was the problem?" },
+        { "label": "Picture 3 – Action", "prompt": "What did he/she do? How did he/she feel?" },
+        { "label": "Picture 4 – Ending", "prompt": "What was the result? What did he/she learn?" }
+      ]
+    }
+  }
+]

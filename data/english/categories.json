@@ -1,0 +1,11 @@
+[
+  {
+    "id": "picture-writing",
+    "name": "Picture Writing",
+    "nameZh": "看圖作文",
+    "description": "Look at the pictures and write a story.",
+    "icon": "🖼️",
+    "status": "active",
+    "order": 1
+  }
+]

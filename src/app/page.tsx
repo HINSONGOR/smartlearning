@@ -1,5 +1,5 @@
 import { NavCard } from "@/components/ui/NavCard";
-import { routes } from "@/lib/routes";
+import { moduleHref } from "@/modules/registry";
 import { getServices } from "@/services/container";
 
 export default async function HomePage() {
@@ -16,7 +16,7 @@ export default async function HomePage() {
         {modules.map((m) => (
           <li key={m.id}>
             <NavCard
-              href={routes.module(m.id)}
+              href={moduleHref(m)}
               icon={m.icon}
               title={m.name}
               subtitle={m.status === "active" ? m.description : "即將推出"}

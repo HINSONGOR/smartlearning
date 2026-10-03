@@ -13,7 +13,7 @@ beforeEach(() => {
 describe("CurriculumService", () => {
   it("首頁入口按 order 排，中文作文排第一", async () => {
     const modules = await services.curriculum.listHomeModules();
-    expect(modules.map((m) => m.name)).toEqual(["中文作文", "英文作文", "中文", "常識"]);
+    expect(modules.map((m) => m.name)).toEqual(["中文作文", "English Writing", "中文", "常識"]);
     expect(modules[0]).toMatchObject({ status: "active", subjectId: "chinese" });
   });
 

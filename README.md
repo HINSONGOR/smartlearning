@@ -39,6 +39,7 @@ npm start
 | 位置 | 功能 |
 |---|---|
 | 學習 | 中文作文 → 說明文 → 4 個題型 → 34 條題目；每條題目 6 步：認識題目、寫作公式、構思、重點詞語、例子、範文（C／B，每段按公式上色、背誦模式） |
+| English Writing | Picture Writing → 4-Panel Picture → 題目：四格圖（撳一下放大）、2 條問題（選擇題即時對答案）、寫作公式、Useful Vocabulary、Useful Sentences、Sample A／B／C、Student Writing（唔會儲存） |
 | 詞語庫 | 搜尋、篩選；詞語卡有 🔊 粵語／普通話讀音、✍️ 筆順（播放、暫停、逐筆、速度） |
 | 默書 | 聽讀音 → 寫喺紙上或者 iPad 螢幕 → 對答案睇筆順 → 自己打 ✓／✗ → 再默錯嘅詞語 |
 | 內容管理 🔒 | PIN 保護；範文、詞語、例子嘅新增、編輯、刪除、搜尋、篩選 |
@@ -66,6 +67,9 @@ npm start
 | `data/vocabulary.json` | 詞語 |
 | `data/examples.json` | 例子 |
 | `data/levels.json` | C／B／A 程度（A 目前設為第二版推出） |
+| `data/english/categories.json` | 英文作文類別（Picture Writing） |
+| `data/english/pictureFormats.json` | 圖片格式（4-Panel Picture）同預設寫作公式 |
+| `data/english/lessons.json` | 英文題目：圖片、問題、公式、詞彙、句式、範文。圖片放喺 `public/english/lessons/<題目>/` |
 
 改完一定要跑測試，會檢查格式、關聯、段數、字數（最少 300 字，不計標點）同用字（口語、簡體字）：
 

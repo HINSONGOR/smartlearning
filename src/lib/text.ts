@@ -13,3 +13,8 @@ export function splitParagraphs(content: string): string[] {
     .map((p) => p.trim())
     .filter(Boolean);
 }
+
+/** 英文字數：以空白分隔嘅字 */
+export function countWords(text: string): number {
+  return text.trim().split(/\s+/).filter((w) => /[A-Za-z0-9]/.test(w)).length;
+}

@@ -2,10 +2,13 @@ import { essaySchema, exampleSchema, vocabularySchema } from "@/domain/schemas";
 import { createBrowserStore, type KeyValueStore } from "@/repositories/local/keyValueStore";
 import { LocalCrudRepository } from "@/repositories/local/LocalCrudRepository";
 import { LocalCurriculumRepository } from "@/repositories/local/LocalCurriculumRepository";
+import { englishSeedData } from "@/repositories/local/englishSeedData";
+import { LocalEnglishWritingRepository } from "@/repositories/local/LocalEnglishWritingRepository";
 import { seedData } from "@/repositories/local/seedData";
 import { PinService } from "./admin/PinService";
 import { ChangeNotifier } from "./changes";
 import { CurriculumService } from "./CurriculumService";
+import { EnglishWritingService } from "./EnglishWritingService";
 import { EssayService } from "./EssayService";
 import { ExampleService } from "./ExampleService";
 import {
@@ -49,6 +52,7 @@ export function createServices(
     tts: new TTSService(ttsProvider),
     strokeOrder: new StrokeOrderService(strokeSources),
     pin: new PinService(store),
+    englishWriting: new EnglishWritingService(new LocalEnglishWritingRepository(englishSeedData)),
   };
 }
 
