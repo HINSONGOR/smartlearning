@@ -6,20 +6,42 @@
     "pictureFormat": "four-panel",
     "order": 1,
     "pictures": [
-      { "imageUrl": "english/lessons/lost-wallet/panel-1.png", "caption": "At the bus stop, Bus 12 to City Centre." },
-      { "imageUrl": "english/lessons/lost-wallet/panel-2.png", "caption": "The bus drove away. Something was wrong!" },
-      { "imageUrl": "english/lessons/lost-wallet/panel-3.png", "caption": "At the Lost and Found office." },
-      { "imageUrl": "english/lessons/lost-wallet/panel-4.png", "caption": "What happened in the end? Use your imagination." }
+      {
+        "imageUrl": "english/lessons/lost-wallet/panel-1.png",
+        "caption": "The boy waited at the bus stop as Bus 12 arrived."
+      },
+      {
+        "imageUrl": "english/lessons/lost-wallet/panel-2.png",
+        "caption": "The bus drove away, and the boy looked shocked."
+      },
+      {
+        "imageUrl": "english/lessons/lost-wallet/panel-3.png",
+        "caption": "At the Lost and Found office, a staff member held up a wallet."
+      },
+      {
+        "imageUrl": "english/lessons/lost-wallet/panel-4.png",
+        "caption": "What happened in the end? Use your imagination."
+      }
     ],
     "questions": [
       {
         "text": "You should use '______' in your writing.",
-        "options": ["I", "he", "We", "they"],
+        "options": [
+          "I",
+          "he",
+          "we",
+          "they"
+        ],
         "answer": "I"
       },
       {
         "text": "You should use the ______ tense in your writing.",
-        "options": ["simple present", "simple past", "future", "present perfect"],
+        "options": [
+          "simple present",
+          "simple past",
+          "future",
+          "present perfect"
+        ],
         "answer": "simple past"
       }
     ],
@@ -29,7 +51,7 @@
         "Write about 100 words.",
         "Use the simple past tense (e.g. went, saw, was).",
         "Use the pronoun 'I'.",
-        "This formula also works for: lost school bag, lost phone, lost pet, missed bus, lost in a shopping mall, accident."
+        "This formula also works for: losing a school bag, losing a phone, losing a pet, missing the bus, getting lost in a shopping mall, having an accident."
       ],
       "panelGuide": [
         {
@@ -50,64 +72,202 @@
         {
           "label": "④ Ending",
           "prompt": "How did you feel? What did you learn?",
-          "template": "I was very happy and ______. From that day on, I learned to ______."
+          "template": "I was very happy and ______. That day, I learned to ______."
         }
       ]
     },
     "vocabulary": [
-      { "word": "bus", "meaning": "巴士", "category": "common" },
-      { "word": "wallet", "meaning": "銀包", "category": "common", "example": "I could not find my wallet." },
-      { "word": "lost and found", "meaning": "失物認領處", "category": "common", "example": "I went to the Lost and Found office." },
-      { "word": "family", "meaning": "家人", "category": "common" },
-      { "word": "staff member", "meaning": "職員", "category": "common" },
-      { "word": "belongings", "meaning": "個人物品", "category": "common", "example": "Take good care of your belongings." },
-      { "word": "went", "meaning": "去（go 的過去式）", "category": "verb" },
-      { "word": "arrived", "meaning": "到達", "category": "verb", "example": "When I arrived at the bus stop, …" },
-      { "word": "realised", "meaning": "察覺到", "category": "verb", "example": "I realised that my wallet was gone." },
-      { "word": "ask for help", "meaning": "求助", "category": "verb", "example": "I asked for help at the counter." },
-      { "word": "handed it in", "meaning": "交了出來（拾遺交還）", "category": "verb" },
-      { "word": "gave it back", "meaning": "交還", "category": "verb", "example": "The staff member gave it back to me." },
-      { "word": "thanked", "meaning": "感謝", "category": "verb" },
-      { "word": "hurry", "meaning": "趕急（in a hurry 匆忙地）", "category": "verb" },
-      { "word": "lost", "meaning": "遺失了的", "category": "adjective" },
-      { "word": "worried", "meaning": "擔心的", "category": "adjective", "example": "I was worried because I could not find my wallet." },
-      { "word": "kind", "meaning": "好心的", "category": "adjective" },
-      { "word": "happy", "meaning": "開心的", "category": "adjective" },
-      { "word": "last Sunday", "meaning": "上星期日", "category": "time" },
-      { "word": "when", "meaning": "當……的時候", "category": "time" },
-      { "word": "from that day on", "meaning": "從那天起", "category": "time" },
-      { "word": "but", "meaning": "但是", "category": "connective" },
-      { "word": "because", "meaning": "因為", "category": "connective" },
-      { "word": "luckily", "meaning": "幸好", "category": "connective", "example": "Luckily, a kind person had found it." }
+      {
+        "word": "bus",
+        "meaning": "巴士",
+        "category": "common"
+      },
+      {
+        "word": "wallet",
+        "meaning": "銀包",
+        "category": "common",
+        "example": "I could not find my wallet."
+      },
+      {
+        "word": "lost and found",
+        "meaning": "失物認領處",
+        "category": "common",
+        "example": "I went to the Lost and Found office."
+      },
+      {
+        "word": "family",
+        "meaning": "家人",
+        "category": "common"
+      },
+      {
+        "word": "staff member",
+        "meaning": "職員",
+        "category": "common"
+      },
+      {
+        "word": "belongings",
+        "meaning": "個人物品",
+        "category": "common",
+        "example": "Take good care of your belongings."
+      },
+      {
+        "word": "went",
+        "meaning": "去（go 的過去式）",
+        "category": "verb"
+      },
+      {
+        "word": "arrived",
+        "meaning": "到達",
+        "category": "verb",
+        "example": "When I arrived at the bus stop, …"
+      },
+      {
+        "word": "realised",
+        "meaning": "察覺到",
+        "category": "verb",
+        "example": "I realised that my wallet was gone."
+      },
+      {
+        "word": "ask for help",
+        "meaning": "求助",
+        "category": "verb",
+        "example": "I asked for help at the counter."
+      },
+      {
+        "word": "handed it in",
+        "meaning": "把（拾到的東西）交給有關人員",
+        "category": "verb"
+      },
+      {
+        "word": "gave it back",
+        "meaning": "交還",
+        "category": "verb",
+        "example": "The staff member gave it back to me."
+      },
+      {
+        "word": "thanked",
+        "meaning": "感謝",
+        "category": "verb"
+      },
+      {
+        "word": "hurry",
+        "meaning": "趕快；匆忙（in a hurry 匆匆忙忙）",
+        "category": "verb"
+      },
+      {
+        "word": "lost",
+        "meaning": "遺失了的",
+        "category": "adjective"
+      },
+      {
+        "word": "worried",
+        "meaning": "擔心的",
+        "category": "adjective",
+        "example": "I was worried because I could not find my wallet."
+      },
+      {
+        "word": "kind",
+        "meaning": "好心的",
+        "category": "adjective"
+      },
+      {
+        "word": "happy",
+        "meaning": "開心的",
+        "category": "adjective"
+      },
+      {
+        "word": "last Sunday",
+        "meaning": "上星期日",
+        "category": "time"
+      },
+      {
+        "word": "when",
+        "meaning": "當……的時候",
+        "category": "time"
+      },
+      {
+        "word": "from that day on",
+        "meaning": "從那天起",
+        "category": "time"
+      },
+      {
+        "word": "but",
+        "meaning": "但是",
+        "category": "connective"
+      },
+      {
+        "word": "because",
+        "meaning": "因為",
+        "category": "connective"
+      },
+      {
+        "word": "luckily",
+        "meaning": "幸好",
+        "category": "connective",
+        "example": "Luckily, a kind person had found it."
+      }
     ],
     "usefulSentences": [
-      { "category": "Beginning", "sentence": "Last Sunday, I went to the city centre with my family." },
-      { "category": "Problem", "sentence": "I looked in my school bag and my pockets, but it was not there." },
-      { "category": "Problem", "sentence": "I was worried because I could not find my wallet." },
-      { "category": "Problem", "sentence": "I thought I had lost it on the bus." },
-      { "category": "Solution", "sentence": "I went to the Lost and Found office and asked for help." },
-      { "category": "Solution", "sentence": "Luckily, a kind person had found it and handed it in." },
-      { "category": "Ending", "sentence": "I was very happy and thanked her." },
-      { "category": "Ending", "sentence": "From that day on, I learned to take good care of my belongings." }
+      {
+        "category": "Beginning",
+        "sentence": "Last Sunday, I went to the city centre with my family."
+      },
+      {
+        "category": "Problem",
+        "sentence": "I looked in my school bag and my pockets, but it was not there."
+      },
+      {
+        "category": "Problem",
+        "sentence": "I was worried because I could not find my wallet."
+      },
+      {
+        "category": "Problem",
+        "sentence": "I thought I had lost it on the bus."
+      },
+      {
+        "category": "Solution",
+        "sentence": "I went to the Lost and Found office and asked for help."
+      },
+      {
+        "category": "Solution",
+        "sentence": "Luckily, a kind person had found it and handed it in."
+      },
+      {
+        "category": "Ending",
+        "sentence": "I was very happy and thanked her."
+      },
+      {
+        "category": "Ending",
+        "sentence": "That day, I learned to take good care of my belongings."
+      }
     ],
     "sampleEssays": [
       {
         "level": "C",
         "title": "A Lost Wallet",
-        "tags": ["Claude 改寫", "待審閱"],
-        "content": "Last Sunday, I went to the city centre by bus with my family. We got off the bus and the bus drove away.\n\nThen I could not find my wallet. I looked in my bag and my pockets. It was not there. I left it on the bus! I was very worried.\n\nI went to the Lost and Found office to ask for help. A kind lady had my wallet. She gave it back to me.\n\nI was very happy. I said, \"Thank you!\" Now I always look after my things."
+        "tags": [
+          "Claude 改寫",
+          "待審閱"
+        ],
+        "content": "Last Sunday, I went to the city centre by bus with my family. We got off the bus, and it drove away.\n\nThen I realised that my wallet was missing. I looked in my bag and my pockets. It was not there. I had left it on the bus! I was very worried.\n\nI went to the Lost and Found office to ask for help. A kind lady had my wallet. She gave it back to me.\n\nI was very happy. I said, \"Thank you!\" After that, I always looked after my things carefully."
       },
       {
         "level": "B",
         "title": "A Lost Wallet",
-        "tags": ["原稿"],
-        "content": "Last Sunday, I went to the city centre with my family. I wanted to take a bus to go home. When I arrived at the bus stop, I saw my bus, but I was too late. The bus left before I could get on it.\n\nI was worried because I could not find my wallet. I looked in my school bag and my pockets, but it was not there. I thought I had lost it on the bus.\n\nI went to the Lost and Found office and told a staff member about my wallet. Luckily, a kind person had found it and handed it in. The staff member gave it back to me.\n\nI was very happy and thanked her. From that day on, I learned to take good care of my belongings."
+        "tags": [
+          "原稿",
+          "文法已修正"
+        ],
+        "content": "Last Sunday, I went to the city centre with my family. I wanted to take a bus home. When I arrived at the bus stop, I saw my bus, but I was too late. The bus left before I could get on it.\n\nI was worried because I could not find my wallet. I looked in my school bag and my pockets, but it was not there. I thought I had lost it on the bus.\n\nI went to the Lost and Found office and told a staff member about my wallet. Luckily, a kind person had found it and handed it in. The staff member gave it back to me.\n\nI was very happy and thanked her. That day, I learned to take good care of my belongings."
       },
       {
         "level": "A",
         "title": "A Lesson Learnt",
-        "tags": ["Claude 改寫", "待審閱"],
-        "content": "Last Sunday was a sunny day, so my family and I decided to visit the city centre. We hopped on Bus 12, chatting excitedly about our plans for the day.\n\nWhen the bus reached our stop, we got off in a hurry. As the bus pulled away, I reached into my pocket and my heart sank. My wallet was gone! I searched my school bag frantically, but it was nowhere to be found. I must have dropped it on the bus.\n\nWithout wasting a second, we rushed to the Lost and Found office and asked for help. To my relief, a friendly staff member held up a brown wallet. \"Is this yours?\" she asked with a smile. An honest passenger had handed it in!\n\nI thanked her again and again. From that day on, I learned to keep my belongings safe and never to be careless again."
+        "tags": [
+          "Claude 改寫",
+          "待審閱"
+        ],
+        "content": "Last Sunday was a sunny day, so my family and I decided to visit the city centre. We hopped on Bus 12, chatting excitedly about our plans for the day.\n\nWhen the bus reached our stop, we got off in a hurry. As the bus pulled away, I reached into my pocket and my heart sank. My wallet was gone! I searched my school bag frantically, but it was nowhere to be found. I must have dropped it on the bus.\n\nWithout wasting a second, we rushed to the Lost and Found office and asked for help. To my relief, a friendly staff member held up a brown wallet. \"Is this yours?\" she asked with a smile. An honest passenger had handed it in!\n\nI thanked her again and again. That day, I learned to keep my belongings safe and never to be careless again."
       }
     ]
   }
