@@ -164,7 +164,7 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
                 ✏️ 默本題詞語
               </Link>
             </div>
-            <Loading value={topicWords}>
+            <Loading value={topicWords} empty="呢條題目暫時未有重點詞語。">
               {(words) => (
                 <ul className="flex flex-wrap gap-2">
                   {words.map((w) => (
@@ -185,7 +185,7 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
         )}
 
         {step === 4 && (
-          <Loading value={examples}>
+          <Loading value={examples} empty="呢條題目暫時未有例子。">
             {(list) => (
               <ul className="grid gap-3 md:grid-cols-2">
                 {list.map((ex) => (
@@ -363,6 +363,17 @@ function InfoRow({ label, value }: { label: string; value: string }) {
   );
 }
 
-function Loading<T>({ value, children }: { value: T | undefined; children: (v: T) => React.ReactNode }) {
-  return value === undefined ? <p className="text-muted">載入中…</p> : children(value);
+function Loading<T>({
+  value,
+  empty,
+  children,
+}: {
+  value: T | undefined;
+  /** 資料係空陣列時顯示嘅提示 */
+  empty?: string;
+  children: (v: T) => React.ReactNode;
+}) {
+  if (value === undefined) return <p className="text-muted">載入中…</p>;
+  if (empty && Array.isArray(value) && value.length === 0) return <p className="text-lg text-muted">{empty}</p>;
+  return children(value);
 }

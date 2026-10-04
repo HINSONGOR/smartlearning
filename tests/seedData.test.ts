@@ -106,6 +106,7 @@ describe("/data 預設教材", () => {
     const problems = [
       ...essays.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
       ...vocabulary.map((v) => ({ id: v.word, issues: proofread(`${v.definition}${v.example}`) })),
+      ...examples.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
     ].filter((p) => p.issues.length);
     expect(problems).toEqual([]);
   });

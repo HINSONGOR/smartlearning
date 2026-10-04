@@ -12,6 +12,7 @@
     ],
     "topicIds": [
       "good-student",
+      "spare-time",
       "self-discipline"
     ]
   },
@@ -41,10 +42,12 @@
     ],
     "questionTypeIds": [
       "expository-method",
+      "expository-benefit",
       "expository-cause"
     ],
     "topicIds": [
       "self-discipline",
+      "time-management-benefits",
       "cherish-time",
       "why-self-discipline"
     ]
@@ -89,10 +92,12 @@
       "閱讀"
     ],
     "questionTypeIds": [
-      "expository-benefit"
+      "expository-benefit",
+      "expository-cause"
     ],
     "topicIds": [
-      "reading-benefits"
+      "reading-benefits",
+      "why-read"
     ]
   },
   {
@@ -104,10 +109,12 @@
       "環保"
     ],
     "questionTypeIds": [
-      "expository-method"
+      "expository-method",
+      "expository-cause"
     ],
     "topicIds": [
-      "reduce-food-waste"
+      "reduce-food-waste",
+      "why-cherish-food"
     ]
   },
   {
@@ -125,13 +132,7 @@
       "protect-environment",
       "care-environment",
       "reduce-waste",
-      "green-living",
-      "save-energy",
-      "reduce-food-waste-method",
-      "save-water",
-      "reduce-plastic",
-      "waste-sorting-benefits",
-      "waste-impact"
+      "reduce-plastic"
     ]
   },
   {
@@ -148,14 +149,7 @@
     "topicIds": [
       "protect-environment",
       "care-environment",
-      "reduce-waste",
-      "green-living",
-      "save-energy",
-      "reduce-food-waste-method",
-      "save-water",
-      "reduce-plastic",
-      "waste-sorting-benefits",
-      "waste-impact"
+      "green-living"
     ]
   },
   {
@@ -171,15 +165,8 @@
     ],
     "topicIds": [
       "protect-environment",
-      "care-environment",
-      "reduce-waste",
-      "green-living",
       "save-energy",
-      "reduce-food-waste-method",
-      "save-water",
-      "reduce-plastic",
-      "waste-sorting-benefits",
-      "waste-impact"
+      "save-water"
     ]
   },
   {
@@ -195,15 +182,8 @@
     ],
     "topicIds": [
       "protect-environment",
-      "care-environment",
-      "reduce-waste",
       "green-living",
-      "save-energy",
-      "reduce-food-waste-method",
-      "save-water",
-      "reduce-plastic",
-      "waste-sorting-benefits",
-      "waste-impact"
+      "save-energy"
     ]
   },
   {
@@ -218,16 +198,7 @@
       "expository-method"
     ],
     "topicIds": [
-      "protect-environment",
-      "care-environment",
-      "reduce-waste",
-      "green-living",
-      "save-energy",
-      "reduce-food-waste-method",
-      "save-water",
-      "reduce-plastic",
-      "waste-sorting-benefits",
-      "waste-impact"
+      "reduce-food-waste-method"
     ]
   },
   {
@@ -242,16 +213,7 @@
       "expository-method"
     ],
     "topicIds": [
-      "protect-environment",
-      "care-environment",
-      "reduce-waste",
-      "green-living",
-      "save-energy",
-      "reduce-food-waste-method",
-      "save-water",
-      "reduce-plastic",
-      "waste-sorting-benefits",
-      "waste-impact"
+      "reduce-waste"
     ]
   },
   {
@@ -266,8 +228,7 @@
     ],
     "topicIds": [
       "time-management-benefits",
-      "cherish-time",
-      "why-self-discipline"
+      "cherish-time"
     ]
   },
   {
@@ -303,10 +264,12 @@
     "category": "學習",
     "tags": [],
     "questionTypeIds": [
-      "expository-benefit"
+      "expository-benefit",
+      "expository-cause"
     ],
     "topicIds": [
-      "reading-benefits"
+      "reading-benefits",
+      "why-read"
     ]
   },
   {
@@ -321,8 +284,712 @@
       "expository-cause"
     ],
     "topicIds": [
-      "cherish-time",
+      "cherish-time"
+    ]
+  },
+  {
+    "id": "listen-in-class",
+    "title": "上課專心，不明白就發問",
+    "content": "上課時專心聆聽老師講解，不明白便舉手發問。",
+    "category": "學校",
+    "tags": [
+      "專心"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student"
+    ]
+  },
+  {
+    "id": "eat-vegetables",
+    "title": "多吃蔬菜和水果",
+    "content": "每天午餐多吃蔬菜，小息時以蘋果代替薯片。",
+    "category": "生活",
+    "tags": [
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "healthy-habits"
+    ]
+  },
+  {
+    "id": "exercise-sleep",
+    "title": "放學後運動，晚上早睡",
+    "content": "每天放學後跑步或跳繩半小時，晚上十時前上床睡覺。",
+    "category": "生活",
+    "tags": [
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "healthy-habits"
+    ]
+  },
+  {
+    "id": "read-half-hour",
+    "title": "每天閱讀半小時",
+    "content": "完成功課後，每天閱讀半小時課外書。",
+    "category": "學習",
+    "tags": [
+      "閱讀"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "spare-time"
+    ]
+  },
+  {
+    "id": "weekend-hobby",
+    "title": "週末發展興趣",
+    "content": "週末和家人到公園跑步，或者學習畫畫和彈琴。",
+    "category": "生活",
+    "tags": [
+      "興趣"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "spare-time"
+    ]
+  },
+  {
+    "id": "small-goals",
+    "title": "把大目標分成小目標",
+    "content": "想提高中文成績，便每天閱讀二十分鐘，再學習五個新詞語。",
+    "category": "學習",
+    "tags": [
+      "自律"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "self-discipline"
+    ]
+  },
+  {
+    "id": "take-what-you-eat",
+    "title": "按食量拿食物",
+    "content": "吃飯時按自己的食量拿食物，吃不完便會造成浪費。",
+    "category": "生活",
+    "tags": [
+      "珍惜"
+    ],
+    "questionTypeIds": [
+      "expository-method",
+      "expository-cause"
+    ],
+    "topicIds": [
+      "cherish-life",
+      "why-cherish-food"
+    ]
+  },
+  {
+    "id": "keep-stationery",
+    "title": "愛惜文具",
+    "content": "鉛筆和文具仍然可以使用，便不要隨意丟掉。",
+    "category": "學校",
+    "tags": [
+      "珍惜"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "revise-before-play",
+    "title": "先溫習，後娛樂",
+    "content": "完成家課後，先溫習明天要學的課文，再玩遊戲或看電視。",
+    "category": "學習",
+    "tags": [
+      "時間"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "chat-with-parents",
+    "title": "飯後陪父母聊天",
+    "content": "每天飯後和父母聊天，表達感謝，珍惜相聚的時光。",
+    "category": "生活",
+    "tags": [
+      "家人"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "review-test-mistakes",
+    "title": "測驗失手後檢討",
+    "content": "測驗成績不理想時，不一直責怪自己，而是找出做錯的地方，再努力溫習。",
+    "category": "學習",
+    "tags": [
+      "樂觀"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "stay-optimistic"
+    ]
+  },
+  {
+    "id": "talk-to-parents",
+    "title": "向父母傾訴",
+    "content": "遇到不開心的事情時，和父母傾談，說出自己的感受。",
+    "category": "生活",
+    "tags": [
+      "樂觀"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "stay-optimistic"
+    ]
+  },
+  {
+    "id": "relax-with-hobby",
+    "title": "做喜歡的事放鬆心情",
+    "content": "心情不好時去游泳、閱讀或畫畫，讓自己放鬆。",
+    "category": "生活",
+    "tags": [
+      "樂觀",
+      "興趣"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "stay-optimistic"
+    ]
+  },
+  {
+    "id": "phone-contact-family",
+    "title": "用手機和家人聯絡",
+    "content": "放學後用智能電話告訴父母自己已經到達補習社，讓他們安心。",
+    "category": "生活",
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "smartphone-impact"
+    ]
+  },
+  {
+    "id": "online-math-video",
+    "title": "看網上影片學數學",
+    "content": "遇到不明白的數學題，觀看網上教學影片，學會解題方法。",
+    "category": "學習",
+    "tags": [
+      "網絡"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "online-game-addiction",
+    "title": "沉迷網絡遊戲",
+    "content": "有些同學每天花數小時玩網絡遊戲，結果沒有完成家課，翌日上課很疲倦。",
+    "category": "生活",
+    "tags": [
+      "網絡"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "fake-online-info",
+    "title": "網上資訊真假難分",
+    "content": "網上有很多不可靠的資訊，青少年未必能分辨真假，容易被誤導。",
+    "category": "社會",
+    "tags": [
+      "網絡"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "internet-impact"
+    ]
+  },
+  {
+    "id": "ai-explain",
+    "title": "用AI解釋難題",
+    "content": "遇到不明白的問題時，用AI尋找資料，AI會清楚解釋。",
+    "category": "學習",
+    "tags": [
+      "AI"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "ai-impact"
+    ]
+  },
+  {
+    "id": "ai-translate",
+    "title": "大人用AI翻譯文章",
+    "content": "成年人用AI整理資料和翻譯文章，節省了不少時間。",
+    "category": "社會",
+    "tags": [
+      "AI"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "ai-impact"
+    ]
+  },
+  {
+    "id": "ai-copy-answers",
+    "title": "完全依靠AI做功課",
+    "content": "有些學生做功課時完全抄AI的答案，自己沒有思考，學習能力下降。",
+    "category": "學習",
+    "tags": [
+      "AI"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "ai-impact"
+    ]
+  },
+  {
+    "id": "tablet-english",
+    "title": "用平板電腦學英語發音",
+    "content": "透過平板電腦上的遊戲和短片練習英語發音，學習變得有趣。",
+    "category": "學習",
+    "tags": [
+      "科技"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "tablet-learning"
+    ]
+  },
+  {
+    "id": "tablet-indoors",
+    "title": "放學後只玩平板電腦",
+    "content": "有些同學放學後立刻拿起平板電腦玩遊戲，很少到戶外活動。",
+    "category": "生活",
+    "tags": [
+      "科技",
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "tablet-learning"
+    ]
+  },
+  {
+    "id": "sick-online-class",
+    "title": "生病在家上網課",
+    "content": "生病不能上學時，在家透過網課跟上進度。",
+    "category": "學習",
+    "tags": [
+      "網上學習"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "online-learning-pros-cons"
+    ]
+  },
+  {
+    "id": "distracted-online-class",
+    "title": "上網課時分心",
+    "content": "有些同學上網課時偷偷玩遊戲，錯過了老師講解的重點。",
+    "category": "學習",
+    "tags": [
+      "網上學習"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "online-learning-pros-cons"
+    ]
+  },
+  {
+    "id": "learn-from-good-writing",
+    "title": "從好文章學句式",
+    "content": "經常閱讀優美的文章，學到不同的句子，再用在自己的作文裏。",
+    "category": "學習",
+    "tags": [
+      "閱讀"
+    ],
+    "questionTypeIds": [
+      "expository-benefit",
+      "expository-cause"
+    ],
+    "topicIds": [
+      "reading-benefits",
+      "why-read"
+    ]
+  },
+  {
+    "id": "football-team",
+    "title": "參加足球隊",
+    "content": "參加足球隊後每星期練習跑步和踢球，體能變得更好。",
+    "category": "學校",
+    "tags": [
+      "課外活動"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "extracurricular-benefits"
+    ]
+  },
+  {
+    "id": "choir-interest",
+    "title": "參加合唱團",
+    "content": "參加合唱團後，越來越喜歡唱歌，還在音樂會上表演。",
+    "category": "學校",
+    "tags": [
+      "課外活動",
+      "興趣"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "extracurricular-benefits"
+    ]
+  },
+  {
+    "id": "basketball-teamwork",
+    "title": "籃球隊互相配合",
+    "content": "籃球隊員要互相傳球、互相配合，才能贏得比賽，大家也成為好朋友。",
+    "category": "學校",
+    "tags": [
+      "合作"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "extracurricular-benefits"
+    ]
+  },
+  {
+    "id": "skipping-daily",
+    "title": "每天跳繩",
+    "content": "每天跑步、跳繩或踢足球，身體更強壯，也少了生病。",
+    "category": "生活",
+    "tags": [
+      "運動"
+    ],
+    "questionTypeIds": [
+      "expository-benefit",
+      "expository-cause"
+    ],
+    "topicIds": [
+      "exercise-benefits",
+      "why-exercise"
+    ]
+  },
+  {
+    "id": "swim-relax",
+    "title": "運動減輕壓力",
+    "content": "考試後去游泳或打籃球，緊張的心情便放鬆了。",
+    "category": "生活",
+    "tags": [
+      "運動"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "exercise-benefits"
+    ]
+  },
+  {
+    "id": "lunch-portions",
+    "title": "大份和小份飯盒",
+    "content": "學校提供大份和小份飯盒，讓同學按自己的食量選擇。",
+    "category": "學校",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "reduce-food-waste"
+    ]
+  },
+  {
+    "id": "clean-plate-campaign",
+    "title": "清碟大行動",
+    "content": "學校舉辦清碟大行動，每星期表揚把飯菜吃光的班別。",
+    "category": "學校",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "reduce-food-waste"
+    ]
+  },
+  {
+    "id": "finish-meal",
+    "title": "把碗裏的飯菜吃光",
+    "content": "吃飯時把碗裏的飯菜吃光，不挑食；吃剩的食物放進冰箱，下一餐再吃。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "reduce-food-waste-method"
+    ]
+  },
+  {
+    "id": "reuse-rice-water",
+    "title": "洗米水用來淋花",
+    "content": "洗米和洗菜的水可以用來淋花，洗過衣服的水可以用來拖地。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "save-water"
+    ]
+  },
+  {
+    "id": "own-cutlery",
+    "title": "自備餐具",
+    "content": "外出用膳時自備餐具，不用即棄膠餐具。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "reduce-plastic"
+    ]
+  },
+  {
+    "id": "recycled-paper",
+    "title": "廢紙變再造紙",
+    "content": "回收的廢紙可以製成再造紙，回收的膠樽可以製成衣服和文具。",
+    "category": "社會",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "waste-sorting-benefits"
+    ]
+  },
+  {
+    "id": "turtle-plastic-bag",
+    "title": "海龜誤吞膠袋",
+    "content": "有海龜誤把海中的膠袋當作水母吃下，結果不幸死亡。",
+    "category": "社會",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "landfill-smell",
+    "title": "堆填區發出臭味",
+    "content": "住在堆填區附近的居民經常要忍受臭味，生活大受影響。",
+    "category": "社會",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "waste-impact"
+    ]
+  },
+  {
+    "id": "phone-aside-homework",
+    "title": "做功課時把手機放一旁",
+    "content": "做功課時把手機放在一旁，專心完成，很快便做完而且錯誤較少。",
+    "category": "學習",
+    "tags": [
+      "自律"
+    ],
+    "questionTypeIds": [
+      "expository-benefit",
+      "expository-cause"
+    ],
+    "topicIds": [
+      "self-discipline-benefits",
       "why-self-discipline"
+    ]
+  },
+  {
+    "id": "regular-routine",
+    "title": "按時作息",
+    "content": "每天按時吃飯、做運動，晚上準時睡覺，第二天精神飽滿。",
+    "category": "生活",
+    "tags": [
+      "自律",
+      "健康"
+    ],
+    "questionTypeIds": [
+      "expository-benefit",
+      "expository-cause"
+    ],
+    "topicIds": [
+      "self-discipline-benefits",
+      "why-self-discipline"
+    ]
+  },
+  {
+    "id": "last-minute-homework",
+    "title": "最後一晚才趕功課",
+    "content": "把功課留到最後一晚才做，結果做到深夜，手忙腳亂，十分緊張。",
+    "category": "學習",
+    "tags": [
+      "時間管理"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "time-management-benefits"
+    ]
+  },
+  {
+    "id": "class-competition",
+    "title": "班際比賽互相打氣",
+    "content": "班際比賽時，同學們一起練習、互相打氣，比賽後感情變得更好。",
+    "category": "學校",
+    "tags": [
+      "合作"
+    ],
+    "questionTypeIds": [
+      "expository-benefit"
+    ],
+    "topicIds": [
+      "cooperation-benefits"
+    ]
+  },
+  {
+    "id": "swim-team-practice",
+    "title": "游泳隊準時練習",
+    "content": "游泳隊隊員每星期都準時練習，即使天氣寒冷也不缺席。",
+    "category": "學校",
+    "tags": [
+      "運動",
+      "自律"
+    ],
+    "questionTypeIds": [
+      "expository-cause"
+    ],
+    "topicIds": [
+      "why-exercise"
+    ]
+  },
+  {
+    "id": "litter-street",
+    "title": "隨地丟垃圾",
+    "content": "如果人人隨地丟垃圾，街道會變得骯髒，還會滋生蚊蟲，傳播疾病。",
+    "category": "社會",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-cause"
+    ],
+    "topicIds": [
+      "why-protect-environment"
+    ]
+  },
+  {
+    "id": "waste-paper-trees",
+    "title": "浪費紙張要砍樹",
+    "content": "浪費紙張便要砍伐更多樹木；浪費電力便要燃燒更多燃料。",
+    "category": "社會",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-cause"
+    ],
+    "topicIds": [
+      "why-protect-environment"
+    ]
+  },
+  {
+    "id": "rice-takes-effort",
+    "title": "一碗米得來不易",
+    "content": "種植一碗米，農夫要辛勤耕作幾個月，還要用上大量食水。",
+    "category": "社會",
+    "tags": [
+      "珍惜食物"
+    ],
+    "questionTypeIds": [
+      "expository-cause"
+    ],
+    "topicIds": [
+      "why-cherish-food"
     ]
   }
 ]

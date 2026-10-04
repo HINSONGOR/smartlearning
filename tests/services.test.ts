@@ -114,8 +114,9 @@ describe("VocabularyService / ExampleService", () => {
     expect(connectors.length).toBeGreaterThan(10);
   });
 
-  it("環保題目有六個方法例子", async () => {
-    const examples = await services.examples.listForTopic("protect-environment");
-    expect(examples).toHaveLength(6);
+  it("每條題目最少有 2 個例子", async () => {
+    for (const topic of await services.curriculum.listTopics()) {
+      expect((await services.examples.listForTopic(topic.id)).length, topic.id).toBeGreaterThanOrEqual(2);
+    }
   });
 });
