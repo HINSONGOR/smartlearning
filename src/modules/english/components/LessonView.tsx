@@ -26,6 +26,9 @@ export function LessonView({
   return (
     <div className="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:items-start">
       <div className="space-y-6 lg:sticky lg:top-24 lg:max-h-[calc(100dvh-7rem)] lg:overflow-y-auto lg:pr-2">
+        {lesson.prompt && (
+          <p className="rounded-2xl bg-primary-soft p-4 text-lg font-medium leading-relaxed">{lesson.prompt}</p>
+        )}
         <PictureGrid pictures={lesson.pictures} />
         <Section title="Questions">
           <QuestionList questions={lesson.questions} />

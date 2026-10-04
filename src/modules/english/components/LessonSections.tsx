@@ -89,6 +89,7 @@ export function RequirementsPanel({ requirements }: { requirements: WritingRequi
           Marks: {requirements.marks.map((m) => `${m.label} ${m.score}`).join(" + ")} = {total}
         </p>
       )}
+      {requirements.note && <p className="text-muted">{requirements.note}</p>}
     </div>
   );
 }

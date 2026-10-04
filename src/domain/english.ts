@@ -58,6 +58,8 @@ export const pictureFormatSchema = z.object({
 export const englishLessonSchema = z.object({
   id,
   title: text,
+  /** 試卷上嘅寫作指示，例如「You are Lily. …」 */
+  prompt: z.string().optional(),
   writingType: englishWritingTypeSchema,
   pictureFormat: pictureFormatIdSchema,
   pictures: z
@@ -100,6 +102,8 @@ export const englishLessonSchema = z.object({
       tense: z.string().optional(),
       minWords: z.number().int().positive().optional(),
       marks: z.array(z.object({ label: text, score: z.number().positive() })).default([]),
+      /** 例如「MC 2% + Writing 28% = 30%」 */
+      note: z.string().optional(),
     })
     .optional(),
   /** 學生作文輸入區嘅預設內容（通常留空） */

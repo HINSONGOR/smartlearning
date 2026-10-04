@@ -288,5 +288,301 @@
         }
       ]
     }
+  },
+  {
+    "id": "missed-bus",
+    "title": "A Missed Bus",
+    "prompt": "H. You are Lily. You went to school with your friends. Based on the pictures below, write about what happened. Write at least 100 words. (30%)",
+    "writingType": "picture-writing",
+    "pictureFormat": "four-panel",
+    "order": 2,
+    "pictures": [
+      {
+        "imageUrl": "english/lessons/missed-bus/panel-1.png",
+        "caption": "Lily and her friends waited at the bus stop as Bus 12 arrived."
+      },
+      {
+        "imageUrl": "english/lessons/missed-bus/panel-2.png",
+        "caption": "The bus drove away, and Lily looked shocked."
+      },
+      {
+        "imageUrl": "english/lessons/missed-bus/panel-3.png",
+        "caption": "Near the school gate, Lily found that her wallet was missing."
+      },
+      {
+        "imageUrl": "english/lessons/missed-bus/panel-4.png",
+        "caption": "At the Lost and Found office, a staff member held up a wallet. What happened next?"
+      }
+    ],
+    "questions": [
+      {
+        "text": "You should use '______' in your writing.",
+        "options": [
+          "I",
+          "he",
+          "we",
+          "they"
+        ],
+        "answer": "I"
+      },
+      {
+        "text": "You should use the ______ tense in your writing.",
+        "options": [
+          "simple present",
+          "simple past",
+          "future",
+          "present perfect"
+        ],
+        "answer": "simple past"
+      }
+    ],
+    "requirements": {
+      "pronoun": "I",
+      "tense": "Simple Past",
+      "minWords": 100,
+      "marks": [
+        {
+          "label": "Content",
+          "score": 12
+        },
+        {
+          "label": "Language",
+          "score": 12
+        },
+        {
+          "label": "Organisation",
+          "score": 4
+        }
+      ],
+      "note": "MC 2% (1% each) + Writing 28% = 30%"
+    },
+    "writingFormula": {
+      "title": "4-Part Story Formula（萬用故事公式）",
+      "points": [
+        "Write at least 100 words.",
+        "Use the simple past tense (e.g. waited, missed, realised).",
+        "Use the pronoun 'I'. You are Lily.",
+        "Follow the pictures: missing the bus and losing the wallet are two different events."
+      ],
+      "panelGuide": [
+        {
+          "label": "① Beginning",
+          "prompt": "When? Who were you with? What were you waiting for?",
+          "template": "Last Monday, I went to ______ with ______. We waited for ______."
+        },
+        {
+          "label": "② Missed Bus",
+          "prompt": "What happened to the bus? How did you feel? Why?",
+          "template": "However, I was too ______ and missed the bus. I felt ______ because ______."
+        },
+        {
+          "label": "③ Problem",
+          "prompt": "What did you find out on the way? What did you do?",
+          "template": "On the way, I realised that ______ was missing. I looked for it, but I could not find it."
+        },
+        {
+          "label": "④ Solution + Ending",
+          "prompt": "Where did you go? Who helped you? What did you learn?",
+          "template": "When I arrived at ______, I went to ______. Luckily, ______ had found it and handed it in. That day, I learned to ______."
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "word": "bus",
+        "meaning": "巴士",
+        "category": "common"
+      },
+      {
+        "word": "bus stop",
+        "meaning": "巴士站",
+        "category": "common"
+      },
+      {
+        "word": "school",
+        "meaning": "學校",
+        "category": "common"
+      },
+      {
+        "word": "friend",
+        "meaning": "朋友",
+        "category": "common",
+        "example": "I went to school with my friends."
+      },
+      {
+        "word": "wallet",
+        "meaning": "銀包",
+        "category": "common"
+      },
+      {
+        "word": "Lost and Found",
+        "meaning": "失物認領處",
+        "category": "common",
+        "example": "I went to the Lost and Found office."
+      },
+      {
+        "word": "waited",
+        "meaning": "等候（wait 的過去式）",
+        "category": "verb",
+        "example": "We waited at the bus stop for Bus 12."
+      },
+      {
+        "word": "missed",
+        "meaning": "錯過（miss 的過去式）",
+        "category": "verb",
+        "example": "I missed the bus."
+      },
+      {
+        "word": "drove away",
+        "meaning": "（車）開走了",
+        "category": "verb",
+        "example": "The bus drove away."
+      },
+      {
+        "word": "decided",
+        "meaning": "決定",
+        "category": "verb",
+        "example": "We decided to walk to school."
+      },
+      {
+        "word": "realised",
+        "meaning": "察覺到",
+        "category": "verb",
+        "example": "I realised that my wallet was missing."
+      },
+      {
+        "word": "looked for",
+        "meaning": "尋找",
+        "category": "verb",
+        "example": "I looked for it everywhere."
+      },
+      {
+        "word": "handed it in",
+        "meaning": "把（拾到的東西）交給有關人員",
+        "category": "verb"
+      },
+      {
+        "word": "worry / worried",
+        "meaning": "擔心",
+        "category": "adjective",
+        "example": "I felt worried."
+      },
+      {
+        "word": "late",
+        "meaning": "遲到的",
+        "category": "adjective",
+        "example": "I did not want to be late for school."
+      },
+      {
+        "word": "slow",
+        "meaning": "慢的",
+        "category": "adjective"
+      },
+      {
+        "word": "careful",
+        "meaning": "小心的",
+        "category": "adjective",
+        "example": "I learned to be more careful."
+      },
+      {
+        "word": "last Monday",
+        "meaning": "上星期一",
+        "category": "time"
+      },
+      {
+        "word": "on the way",
+        "meaning": "在途中",
+        "category": "time",
+        "example": "On the way, I opened my school bag."
+      },
+      {
+        "word": "when",
+        "meaning": "當……的時候",
+        "category": "time"
+      },
+      {
+        "word": "that day",
+        "meaning": "那天",
+        "category": "time"
+      },
+      {
+        "word": "however",
+        "meaning": "可是；然而",
+        "category": "connective",
+        "example": "However, I was too slow and missed the bus."
+      },
+      {
+        "word": "because",
+        "meaning": "因為",
+        "category": "connective"
+      },
+      {
+        "word": "luckily",
+        "meaning": "幸好",
+        "category": "connective"
+      }
+    ],
+    "usefulSentences": [
+      {
+        "category": "Beginning",
+        "sentence": "Last Monday, I went to school with my friends."
+      },
+      {
+        "category": "Beginning",
+        "sentence": "We waited at the bus stop for Bus 12."
+      },
+      {
+        "category": "Missed Bus",
+        "sentence": "The bus drove away before I could get on it."
+      },
+      {
+        "category": "Missed Bus",
+        "sentence": "I felt worried because I did not want to be late for school."
+      },
+      {
+        "category": "Problem",
+        "sentence": "On the way, I opened my school bag and realised that my wallet was missing."
+      },
+      {
+        "category": "Problem",
+        "sentence": "I looked for it everywhere, but I could not find it."
+      },
+      {
+        "category": "Solution",
+        "sentence": "Luckily, a teacher had found my wallet and handed it in."
+      },
+      {
+        "category": "Ending",
+        "sentence": "That day, I learned to be more careful with my belongings."
+      }
+    ],
+    "sampleEssays": [
+      {
+        "level": "C",
+        "title": "A Missed Bus",
+        "tags": [
+          "Claude 改寫",
+          "待審閱"
+        ],
+        "content": "Last Monday, I went to school with my friends. We waited for Bus 12 at the bus stop. We talked and laughed.\n\nWhen the bus came, we were too slow. We missed the bus, and it drove away. I was worried because I did not want to be late for school.\n\nWe walked to school together. Near the school gate, I opened my school bag. My wallet was not there! I looked for it, but I could not find it.\n\nI went to the Lost and Found office. A kind lady there had my wallet. Someone had found it and handed it in. I was very happy and said, \"Thank you!\" That day, I learned to be more careful."
+      },
+      {
+        "level": "B",
+        "title": "A Missed Bus",
+        "tags": [
+          "原稿"
+        ],
+        "content": "Last Monday, I went to school with my friends. We waited at the bus stop for Bus 12. We were excited because we did not want to be late for school. However, I was too slow and missed the bus. The bus drove away before I could get on it.\n\nI felt worried because I did not want to be late for school. I decided to walk to school with my friends. On the way, I opened my school bag and realised that my wallet was missing. I looked for it everywhere, but I could not find it.\n\nWhen I arrived at school, I went to the Lost and Found office. Luckily, a teacher had found my wallet and handed it in. I was very happy and thanked her.\n\nThat day, I learned to be more careful with my belongings."
+      },
+      {
+        "level": "A",
+        "title": "A Morning Full of Surprises",
+        "tags": [
+          "Claude 改寫",
+          "待審閱"
+        ],
+        "content": "Last Monday morning, my friends and I were waiting at the bus stop for Bus 12. We were so busy chatting about a funny video that we hardly noticed the bus pulling up beside us.\n\nBy the time we looked up, the doors had closed and the bus was already driving away. \"Oh no! We missed the bus!\" I cried. My heart was pounding because I hated being late for school. Without wasting any time, we decided to walk there instead.\n\nJust as we reached the school gate, I opened my school bag to take out my student card. To my horror, my wallet was nowhere to be found. I searched every pocket, but it had vanished.\n\nFeeling anxious, I hurried to the Lost and Found office. To my relief, a smiling staff member held up my purple wallet. A teacher had found it near the bus stop and handed it in. I thanked her gratefully. That day, I learned to pay more attention and take better care of my belongings."
+      }
+    ]
   }
 ]
