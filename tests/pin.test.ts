@@ -16,7 +16,10 @@ describe("PinService", () => {
     expect(pins.hasPin()).toBe(true);
     expect(await pins.verify("2468")).toBe(true);
     expect(await pins.verify("1357")).toBe(false);
-    expect(store.getItem("smartlearning:admin-pin")).not.toContain("2468");
+    const stored = JSON.parse(store.getItem("smartlearning:admin-pin")!);
+    expect(Object.keys(stored).sort()).toEqual(["hash", "salt"]);
+    expect(stored.hash).toMatch(/^[0-9a-f]{64}$/);
+    expect(Object.values(stored)).not.toContain("2468");
   });
 
   it("PIN 要 4 至 6 位數字", async () => {

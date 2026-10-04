@@ -41,21 +41,18 @@
       "時間管理"
     ],
     "questionTypeIds": [
-      "expository-method",
       "expository-benefit",
-      "expository-cause"
+      "expository-method"
     ],
     "topicIds": [
-      "self-discipline",
       "time-management-benefits",
-      "cherish-time",
-      "why-self-discipline"
+      "good-student"
     ]
   },
   {
     "id": "phone-online-dictionary",
-    "title": "用手機查字典",
-    "content": "做功課遇到不懂的字詞，可以用智能電話上的網上字典即時查閱。",
+    "title": "用手機搜尋資料",
+    "content": "遇到不明白的課題時，用智能電話搜尋資料，加深對課文的理解。",
     "category": "生活",
     "tags": [
       "科技"
@@ -69,8 +66,8 @@
   },
   {
     "id": "phone-late-night",
-    "title": "深夜玩手機",
-    "content": "表哥常常深夜玩手機遊戲，第二天上課沒精神，視力也變差了。",
+    "title": "深夜玩手機遊戲",
+    "content": "有些同學沉迷手機遊戲，深夜仍然玩手機，結果睡眠不足，第二天上課精神不振。",
     "category": "生活",
     "tags": [
       "科技",
@@ -472,7 +469,7 @@
   {
     "id": "relax-with-hobby",
     "title": "做喜歡的事放鬆心情",
-    "content": "心情不好時去游泳、閱讀或畫畫，讓自己放鬆。",
+    "content": "心情不好時做運動、閱讀或畫畫，讓自己放鬆。",
     "category": "生活",
     "tags": [
       "樂觀",
@@ -488,7 +485,7 @@
   {
     "id": "phone-contact-family",
     "title": "用手機和家人聯絡",
-    "content": "放學後用智能電話告訴父母自己已經到達補習社，讓他們安心。",
+    "content": "我們可以用智能電話和家人聯絡，十分方便。",
     "category": "生活",
     "tags": [
       "科技"
@@ -734,7 +731,7 @@
   {
     "id": "swim-relax",
     "title": "運動減輕壓力",
-    "content": "考試後去游泳或打籃球，緊張的心情便放鬆了。",
+    "content": "放學後游泳、打籃球或騎單車，緊張的心情便放鬆了，學習時也更專心。",
     "category": "生活",
     "tags": [
       "運動"
@@ -990,6 +987,82 @@
     ],
     "topicIds": [
       "why-cherish-food"
+    ]
+  },
+  {
+    "id": "dont-give-up-hard-task",
+    "title": "遇到難題不放棄",
+    "content": "遇到困難時不輕易放棄，先完成較容易的部分，再處理較難的事情。",
+    "category": "學習",
+    "tags": [
+      "自律"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "self-discipline"
+    ]
+  },
+  {
+    "id": "regret-not-studying",
+    "title": "上課不專心，後悔莫及",
+    "content": "有些同學上課不專心，考試成績欠佳，才醒悟當初應該努力用功，但已為時太晚。",
+    "category": "學校",
+    "tags": [
+      "珍惜"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "cherish-life"
+    ]
+  },
+  {
+    "id": "study-alone-online",
+    "title": "長時間獨自上網學習",
+    "content": "有些同學長時間獨自在網上學習，少了與人交流，變得不擅長與人溝通。",
+    "category": "學習",
+    "tags": [
+      "網上學習"
+    ],
+    "questionTypeIds": [
+      "expository-impact"
+    ],
+    "topicIds": [
+      "online-learning-pros-cons"
+    ]
+  },
+  {
+    "id": "reuse-jars-paper",
+    "title": "重用玻璃瓶和草稿紙",
+    "content": "把舊玻璃瓶清洗乾淨用作筆筒，單面印刷的紙張留作草稿紙，舊衣服和舊玩具捐給有需要的人。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "reduce-waste"
+    ]
+  },
+  {
+    "id": "aircon-25",
+    "title": "冷氣調高至二十五度",
+    "content": "夏天把冷氣調高至攝氏二十五度，電器不用時拔掉插頭，可以節省不少電力。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "green-living",
+      "save-energy"
     ]
   }
 ]
