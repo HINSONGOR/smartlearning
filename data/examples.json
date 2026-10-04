@@ -17,21 +17,6 @@
     ]
   },
   {
-    "id": "help-classmate",
-    "title": "幫助跌倒的同學",
-    "content": "小息時同學跌倒受傷，我立即扶起他，並陪他到醫療室。",
-    "category": "學校",
-    "tags": [
-      "品德"
-    ],
-    "questionTypeIds": [
-      "expository-method"
-    ],
-    "topicIds": [
-      "good-student"
-    ]
-  },
-  {
     "id": "timetable",
     "title": "訂立溫習時間表",
     "content": "考試前兩星期訂立時間表，每天溫習兩科，最後輕鬆應付考試。",
@@ -1063,6 +1048,37 @@
     "topicIds": [
       "green-living",
       "save-energy"
+    ]
+  },
+  {
+    "id": "follow-school-rules",
+    "title": "遵守校規",
+    "content": "每天準時回校，穿着整齊的校服；小息時排隊買食物，不在走廊上追逐奔跑。",
+    "category": "學校",
+    "tags": [
+      "守規"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student"
+    ]
+  },
+  {
+    "id": "quiet-without-teacher",
+    "title": "老師不在也安靜溫習",
+    "content": "即使老師不在課室，也會安靜地溫習，不騷擾同學。",
+    "category": "學校",
+    "tags": [
+      "自律",
+      "守規"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "good-student"
     ]
   }
 ]
