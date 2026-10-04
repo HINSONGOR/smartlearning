@@ -393,11 +393,11 @@
   },
   {
     "id": "revise-before-play",
-    "title": "先溫習，後娛樂",
-    "content": "完成家課後，先溫習明天要學的課文，再玩遊戲或看電視。",
+    "title": "珍惜時間：先溫習，後娛樂",
+    "content": "時間一去不復返，所以完成家課後，先溫習明天要學的課文，再用剩下的時間玩遊戲或看電視，不把時間浪費在沒有意義的事情上。",
     "category": "學習",
     "tags": [
-      "時間"
+      "珍惜時間"
     ],
     "questionTypeIds": [
       "expository-method"
