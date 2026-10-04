@@ -12,8 +12,7 @@
     ],
     "topicIds": [
       "good-student",
-      "spare-time",
-      "self-discipline"
+      "spare-time"
     ]
   },
   {
@@ -112,9 +111,7 @@
     ],
     "topicIds": [
       "protect-environment",
-      "care-environment",
-      "reduce-waste",
-      "reduce-plastic"
+      "reduce-waste"
     ]
   },
   {
@@ -147,8 +144,7 @@
     ],
     "topicIds": [
       "protect-environment",
-      "save-energy",
-      "save-water"
+      "save-energy"
     ]
   },
   {
@@ -170,8 +166,8 @@
   },
   {
     "id": "env-food",
-    "title": "減少食物浪費",
-    "content": "吃多少才拿多少。",
+    "title": "吃多少，拿多少",
+    "content": "吃自助餐時每次只拿少量食物，吃完再拿；在家吃飯時按自己的食量盛飯。",
     "category": "生活",
     "tags": [
       "環保"
@@ -378,7 +374,7 @@
   },
   {
     "id": "keep-stationery",
-    "title": "愛惜文具",
+    "title": "珍惜物品：愛惜文具",
     "content": "鉛筆和文具仍然可以使用，便不要隨意丟掉。",
     "category": "學校",
     "tags": [
@@ -423,7 +419,7 @@
   },
   {
     "id": "review-test-mistakes",
-    "title": "測驗失手後檢討",
+    "title": "勇敢面對困難：測驗失手後檢討",
     "content": "測驗成績不理想時，不一直責怪自己，而是找出做錯的地方，再努力溫習。",
     "category": "學習",
     "tags": [
@@ -760,7 +756,7 @@
   },
   {
     "id": "finish-meal",
-    "title": "把碗裏的飯菜吃光",
+    "title": "珍惜食物：把碗裏的飯菜吃光",
     "content": "吃飯時把碗裏的飯菜吃光，不挑食；吃剩的食物放進冰箱，下一餐再吃。",
     "category": "生活",
     "tags": [
@@ -1079,6 +1075,68 @@
     ],
     "topicIds": [
       "good-student"
+    ]
+  },
+  {
+    "id": "bring-shopping-bag",
+    "title": "自備環保袋",
+    "content": "和家人去超級市場或街市購物時，帶備自己的環保袋，拒絕店舖提供的膠袋。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "care-environment",
+      "reduce-plastic"
+    ]
+  },
+  {
+    "id": "bring-water-bottle",
+    "title": "自備水樽",
+    "content": "上學和外出時帶備自己的水樽，到有飲水機的地方添水，不買樽裝水。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "reduce-plastic"
+    ]
+  },
+  {
+    "id": "turn-off-tap",
+    "title": "關好水龍頭",
+    "content": "刷牙時先用杯盛水，再關上水龍頭；發現水龍頭漏水，立即告訴家人維修。",
+    "category": "生活",
+    "tags": [
+      "環保"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "save-water"
+    ]
+  },
+  {
+    "id": "plan-daily-time",
+    "title": "安排好每天的時間",
+    "content": "放學回家後先休息一會兒，再做功課和溫習，完成後才玩遊戲或看電視。",
+    "category": "學習",
+    "tags": [
+      "自律",
+      "時間管理"
+    ],
+    "questionTypeIds": [
+      "expository-method"
+    ],
+    "topicIds": [
+      "self-discipline"
     ]
   }
 ]
