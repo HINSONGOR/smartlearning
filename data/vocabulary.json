@@ -953,5 +953,651 @@
     "topicIds": [
       "reading-benefits"
     ]
+  },
+  {
+    "id": "w047",
+    "word": "伸出援手",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "主動幫助別人。",
+    "example": "這次經歷令我明白，幫助別人不一定要做甚麼大事，只要我們願意伸出援手，就能為別人帶來溫暖。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-others"
+    ]
+  },
+  {
+    "id": "w048",
+    "word": "樂於助人",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "很樂意幫助別人。",
+    "example": "從今以後，我會繼續關心身邊有需要的人，做一個樂於助人的好學生。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-others"
+    ]
+  },
+  {
+    "id": "w049",
+    "word": "蒙混過關",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用欺騙的方法逃過檢查或責罰。",
+    "example": "我原以為這樣便能蒙混過關，沒想到老師後來發現了真相。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "i-was-wrong"
+    ]
+  },
+  {
+    "id": "w050",
+    "word": "逃避責任",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "不肯承擔自己應負的責任。",
+    "example": "如果犯了錯，我也會勇敢承認並努力改正，不再逃避責任。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "i-was-wrong"
+    ]
+  },
+  {
+    "id": "w051",
+    "word": "鬆了一口氣",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "緊張的心情放鬆下來。",
+    "example": "老師原諒了我，我終於鬆了一口氣。",
+    "category": "好詞",
+    "level": "C",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "i-was-wrong"
+    ]
+  },
+  {
+    "id": "w052",
+    "word": "一年一度",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "每年舉行一次。",
+    "example": "上個月，學校舉行了一年一度的運動會。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "school-activity"
+    ]
+  },
+  {
+    "id": "w053",
+    "word": "為班爭光",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "為自己的班別爭取榮譽。",
+    "example": "全班同學都十分期待這一天，因為我們可以參加不同的比賽，為班爭光。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "school-activity"
+    ]
+  },
+  {
+    "id": "w054",
+    "word": "人聲鼎沸",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "人聲吵雜，好像水在鍋中沸騰一樣，形容非常熱鬧。",
+    "example": "比賽當天，操場上人聲鼎沸，同學們都努力為自己的班別打氣。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "school-activity"
+    ]
+  },
+  {
+    "id": "w055",
+    "word": "全力以赴",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用盡全部力量去做。",
+    "example": "輪到我們比賽時，我緊緊握着接力棒，準備全力以赴。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "school-activity"
+    ]
+  },
+  {
+    "id": "w056",
+    "word": "清澈見底",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "水非常清，可以看到水底。",
+    "example": "湖水清澈見底，四周綠樹成蔭，景色令人心曠神怡。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "w057",
+    "word": "綠樹成蔭",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "樹木茂盛，形成一片樹蔭。",
+    "example": "湖水清澈見底，四周綠樹成蔭，景色令人心曠神怡。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "w058",
+    "word": "心曠神怡",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "心情開朗，精神愉快。",
+    "example": "湖水清澈見底，四周綠樹成蔭，景色令人心曠神怡。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "w059",
+    "word": "人來人往",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "人很多，來來往往，十分熱鬧。",
+    "example": "晚上，夜市裏人來人往，各種食物香氣四溢，令我看得眼花繚亂。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "w060",
+    "word": "香氣四溢",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "香味向四周散發。",
+    "example": "晚上，夜市裏人來人往，各種食物香氣四溢，令我看得眼花繚亂。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "w061",
+    "word": "眼花繚亂",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "看到的東西太多太雜，使人眼睛發花。",
+    "example": "晚上，夜市裏人來人往，各種食物香氣四溢，令我看得眼花繚亂。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "w062",
+    "word": "面色蒼白",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "臉色白而沒有血色，多因生病或害怕。",
+    "example": "媽媽發現我面色蒼白，便立刻帶我去看醫生。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "being-sick"
+    ]
+  },
+  {
+    "id": "w063",
+    "word": "早日康復",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "希望病早點好。",
+    "example": "看着窗外的小朋友開心地玩耍，我更加希望自己能早日康復。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "being-sick"
+    ]
+  },
+  {
+    "id": "w064",
+    "word": "鼓起勇氣",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "提起勇氣去做害怕的事。",
+    "example": "因此，當老師問我是否願意參加時，我既期待又害怕，最後還是鼓起勇氣答應了。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "first-competition"
+    ]
+  },
+  {
+    "id": "w065",
+    "word": "微微發抖",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "身體輕輕地顫抖，多因緊張或寒冷。",
+    "example": "比賽當天，我站在台上，看着台下的評判和觀眾，雙手不禁微微發抖。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "first-competition"
+    ]
+  },
+  {
+    "id": "w066",
+    "word": "一無所獲",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "甚麼也沒有得到。",
+    "example": "我找遍了課室和操場，仍然一無所獲，心裏十分焦急，眼淚幾乎流了下來。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "touching-experience"
+    ]
+  },
+  {
+    "id": "w067",
+    "word": "據為己有",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "把別人的東西佔為自己所有。",
+    "example": "他沒有把錢包據為己有，而是特意留下來等我認領。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "touching-experience"
+    ]
+  },
+  {
+    "id": "w068",
+    "word": "突如其來",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "事情突然發生，沒有預料到。",
+    "example": "我原本以為這只是一個普通的晚上，沒想到一場突如其來的停電，竟令我留下深刻的印象。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "unforgettable-night"
+    ]
+  },
+  {
+    "id": "w069",
+    "word": "一片漆黑",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "四周非常黑，甚麼也看不見。",
+    "example": "當時，我正坐在書桌前做功課，房間突然一片漆黑。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "unforgettable-night"
+    ]
+  },
+  {
+    "id": "w070",
+    "word": "放下心頭大石",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "擔心的事情解決了，心情變得輕鬆。",
+    "example": "過了一會兒，電力終於恢復，屋裏再次亮起燈光，我才放下心頭大石。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "unforgettable-night"
+    ]
+  },
+  {
+    "id": "w071",
+    "word": "保持鎮定",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "遇事不慌張，保持冷靜。",
+    "example": "我們應該保持鎮定，運用平日學到的知識，並在需要時向家人求助。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "unforgettable-night"
+    ]
+  },
+  {
+    "id": "w072",
+    "word": "忐忑不安",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "心神不定，十分不安。",
+    "example": "自從知道這個消息後，我便一直忐忑不安。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "report-card-day"
+    ]
+  },
+  {
+    "id": "w073",
+    "word": "手心冒汗",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "手掌出汗，形容非常緊張。",
+    "example": "輪到我領取成績表時，我緊張得手心冒汗。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "report-card-day"
+    ]
+  },
+  {
+    "id": "w074",
+    "word": "津津有味",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "形容很有興趣，聽得或吃得很有味道。",
+    "example": "全班同學都聽得津津有味，報告結束後，老師帶頭鼓掌，我也用力地拍着手，覺得阿俊今天的表現實在令人刮目相看。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "praising-others"
+    ]
+  },
+  {
+    "id": "w075",
+    "word": "刮目相看",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用新的眼光看待別人，表示對方進步很大。",
+    "example": "全班同學都聽得津津有味，報告結束後，老師帶頭鼓掌，我也用力地拍着手，覺得阿俊今天的表現實在令人刮目相看。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "praising-others"
+    ]
+  },
+  {
+    "id": "w076",
+    "word": "靦腆",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "害羞、不好意思的樣子。",
+    "example": "」阿俊聽完，臉上露出驚訝又害羞的笑容，靦腆地說了聲「謝謝」，眼裏卻閃着開心的光芒。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "praising-others"
+    ]
+  },
+  {
+    "id": "w077",
+    "word": "吝嗇",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "過分愛惜，不肯付出。",
+    "example": "從此，我學會了不要吝嗇對別人的欣賞。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "praising-others"
+    ]
+  },
+  {
+    "id": "w078",
+    "word": "陽光明媚",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "陽光燦爛，景色美好。",
+    "example": "在一個陽光明媚的星期天上午，微風輕拂，我和好朋友小明一起去公園玩，沒想到竟經歷了一件難忘的事。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "memorable-event"
+    ]
+  },
+  {
+    "id": "w079",
+    "word": "微風輕拂",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "微風輕輕地吹過。",
+    "example": "在一個陽光明媚的星期天上午，微風輕拂，我和好朋友小明一起去公園玩，沒想到竟經歷了一件難忘的事。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "memorable-event"
+    ]
+  },
+  {
+    "id": "w080",
+    "word": "不假思索",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "不用想便立刻做出反應。",
+    "example": "我和小明不假思索地跑了過去。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "memorable-event"
+    ]
   }
 ]
