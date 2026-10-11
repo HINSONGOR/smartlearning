@@ -2697,5 +2697,62 @@
       "narrative-school"
     ],
     "topicIds": []
+  },
+  {
+    "id": "w144",
+    "word": "進步神速",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "進步得非常快。",
+    "example": "有時，我看見其他同學進步神速，便感到沮喪，甚至想過放棄。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "overcoming-difficulty"
+    ]
+  },
+  {
+    "id": "w145",
+    "word": "灰心",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "因為失敗而失去信心。",
+    "example": "幸好，媽媽鼓勵我不要灰心。",
+    "category": "好詞",
+    "level": "C",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "overcoming-difficulty"
+    ]
+  },
+  {
+    "id": "w146",
+    "word": "有所進步",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "有一定程度的進步。",
+    "example": "只要我們不輕易放棄，並努力尋找解決方法，就一定能有所進步。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "overcoming-difficulty"
+    ]
   }
 ]

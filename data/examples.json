@@ -1425,5 +1425,32 @@
     "topicIds": [
       "memorable-event"
     ]
+  },
+  {
+    "id": "n-test-failed",
+    "title": "測驗成績不理想",
+    "content": "看着中文測驗卷上的紅色分數，我感到十分失望，甚至懷疑自己能否學好中文。",
+    "category": "學習",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "overcoming-difficulty",
+      "report-card-day"
+    ]
+  },
+  {
+    "id": "n-daily-reading",
+    "title": "每天閱讀短文、記詞語、造句",
+    "content": "每天放學後閱讀一篇短文，記下重點詞語，並嘗試用新詞語造句；不明白便請教老師。",
+    "category": "學習",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "overcoming-difficulty"
+    ]
   }
 ]
