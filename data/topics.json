@@ -646,6 +646,9 @@
     "id": "helping-others",
     "questionTypeId": "narrative-helping",
     "title": "一件助人為快樂之本的事",
+    "titleKeywords": [
+      "助人為快樂之本"
+    ],
     "outline": [
       "背景＋交代事情起因",
       "遇到有需要的人＋決定幫助對方",
@@ -662,6 +665,9 @@
     "id": "i-was-wrong",
     "questionTypeId": "narrative-growth",
     "title": "我知錯了",
+    "titleKeywords": [
+      "錯"
+    ],
     "outline": [
       "背景＋交代自己犯錯的原因",
       "犯錯的經過＋當時的想法",
@@ -678,6 +684,9 @@
     "id": "school-activity",
     "questionTypeId": "narrative-school",
     "title": "一次難忘的學校活動",
+    "titleKeywords": [
+      "難忘"
+    ],
     "outline": [
       "活動背景＋期待的心情",
       "活動開始＋同學的表現",
@@ -694,6 +703,9 @@
     "id": "memorable-trip",
     "questionTypeId": "narrative-experience",
     "title": "一次難忘的旅行",
+    "titleKeywords": [
+      "難忘"
+    ],
     "outline": [
       "旅行的時間、地點、人物＋出發前的心情",
       "旅途見聞＋沿途景色",
@@ -710,6 +722,10 @@
     "id": "being-sick",
     "questionTypeId": "narrative-experience",
     "title": "記一次生病的經歷",
+    "titleKeywords": [
+      "生病",
+      "病"
+    ],
     "outline": [
       "生病前的情況＋身體不適",
       "病情加重＋生活上的困難",
@@ -726,6 +742,9 @@
     "id": "first-competition",
     "questionTypeId": "narrative-school",
     "title": "我第一次參加比賽",
+    "titleKeywords": [
+      "比賽"
+    ],
     "outline": [
       "比賽背景＋緊張的心情",
       "努力準備＋遇到困難",
@@ -742,6 +761,9 @@
     "id": "touching-experience",
     "questionTypeId": "narrative-touching",
     "title": "一次令我感動的經歷",
+    "titleKeywords": [
+      "感動"
+    ],
     "outline": [
       "背景＋事情發生的原因",
       "事件經過＋人物的行動",
@@ -758,6 +780,9 @@
     "id": "unforgettable-night",
     "questionTypeId": "narrative-experience",
     "title": "一個難忘的晚上",
+    "titleKeywords": [
+      "難忘"
+    ],
     "outline": [
       "晚上背景＋事情發生前的情況",
       "突發事件＋人物的反應",
@@ -774,6 +799,9 @@
     "id": "report-card-day",
     "questionTypeId": "narrative-growth",
     "title": "派發成績表的那一天",
+    "titleKeywords": [
+      "成績表"
+    ],
     "outline": [
       "派發成績表的日子＋忐忑的心情",
       "派發前的猜想＋老師的提醒",
@@ -790,6 +818,10 @@
     "id": "praising-others",
     "questionTypeId": "narrative-helping",
     "title": "一次讚美別人的經歷",
+    "titleKeywords": [
+      "讚美",
+      "稱讚"
+    ],
     "outline": [
       "背景＋同學上台報告",
       "同學的表現＋全班的反應",
@@ -806,6 +838,9 @@
     "id": "memorable-event",
     "questionTypeId": "narrative-helping",
     "title": "難忘的一件事",
+    "titleKeywords": [
+      "難忘"
+    ],
     "outline": [
       "時間、地點、人物＋交代事情起因",
       "遇到跌倒的婆婆＋上前幫忙",
@@ -822,6 +857,9 @@
     "id": "overcoming-difficulty",
     "questionTypeId": "narrative-growth",
     "title": "記一次克服困難的經過和感受",
+    "titleKeywords": [
+      "困難"
+    ],
     "outline": [
       "背景＋困難（學習中文遇到困難）",
       "遇到挫折＋沮喪",
@@ -844,6 +882,10 @@
     "id": "helping-stranger",
     "questionTypeId": "narrative-helping",
     "title": "一次幫助陌生人的經歷",
+    "titleKeywords": [
+      "陌生人",
+      "不認識"
+    ],
     "outline": [
       "背景＋事情起因（放學途中，看見一位老伯伯遇到困難）",
       "主動幫助＋事情經過（上前詢問，幫助老伯伯拾起散落的物品）",
@@ -867,6 +909,9 @@
     "id": "best-friend",
     "questionTypeId": "narrative-touching",
     "title": "我最好的朋友",
+    "titleKeywords": [
+      "朋友"
+    ],
     "outline": [
       "介紹朋友：姓名＋外貌＋性格",
       "怎樣成為朋友：初次相識＋互相幫助",

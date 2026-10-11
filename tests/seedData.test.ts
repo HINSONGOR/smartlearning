@@ -131,6 +131,15 @@ describe("/data 預設教材", () => {
     expect(proofread("我們的關係很好")).toEqual([]);
   });
 
+  it("範文最後一段提到題目關鍵詞（首尾呼應扣題）", () => {
+    const missing = essays.flatMap((e) => {
+      const keywords = topics.find((t) => t.id === e.topicId)?.titleKeywords ?? [];
+      const last = splitParagraphs(e.content).at(-1) ?? "";
+      return keywords.length && !keywords.some((k) => last.includes(k)) ? [e.id] : [];
+    });
+    expect(missing).toEqual([]);
+  });
+
   it("計字唔計標點同空白", () => {
     expect(countChars("首先，我們要訂立目標。\n\n例如：AI！")).toBe(13);
   });

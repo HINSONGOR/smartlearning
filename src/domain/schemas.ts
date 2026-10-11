@@ -92,6 +92,8 @@ export const topicSchema = z.object({
   id,
   questionTypeId: id,
   title: text,
+  /** 題目關鍵詞：範文最後一段要提到其中一個，首尾呼應扣題 */
+  titleKeywords: z.array(text).default([]),
   /** 本題四段大綱，第 N 項對應題型結構第 N 段 */
   outline: z.array(text).default([]),
   /** 寫作提示 */
