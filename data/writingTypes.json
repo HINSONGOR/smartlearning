@@ -18,7 +18,11 @@
     "description": "記述一件事的經過，表達感受和體會",
     "status": "active",
     "order": 2,
-    "questionTypeLabel": "分類"
+    "questionTypeLabel": "分類",
+    "requirements": {
+      "minChars": 300,
+      "timeLimitMinutes": 35
+    }
   },
   {
     "id": "argumentative",
