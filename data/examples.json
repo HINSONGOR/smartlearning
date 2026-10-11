@@ -1162,7 +1162,8 @@
       "narrative-helping"
     ],
     "topicIds": [
-      "helping-others"
+      "helping-others",
+      "helping-stranger"
     ]
   },
   {
@@ -1451,6 +1452,32 @@
     ],
     "topicIds": [
       "overcoming-difficulty"
+    ]
+  },
+  {
+    "id": "n-pick-fruit",
+    "title": "雨中幫老伯伯拾水果",
+    "content": "大雨中老伯伯的袋子掉在地上，水果散落一地，我立刻上前幫他拾起水果，放回袋子裏。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-stranger"
+    ]
+  },
+  {
+    "id": "n-slippery",
+    "title": "提醒對方小心腳下",
+    "content": "地面十分濕滑，我提醒老伯伯小心腳下，免得滑倒。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-stranger"
     ]
   }
 ]

@@ -970,7 +970,8 @@
       "narrative-helping"
     ],
     "topicIds": [
-      "helping-others"
+      "helping-others",
+      "helping-stranger"
     ]
   },
   {
@@ -989,7 +990,8 @@
       "narrative-helping"
     ],
     "topicIds": [
-      "helping-others"
+      "helping-others",
+      "helping-stranger"
     ]
   },
   {
@@ -2753,6 +2755,63 @@
     ],
     "topicIds": [
       "overcoming-difficulty"
+    ]
+  },
+  {
+    "id": "w147",
+    "word": "小心翼翼",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "形容做事非常小心謹慎。",
+    "example": "我把雨傘放在一旁，小心翼翼地拾起地上的水果。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-stranger"
+    ]
+  },
+  {
+    "id": "w148",
+    "word": "素不相識",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "從來不認識。",
+    "example": "即使對方是素不相識的陌生人，我們也應該在能力所及的情況下給予幫助。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-stranger"
+    ]
+  },
+  {
+    "id": "w149",
+    "word": "能力所及",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "在自己能力做得到的範圍之內。",
+    "example": "我們也應該在能力所及的情況下給予幫助。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "記敍文"
+    ],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-stranger"
     ]
   }
 ]
