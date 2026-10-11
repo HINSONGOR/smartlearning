@@ -787,22 +787,6 @@
     "order": 2
   },
   {
-    "id": "happy-person",
-    "questionTypeId": "narrative-touching",
-    "title": "一個令我感到幸福的人",
-    "outline": [
-      "介紹人物＋說明對自己的重要性",
-      "交代一件具體事情＋人物的付出",
-      "人物如何幫助或關心自己＋內心感受",
-      "表達感恩＋珍惜彼此的關係"
-    ],
-    "hints": [
-      "分類：感動與關愛"
-    ],
-    "keyConcepts": [],
-    "order": 2
-  },
-  {
     "id": "praising-others",
     "questionTypeId": "narrative-helping",
     "title": "一次讚美別人的經歷",

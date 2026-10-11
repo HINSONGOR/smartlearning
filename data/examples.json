@@ -1267,8 +1267,7 @@
       "narrative-touching"
     ],
     "topicIds": [
-      "being-sick",
-      "happy-person"
+      "being-sick"
     ]
   },
   {
@@ -1373,21 +1372,6 @@
     ],
     "topicIds": [
       "report-card-day"
-    ]
-  },
-  {
-    "id": "n-breakfast",
-    "title": "媽媽每天準備早餐",
-    "content": "媽媽每天一早起床為我準備早餐，從不說辛苦。",
-    "category": "生活",
-    "tags": [
-      "待審閱"
-    ],
-    "questionTypeIds": [
-      "narrative-touching"
-    ],
-    "topicIds": [
-      "happy-person"
     ]
   },
   {
