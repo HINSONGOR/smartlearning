@@ -9,6 +9,7 @@ export function AdminDashboard() {
       essays: (await s.essays.list()).length,
       vocabulary: (await s.vocabulary.list()).length,
       examples: (await s.examples.list()).length,
+      sentences: (await s.sentences.list()).length,
     }),
     [],
   );
@@ -16,7 +17,7 @@ export function AdminDashboard() {
   return (
     <section className="space-y-6">
       <h1 className="text-3xl font-bold">內容管理</h1>
-      <ul className="grid gap-4 sm:grid-cols-3">
+      <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <li>
           <NavCard href="/admin/essays" icon="📄" title="範文" subtitle={counts ? `${counts.essays} 篇` : "…"} />
         </li>
@@ -25,6 +26,9 @@ export function AdminDashboard() {
         </li>
         <li>
           <NavCard href="/admin/examples" icon="💡" title="例子" subtitle={counts ? `${counts.examples} 個` : "…"} />
+        </li>
+        <li>
+          <NavCard href="/admin/sentences" icon="✨" title="佳句" subtitle={counts ? `${counts.sentences} 句` : "…"} />
         </li>
       </ul>
       <div className="rounded-2xl bg-accent-soft p-4 text-lg">

@@ -1599,5 +1599,1103 @@
     "topicIds": [
       "memorable-event"
     ]
+  },
+  {
+    "id": "w081",
+    "word": "記得那年",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用來帶出一段回憶的開端。",
+    "example": "記得那年夏天，我第一次跟爸爸去釣魚。",
+    "category": "交代背景",
+    "level": "C",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w082",
+    "word": "正值暑假",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "正好是暑假期間。",
+    "example": "那時正值暑假，我和家人到郊外露營。",
+    "category": "交代背景",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w083",
+    "word": "每逢佳節",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "每到節日的時候。",
+    "example": "每逢佳節，我們一家都會到外婆家吃飯。",
+    "category": "交代背景",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w084",
+    "word": "黃昏時分",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "傍晚太陽快下山的時候。",
+    "example": "黃昏時分，夕陽把天空染成一片橙紅色。",
+    "category": "交代背景",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w085",
+    "word": "光陰似箭",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "時間過得像箭一樣快。",
+    "example": "光陰似箭，轉眼間我已經是六年級的學生了。",
+    "category": "交代背景",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w086",
+    "word": "不知不覺",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "沒有察覺到，時間便過去了。",
+    "example": "不知不覺，天已經黑了。",
+    "category": "交代背景",
+    "level": "C",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w087",
+    "word": "自從那次以後",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "從那件事以後，用來交代事情帶來的改變。",
+    "example": "自從那次以後，我每天都會準時完成功課。",
+    "category": "交代背景",
+    "level": "C",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w088",
+    "word": "在我的記憶深處",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "在記憶裏很深的地方，用來帶出深刻的回憶。",
+    "example": "在我的記憶深處，有一件事令我十分難忘。",
+    "category": "交代背景",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w089",
+    "word": "和藹可親",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "態度溫和，容易親近。",
+    "example": "王老師和藹可親，同學們都很喜歡她。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w090",
+    "word": "眉開眼笑",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "眉頭舒展，眼含笑意，形容十分高興。",
+    "example": "弟弟收到生日禮物，樂得眉開眼笑。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w091",
+    "word": "一臉慈祥",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "臉上露出慈愛和善的神情。",
+    "example": "爺爺一臉慈祥地看着我們玩耍。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w092",
+    "word": "滿頭銀髮",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "頭髮全都白了，多用來描寫年長的人。",
+    "example": "外婆滿頭銀髮，但每天都堅持做運動。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w093",
+    "word": "笑容滿面",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "臉上充滿笑容。",
+    "example": "媽媽笑容滿面地迎接我們回家。",
+    "category": "描寫人物",
+    "level": "C",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w094",
+    "word": "熱心助人",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "熱情地幫助別人。",
+    "example": "陳同學熱心助人，常常教同學做功課。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w095",
+    "word": "勤奮好學",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "努力讀書，喜歡學習。",
+    "example": "哥哥勤奮好學，每天都會主動溫習。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w096",
+    "word": "面紅耳赤",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "臉和耳朵都紅了，形容害羞、着急或激動。",
+    "example": "被老師點名回答問題時，我緊張得面紅耳赤。",
+    "category": "描寫人物",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w097",
+    "word": "神采奕奕",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "形容精神飽滿。",
+    "example": "經過一晚充足的休息，爸爸今天神采奕奕。",
+    "category": "描寫人物",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w098",
+    "word": "汗流浹背",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "汗水濕透了背部，形容出汗很多。",
+    "example": "運動會結束後，同學們都汗流浹背。",
+    "category": "描寫人物",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching",
+      "narrative-helping"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w099",
+    "word": "風和日麗",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "風很柔和，陽光燦爛。",
+    "example": "一個風和日麗的早上，我們到郊外旅行。",
+    "category": "描寫天氣",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w100",
+    "word": "晴空萬里",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "天空晴朗，沒有雲。",
+    "example": "今天晴空萬里，正是去海灘的好日子。",
+    "category": "描寫天氣",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w101",
+    "word": "烏雲密佈",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "天空佈滿烏雲，快要下雨。",
+    "example": "天空忽然烏雲密佈，我們連忙收拾東西回家。",
+    "category": "描寫天氣",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w102",
+    "word": "傾盆大雨",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "雨大得像從盆裏倒下來一樣。",
+    "example": "放學時突然下起傾盆大雨，我只好在學校等媽媽來接我。",
+    "category": "描寫天氣",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w103",
+    "word": "細雨綿綿",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "小雨不停地下。",
+    "example": "一連幾天細雨綿綿，地上總是濕漉漉的。",
+    "category": "描寫天氣",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w104",
+    "word": "驕陽似火",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "太陽像火一樣猛烈。",
+    "example": "夏天驕陽似火，我們要多喝水，小心中暑。",
+    "category": "描寫天氣",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w105",
+    "word": "寒風刺骨",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "冷風吹在身上，冷得好像刺進骨頭裏。",
+    "example": "冬天的早上寒風刺骨，我穿上了厚厚的外套。",
+    "category": "描寫天氣",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w106",
+    "word": "天朗氣清",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "天空明朗，空氣清新。",
+    "example": "秋天天朗氣清，最適合去遠足。",
+    "category": "描寫天氣",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w107",
+    "word": "涼風習習",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "涼風輕輕地吹。",
+    "example": "傍晚涼風習習，我們在公園散步。",
+    "category": "描寫天氣",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w108",
+    "word": "天色漸暗",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "天空慢慢變黑。",
+    "example": "天色漸暗，我們只好依依不捨地回家。",
+    "category": "描寫天氣",
+    "level": "C",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w109",
+    "word": "興高采烈",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "形容十分高興，興致很高。",
+    "example": "聽到明天去旅行，同學們都興高采烈。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "情緒",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w110",
+    "word": "迫不及待",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "急得不能再等待。",
+    "example": "一回到家，我便迫不及待地打開禮物。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "情緒",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w111",
+    "word": "聚精會神",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "集中精神，專心一意。",
+    "example": "同學們聚精會神地聽老師講故事。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "態度",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w112",
+    "word": "井然有序",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "整齊而有條理。",
+    "example": "同學們井然有序地排隊進入禮堂。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "場面",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w113",
+    "word": "絡繹不絕",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "人或車來來往往，連續不斷。",
+    "example": "假日的商場裏，顧客絡繹不絕。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "場面",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w114",
+    "word": "琳瑯滿目",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "美好的東西很多。",
+    "example": "書展裏的圖書琳瑯滿目，令我不知道該選哪一本。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "視覺",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w115",
+    "word": "依依不捨",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "捨不得離開。",
+    "example": "旅行結束時，我依依不捨地向小島揮手道別。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "情緒",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w116",
+    "word": "恍然大悟",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "忽然明白過來。",
+    "example": "聽了老師的解釋，我才恍然大悟。",
+    "category": "好詞",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "領悟",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w117",
+    "word": "如釋重負",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "好像放下重擔一樣，形容心情變得輕鬆。",
+    "example": "考試完結後，我感到如釋重負。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "情緒",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w118",
+    "word": "百感交集",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "各種感受同時湧上心頭。",
+    "example": "畢業典禮上，我百感交集，忍不住流下眼淚。",
+    "category": "好詞",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "情緒",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [],
+    "topicIds": []
+  },
+  {
+    "id": "w119",
+    "word": "摩拳擦掌",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "形容比賽前精神振奮，準備大顯身手。",
+    "example": "比賽還未開始，隊員們已經摩拳擦掌。",
+    "category": "活動經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w120",
+    "word": "齊心協力",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "大家一條心，共同努力。",
+    "example": "我們齊心協力，終於完成了壁報。",
+    "category": "活動經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w121",
+    "word": "分工合作",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "各人負責不同部分，一起完成工作。",
+    "example": "小組成員分工合作，很快便完成了專題研習。",
+    "category": "活動經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w122",
+    "word": "加油打氣",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "為別人鼓勵、打氣。",
+    "example": "同學們在場邊為我們加油打氣。",
+    "category": "活動經歷",
+    "level": "C",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w123",
+    "word": "反敗為勝",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "由落後轉為勝利。",
+    "example": "下半場我們連入兩球，終於反敗為勝。",
+    "category": "活動經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w124",
+    "word": "勢均力敵",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "雙方力量差不多。",
+    "example": "兩隊勢均力敵，比賽十分緊張。",
+    "category": "活動經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w125",
+    "word": "掌聲雷動",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "掌聲像雷聲一樣響，形容觀眾熱烈鼓掌。",
+    "example": "表演結束後，禮堂裏掌聲雷動。",
+    "category": "活動經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w126",
+    "word": "意猶未盡",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "活動結束後仍覺得未夠，想繼續。",
+    "example": "活動雖然結束了，我卻意猶未盡。",
+    "category": "活動經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w127",
+    "word": "樂在其中",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "從做事中得到快樂。",
+    "example": "練習雖然辛苦，但我樂在其中。",
+    "category": "活動經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w128",
+    "word": "受益匪淺",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "得到很大的好處。",
+    "example": "這次義工活動令我受益匪淺。",
+    "category": "成長經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w129",
+    "word": "刻骨銘心",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "印象非常深刻，永遠不會忘記。",
+    "example": "那次比賽的經歷令我刻骨銘心。",
+    "category": "成長經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w130",
+    "word": "迎難而上",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "遇到困難時勇敢面對。",
+    "example": "遇到難題時，我們要迎難而上，不要輕易放棄。",
+    "category": "成長經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w131",
+    "word": "百折不撓",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "無論受到多少挫折也不退縮。",
+    "example": "他憑着百折不撓的精神，終於學會了游泳。",
+    "category": "成長經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w132",
+    "word": "勇往直前",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "勇敢地一直向前。",
+    "example": "只要訂好目標，我們便要勇往直前。",
+    "category": "成長經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w133",
+    "word": "吃一塹，長一智",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "受過一次挫折，便會增長一分見識。",
+    "example": "吃一塹，長一智，這次失敗教會我做事要細心。",
+    "category": "成長經歷",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w134",
+    "word": "銘記於心",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "牢牢記在心裏。",
+    "example": "老師的教導，我會一直銘記於心。",
+    "category": "成長經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w135",
+    "word": "勇於承擔",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "敢於負起責任。",
+    "example": "做錯了事，我們要勇於承擔，不要推卸責任。",
+    "category": "成長經歷",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w136",
+    "word": "書聲琅琅",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "讀書的聲音清脆響亮。",
+    "example": "早上的課室書聲琅琅，充滿朝氣。",
+    "category": "校園生活",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w137",
+    "word": "勤學苦練",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "用功學習，刻苦練習。",
+    "example": "經過一年的勤學苦練，她終於在比賽中獲獎。",
+    "category": "校園生活",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w138",
+    "word": "溫故知新",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "溫習學過的知識，從中得到新的體會。",
+    "example": "考試前溫故知新，能幫助我們鞏固所學。",
+    "category": "校園生活",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w139",
+    "word": "學以致用",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "把學到的知識運用出來。",
+    "example": "我把常識課學到的急救知識學以致用，幫助了受傷的同學。",
+    "category": "校園生活",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w140",
+    "word": "循循善誘",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "有步驟地耐心引導別人學習。",
+    "example": "陳老師循循善誘，令我愛上了數學。",
+    "category": "校園生活",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w141",
+    "word": "名列前茅",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "名次排在前面，形容成績優異。",
+    "example": "經過努力，他的成績終於名列前茅。",
+    "category": "校園生活",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w142",
+    "word": "互助互愛",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "互相幫助，互相關愛。",
+    "example": "我們班的同學互助互愛，好像一家人一樣。",
+    "category": "校園生活",
+    "level": "B",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
+  },
+  {
+    "id": "w143",
+    "word": "朝氣蓬勃",
+    "jyutping": "",
+    "pinyin": "",
+    "definition": "充滿活力。",
+    "example": "運動會當天，整個校園朝氣蓬勃。",
+    "category": "校園生活",
+    "level": "A",
+    "tags": [
+      "素材庫",
+      "例句待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": []
   }
 ]

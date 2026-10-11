@@ -12,6 +12,7 @@ const {
   essays,
   vocabulary,
   examples,
+  sentences,
 } = seedData;
 
 const moduleIds = new Set(subjects.flatMap((s) => s.modules.map((m) => m.id)));
@@ -27,7 +28,7 @@ function expectUniqueIds(list: { id: string }[]) {
 
 describe("/data 預設教材", () => {
   it("所有檔案嘅 id 都唔重複", () => {
-    [subjects, levels, writingTypes, questionTypes, topics, essays, vocabulary, examples].forEach(
+    [subjects, levels, writingTypes, questionTypes, topics, essays, vocabulary, examples, sentences].forEach(
       expectUniqueIds,
     );
     expectUniqueIds(subjects.flatMap((s) => s.modules));
@@ -107,6 +108,7 @@ describe("/data 預設教材", () => {
       ...essays.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
       ...vocabulary.map((v) => ({ id: v.word, issues: proofread(`${v.definition}${v.example}`) })),
       ...examples.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
+      ...sentences.map((s) => ({ id: s.id, issues: proofread(s.text) })),
       ...topics.map((t) => ({ id: t.id, issues: proofread([t.title, ...t.outline, ...t.hints].join("")) })),
       // 「記住」係口訣，可以用口語（例如用戶嘅「點解」），所以唔檢查
       ...questionTypes.map((q) => ({
@@ -115,6 +117,12 @@ describe("/data 預設教材", () => {
       })),
     ].filter((p) => p.issues.length);
     expect(problems).toEqual([]);
+  });
+
+  it("佳句唔重複，而且關聯嘅作文類型存在", () => {
+    const texts = sentences.map((s) => s.text);
+    expect(new Set(texts).size).toBe(texts.length);
+    sentences.forEach((s) => s.writingTypeIds.forEach((id) => expect(writingTypeIds, s.id).toContain(id)));
   });
 
   it("用字檢查捉到口語同簡體字，但唔會誤報「關係」", () => {

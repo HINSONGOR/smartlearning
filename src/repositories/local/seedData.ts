@@ -4,6 +4,7 @@ import {
   exampleSchema,
   levelSchema,
   questionTypeSchema,
+  sentenceSchema,
   subjectSchema,
   topicSchema,
   vocabularySchema,
@@ -13,6 +14,7 @@ import essaysJson from "@data/essays.json";
 import examplesJson from "@data/examples.json";
 import levelsJson from "@data/levels.json";
 import questionTypesJson from "@data/questionTypes.json";
+import sentencesJson from "@data/sentences.json";
 import subjectsJson from "@data/subjects.json";
 import topicsJson from "@data/topics.json";
 import vocabularyJson from "@data/vocabulary.json";
@@ -36,6 +38,7 @@ export const seedData = {
   essays: load("essays.json", essaySchema, essaysJson),
   vocabulary: load("vocabulary.json", vocabularySchema, vocabularyJson),
   examples: load("examples.json", exampleSchema, examplesJson),
+  sentences: load("sentences.json", sentenceSchema, sentencesJson),
 };
 
 export type SeedData = typeof seedData;

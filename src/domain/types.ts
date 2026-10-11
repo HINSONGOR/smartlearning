@@ -8,6 +8,7 @@ import type {
   levelSchema,
   paragraphPlanSchema,
   questionTypeSchema,
+  sentenceSchema,
   statusSchema,
   subjectSchema,
   topicSchema,
@@ -28,3 +29,4 @@ export type Essay = z.infer<typeof essaySchema>;
 export type Vocabulary = z.infer<typeof vocabularySchema>;
 export type ExampleCategory = z.infer<typeof exampleCategorySchema>;
 export type Example = z.infer<typeof exampleSchema>;
+export type Sentence = z.infer<typeof sentenceSchema>;

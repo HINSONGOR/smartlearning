@@ -9,6 +9,7 @@ const tabs = [
   { href: "/admin/essays", label: "範文" },
   { href: "/admin/vocabulary", label: "詞語" },
   { href: "/admin/examples", label: "例子" },
+  { href: "/admin/sentences", label: "佳句" },
 ];
 
 export function AdminNav() {

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "s001",
+    "text": "那是一個陽光明媚的星期六早上，我懷着興奮的心情，跟隨父母踏上了旅途。",
+    "category": "交代背景",
+    "usage": "遊記、活動開頭",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s002",
+    "text": "記得那年盛夏，蟬鳴聲此起彼落，一件難忘的事就在那時悄悄發生。",
+    "category": "交代背景",
+    "usage": "記敍文開頭",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s003",
+    "text": "祖母滿頭銀髮，臉上佈滿歲月的皺紋，但那雙慈祥的眼睛總是含着溫暖的笑意。",
+    "category": "描寫人物",
+    "usage": "寫人、親情",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s004",
+    "text": "老師站在講台上，目光炯炯有神，循循善誘地為我們解開一道道難題。",
+    "category": "描寫人物",
+    "usage": "校園、寫師長",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s005",
+    "text": "他二話不說便伸出援手，那古道熱腸的身影，至今仍深深印在我的腦海裏。",
+    "category": "描寫人物",
+    "usage": "寫好人好事",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s006",
+    "text": "天空忽然烏雲密佈，狂風夾着豆大的雨點傾盆而下，行人紛紛慌忙找地方躲避。",
+    "category": "描寫天氣",
+    "usage": "天氣突變、轉折",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s007",
+    "text": "清晨，微風輕拂，陽光透過樹葉灑下斑駁的光影，整個校園顯得格外寧靜美好。",
+    "category": "描寫天氣",
+    "usage": "景物描寫",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s008",
+    "text": "寒風刺骨，呼嘯的北風像刀子般刮在臉上，我不禁緊了緊衣領。",
+    "category": "描寫天氣",
+    "usage": "冬日場景",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s009",
+    "text": "比賽哨聲一響，雙方隊員便摩拳擦掌，全力以赴，場面緊張刺激得令人屏息。",
+    "category": "活動經歷",
+    "usage": "運動會、比賽",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s010",
+    "text": "在同學們的加油聲中，我們齊心協力，終於反敗為勝，全班頓時歡呼雀躍。",
+    "category": "活動經歷",
+    "usage": "團體活動",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s011",
+    "text": "活動雖然結束了，我卻意猶未盡，這次經歷讓我滿載而歸。",
+    "category": "活動經歷",
+    "usage": "活動結尾",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s012",
+    "text": "這次失敗讓我明白「失敗乃成功之母」，從此我學會了迎難而上，永不放棄。",
+    "category": "成長經歷",
+    "usage": "成長感悟",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s013",
+    "text": "經過這件事，我彷彿一夜長大，懂得了承擔與責任的真正意義。",
+    "category": "成長經歷",
+    "usage": "成長主題",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s014",
+    "text": "清晨的校園書聲琅琅，同學們孜孜不倦地朗讀，洋溢着一片朝氣蓬勃的氣象。",
+    "category": "校園生活",
+    "usage": "校園描寫",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s015",
+    "text": "在老師的諄諄教誨下，我們互助互愛，一同在知識的海洋裏快樂遨遊。",
+    "category": "校園生活",
+    "usage": "校園、師生情",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s016",
+    "text": "六年的同窗歲月轉瞬即逝，那一張張熟悉的笑臉，將永遠留在我心底最溫暖的角落。",
+    "category": "校園生活",
+    "usage": "畢業、惜別",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s017",
+    "text": "這份珍貴的回憶，如同一杯香醇的茶，愈是回味，愈覺甘甜。",
+    "category": "抒情結尾",
+    "usage": "抒情結尾",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s018",
+    "text": "原來，真正的快樂並非來自得到，而是來自付出與分享。",
+    "category": "點題昇華",
+    "usage": "感悟、點題",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  },
+  {
+    "id": "s019",
+    "text": "這件小事看似平凡，卻教曉我一個受用一生的大道理。",
+    "category": "點題昇華",
+    "usage": "記敍文點題",
+    "tags": [
+      "素材庫"
+    ],
+    "writingTypeIds": [
+      "narrative"
+    ]
+  }
+]

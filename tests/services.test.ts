@@ -120,3 +120,21 @@ describe("VocabularyService / ExampleService", () => {
     }
   });
 });
+
+describe("SentenceService", () => {
+  it("可以按類別篩選佳句，新增後會出現", async () => {
+    const services = createServices(createMemoryStore());
+    const weather = await services.sentences.list({ category: "描寫天氣" });
+    expect(weather.length).toBeGreaterThan(0);
+    weather.forEach((s) => expect(s.category).toBe("描寫天氣"));
+
+    const saved = await services.sentences.save({
+      text: "測試佳句。",
+      category: "抒情結尾",
+      usage: "",
+      tags: [],
+      writingTypeIds: ["narrative"],
+    });
+    expect((await services.sentences.list({ search: "測試佳句" })).map((s) => s.id)).toEqual([saved.id]);
+  });
+});

@@ -1,4 +1,4 @@
-import { essaySchema, exampleSchema, vocabularySchema } from "@/domain/schemas";
+import { essaySchema, exampleSchema, sentenceSchema, vocabularySchema } from "@/domain/schemas";
 import { createBrowserStore, type KeyValueStore } from "@/repositories/local/keyValueStore";
 import { LocalCrudRepository } from "@/repositories/local/LocalCrudRepository";
 import { LocalCurriculumRepository } from "@/repositories/local/LocalCurriculumRepository";
@@ -11,6 +11,7 @@ import { CurriculumService } from "./CurriculumService";
 import { EnglishWritingService } from "./EnglishWritingService";
 import { EssayService } from "./EssayService";
 import { ExampleService } from "./ExampleService";
+import { SentenceService } from "./SentenceService";
 import {
   cdnStrokeSource,
   localStrokeSource,
@@ -47,6 +48,11 @@ export function createServices(
     examples: new ExampleService(
       new LocalCrudRepository("examples", seedData.examples, exampleSchema, store),
       exampleSchema,
+      changes,
+    ),
+    sentences: new SentenceService(
+      new LocalCrudRepository("sentences", seedData.sentences, sentenceSchema, store),
+      sentenceSchema,
       changes,
     ),
     tts: new TTSService(ttsProvider),

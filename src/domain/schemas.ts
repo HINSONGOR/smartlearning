@@ -150,3 +150,16 @@ export const exampleSchema = z.object({
   topicIds: z.array(id).default([]),
   ...timestamps,
 });
+
+/** 佳句庫：可以直接借用嘅好句子，例如開頭、描寫天氣、結尾點題 */
+export const sentenceSchema = z.object({
+  id,
+  text,
+  /** 類別，例如「交代背景」、「描寫天氣」、「抒情結尾」 */
+  category: text,
+  /** 可用場景，例如「遊記、活動開頭」 */
+  usage: z.string().default(""),
+  tags: z.array(text).default([]),
+  writingTypeIds: z.array(id).default([]),
+  ...timestamps,
+});

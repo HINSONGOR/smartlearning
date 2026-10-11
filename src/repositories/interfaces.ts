@@ -4,6 +4,7 @@ import type {
   Example,
   Level,
   QuestionType,
+  Sentence,
   Subject,
   Topic,
   Vocabulary,
@@ -37,6 +38,7 @@ export interface CrudRepository<T extends { id: string }> {
 export type EssayRepository = CrudRepository<Essay>;
 export type VocabularyRepository = CrudRepository<Vocabulary>;
 export type ExampleRepository = CrudRepository<Example>;
+export type SentenceRepository = CrudRepository<Sentence>;
 
 /** 英文作文：類別、圖片格式、題目（目前只讀） */
 export interface EnglishWritingRepository {
