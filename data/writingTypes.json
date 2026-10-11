@@ -6,15 +6,19 @@
     "description": "清楚說明方法、原因、影響或好處",
     "status": "active",
     "order": 1,
-    "requirements": { "minChars": 300, "timeLimitMinutes": 35 }
+    "requirements": {
+      "minChars": 300,
+      "timeLimitMinutes": 35
+    }
   },
   {
     "id": "narrative",
     "moduleId": "chinese-writing",
-    "name": "記敘文",
-    "description": "",
-    "status": "coming_soon",
-    "order": 2
+    "name": "記敍文",
+    "description": "記述一件事的經過，表達感受和體會",
+    "status": "active",
+    "order": 2,
+    "questionTypeLabel": "分類"
   },
   {
     "id": "argumentative",

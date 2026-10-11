@@ -80,7 +80,7 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
           <section className="space-y-4">
             <InfoRow label="作文類型" value={writingType.name} />
             <InfoRow
-              label="題型"
+              label={writingType.questionTypeLabel}
               value={questionType.mnemonic ? `${questionType.name}（${questionType.mnemonic}）` : questionType.name}
             />
             {writingType.requirements && (

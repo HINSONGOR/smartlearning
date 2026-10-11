@@ -1138,5 +1138,308 @@
     "topicIds": [
       "self-discipline"
     ]
+  },
+  {
+    "id": "n-umbrella",
+    "title": "雨中借傘",
+    "content": "下大雨時，看見老伯伯的雨傘被風吹壞，便打開自己的雨傘，陪他走到附近的商店。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-others"
+    ]
+  },
+  {
+    "id": "n-elder-smile",
+    "title": "老伯伯露出笑容",
+    "content": "老伯伯安全到達後露出笑容，還稱讚我是個有愛心的孩子。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "helping-others"
+    ]
+  },
+  {
+    "id": "n-delay-worksheet",
+    "title": "拖延做工作紙",
+    "content": "以為工作紙很簡單便一直拖延，到交功課前一晚才發現還有很多題目未做。",
+    "category": "學習",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "i-was-wrong"
+    ]
+  },
+  {
+    "id": "n-admit-mistake",
+    "title": "承認錯誤",
+    "content": "害怕被責備而說忘記帶工作紙，被老師發現後立刻道歉，並承諾當天完成。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "i-was-wrong"
+    ]
+  },
+  {
+    "id": "n-relay",
+    "title": "運動會接力賽",
+    "content": "在運動會的四乘一百米接力賽中接過接力棒，奮力追趕前面的隊伍。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "school-activity"
+    ]
+  },
+  {
+    "id": "n-high-five",
+    "title": "輸了也互相擊掌",
+    "content": "雖然只得第二名，但隊員們笑着互相擊掌，友誼更加深厚。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "school-activity"
+    ]
+  },
+  {
+    "id": "n-trip-sights",
+    "title": "湖泊和夜市",
+    "content": "參觀清澈見底的湖泊，晚上到人來人往、香氣四溢的夜市遊玩。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "n-lost-in-market",
+    "title": "在夜市差點走散",
+    "content": "只顧看小吃攤位而與家人走散，記得留在原地並向工作人員求助。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "memorable-trip"
+    ]
+  },
+  {
+    "id": "n-fever",
+    "title": "發燒看醫生",
+    "content": "突然頭痛發燒，媽媽發現我面色蒼白，立刻帶我去看醫生。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "being-sick"
+    ]
+  },
+  {
+    "id": "n-family-care",
+    "title": "家人的照顧",
+    "content": "媽媽每天準備清淡的食物，晚上進房查看；爸爸下班後買來我喜歡吃的水果。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-experience",
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "being-sick",
+      "happy-person"
+    ]
+  },
+  {
+    "id": "n-practise-reciting",
+    "title": "努力練習朗誦",
+    "content": "每天放學後練習朗誦，改善發音和語氣，媽媽和老師一直鼓勵我。",
+    "category": "學習",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "first-competition"
+    ]
+  },
+  {
+    "id": "n-on-stage",
+    "title": "台上的關鍵時刻",
+    "content": "站在台上雙手發抖，深深吸一口氣，提醒自己不要緊張，然後投入朗誦。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-school"
+    ],
+    "topicIds": [
+      "first-competition"
+    ]
+  },
+  {
+    "id": "n-wallet-returned",
+    "title": "同學交還錢包",
+    "content": "在操場弄丟錢包，一位不太熟悉的同學拾到後特意留下來等我認領。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "touching-experience"
+    ]
+  },
+  {
+    "id": "n-kind-words",
+    "title": "一句感人的話",
+    "content": "同學笑着說：「不用客氣，這是我應該做的。」",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "touching-experience"
+    ]
+  },
+  {
+    "id": "n-blackout",
+    "title": "大廈突然停電",
+    "content": "晚上獨自在家溫習時，整幢大廈突然停電，房間一片漆黑。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "unforgettable-night"
+    ]
+  },
+  {
+    "id": "n-stay-calm",
+    "title": "冷靜處理",
+    "content": "拿出手電筒，關好窗戶，再致電父母，留在安全的地方等候。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-experience"
+    ],
+    "topicIds": [
+      "unforgettable-night"
+    ]
+  },
+  {
+    "id": "n-report-card",
+    "title": "看到成績退步",
+    "content": "看到數學科分數比上次退步，緊張得手心冒汗，頓時感到失望。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "report-card-day"
+    ]
+  },
+  {
+    "id": "n-mum-encourages",
+    "title": "媽媽的鼓勵",
+    "content": "媽媽沒有責備我，只是耐心地問我哪些地方需要改善，鼓勵我做好溫習計劃。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-growth"
+    ],
+    "topicIds": [
+      "report-card-day"
+    ]
+  },
+  {
+    "id": "n-breakfast",
+    "title": "媽媽每天準備早餐",
+    "content": "媽媽每天一早起床為我準備早餐，從不說辛苦。",
+    "category": "生活",
+    "tags": [
+      "待審閱"
+    ],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "happy-person"
+    ]
+  },
+  {
+    "id": "n-brave-report",
+    "title": "同學勇敢上台報告",
+    "content": "平時內向的同學上台報告，愈說愈流暢，內容豐富又有條理。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "praising-others"
+    ]
+  },
+  {
+    "id": "n-sincere-praise",
+    "title": "真誠的讚美",
+    "content": "下課後走到同學身邊，真誠地稱讚他表現很好，他露出又驚訝又害羞的笑容。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "praising-others"
+    ]
+  },
+  {
+    "id": "n-help-granny",
+    "title": "扶起跌倒的婆婆",
+    "content": "在公園看見一位婆婆跌倒，我扶起她，朋友幫她把散落的青菜撿回籃子裏。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "memorable-event"
+    ]
+  },
+  {
+    "id": "n-granny-thanks",
+    "title": "婆婆連聲道謝",
+    "content": "我們攙扶婆婆到長椅坐下，她連聲道謝，稱讚我們是懂事的孩子。",
+    "category": "生活",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-helping"
+    ],
+    "topicIds": [
+      "memorable-event"
+    ]
   }
 ]

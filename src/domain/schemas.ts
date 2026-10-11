@@ -46,6 +46,8 @@ export const writingTypeSchema = z.object({
   description: z.string().default(""),
   status: statusSchema,
   order: z.number(),
+  /** 第二層叫咩：說明文叫「題型」，記敍文叫「分類」 */
+  questionTypeLabel: z.string().default("題型"),
   /** 考試要求，例如最少字數（不計標點）同限時 */
   requirements: z
     .object({

@@ -27,6 +27,8 @@ export default async function WritingTypePage({
     notFound();
   }
   const questionTypes = await curriculum.listQuestionTypes(writingTypeId);
+  // 公式全部一樣（例如記敍文）就改為顯示說明，避免每張卡重複
+  const sameFormula = new Set(questionTypes.map((q) => q.formula)).size === 1 && questionTypes.length > 1;
 
   return (
     <>
@@ -34,7 +36,7 @@ export default async function WritingTypePage({
         back={{ href: routes.module(moduleId), label: learningModule.name }}
         title={writingType.name}
       >
-        <p className="text-lg text-muted">第二步：揀題型</p>
+        <p className="text-lg text-muted">第二步：揀{writingType.questionTypeLabel}</p>
         {writingType.requirements && (
           <p className="inline-flex flex-wrap gap-2">
             <span className="rounded-xl bg-accent-soft px-3 py-1 text-accent">
@@ -54,7 +56,7 @@ export default async function WritingTypePage({
               href={routes.questionType(moduleId, writingTypeId, q.id)}
               title={q.name}
               badge={q.isPlaceholder ? "待補充" : q.mnemonic || undefined}
-              subtitle={q.formula}
+              subtitle={sameFormula ? q.description : q.formula}
             />
           </li>
         ))}

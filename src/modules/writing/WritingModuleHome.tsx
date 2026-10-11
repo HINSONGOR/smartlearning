@@ -4,7 +4,7 @@ import type { LearningModule } from "@/domain/types";
 import { routes } from "@/lib/routes";
 import { getServices } from "@/services/container";
 
-/** 作文模組首頁：揀作文類型（說明文、記敘文…） */
+/** 作文模組首頁：揀作文類型（說明文、記敍文…） */
 export async function WritingModuleHome({ module }: { module: LearningModule }) {
   const writingTypes = await getServices().curriculum.listWritingTypes(module.id);
 

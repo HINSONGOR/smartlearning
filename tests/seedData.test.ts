@@ -107,6 +107,12 @@ describe("/data 預設教材", () => {
       ...essays.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
       ...vocabulary.map((v) => ({ id: v.word, issues: proofread(`${v.definition}${v.example}`) })),
       ...examples.map((e) => ({ id: e.id, issues: proofread(`${e.title}${e.content}`) })),
+      ...topics.map((t) => ({ id: t.id, issues: proofread([t.title, ...t.outline, ...t.hints].join("")) })),
+      // 「記住」係口訣，可以用口語（例如用戶嘅「點解」），所以唔檢查
+      ...questionTypes.map((q) => ({
+        id: q.id,
+        issues: proofread([q.name, q.description, ...q.thinkingSteps].join("")),
+      })),
     ].filter((p) => p.issues.length);
     expect(problems).toEqual([]);
   });
