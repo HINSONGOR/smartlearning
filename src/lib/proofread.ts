@@ -14,6 +14,7 @@ const SIMPLIFIED =
 const VARIANTS: [RegExp, string][] = [
   [/裡/g, "裏"],
   [/綫/g, "線"],
+  [/伙伴/g, "夥伴"],
 ];
 
 export interface ProofreadIssue {

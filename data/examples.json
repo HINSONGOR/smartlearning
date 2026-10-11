@@ -1479,5 +1479,31 @@
     "topicIds": [
       "helping-stranger"
     ]
+  },
+  {
+    "id": "n-badminton-teach",
+    "title": "朋友教我打羽毛球",
+    "content": "在學校羽毛球活動中，朋友耐心地教我發球和接球的技巧，我們漸漸成為好朋友。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "best-friend"
+    ]
+  },
+  {
+    "id": "n-badminton-match",
+    "title": "比賽時互相鼓勵",
+    "content": "比賽連續失分時，朋友鼓勵我不要害怕，我們互相配合，最後反敗為勝。",
+    "category": "學校",
+    "tags": [],
+    "questionTypeIds": [
+      "narrative-touching"
+    ],
+    "topicIds": [
+      "best-friend"
+    ]
   }
 ]
