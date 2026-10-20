@@ -11,8 +11,8 @@ import { buildDictation } from "./dictation";
 import { HandwritingPad } from "./HandwritingPad";
 
 interface Props {
-  /** 由題目頁入嚟：只默呢啲題目嘅詞語 */
-  topicIds?: string[];
+  /** 由題目頁入嚟：只默呢條題目嘅詞語（同題目頁「重點詞語」一樣） */
+  pool?: Vocabulary[];
   topicTitle?: string;
 }
 
@@ -21,15 +21,19 @@ type Result = { word: Vocabulary; correct: boolean };
 const counts = [5, 10, 0];
 
 /** ✏️ 默書：聽讀音 → 寫 → 對答案睇筆順 → 自己打 ✓／✗。成績唔會儲存。 */
-export function DictationSession({ topicIds, topicTitle }: Props) {
-  const vocabulary = useServiceQuery((s) => s.vocabulary.list(), []);
+export function DictationSession({ pool, topicTitle }: Props) {
+  const allWords = useServiceQuery((s) => s.vocabulary.list(), []);
+  const vocabulary = pool ?? allWords;
   const categories = useServiceQuery((s) => s.vocabulary.listCategories(), []);
   const [category, setCategory] = useState<string>();
   const [count, setCount] = useState(10);
   const [queue, setQueue] = useState<Vocabulary[] | null>(null);
   const [results, setResults] = useState<Result[]>([]);
 
-  const available = vocabulary ? buildDictation(vocabulary, { category, topicIds }).length : 0;
+  const available = vocabulary ? buildDictation(vocabulary, { category }).length : 0;
+  // 詞語唔夠數就唔顯示嗰個選項，例如得 4 個詞就唔顯示「5 個」、「10 個」
+  const countOptions = counts.filter((n) => n === 0 || n < available);
+  const chosenCount = countOptions.includes(count) ? count : 0;
 
   const start = (words: Vocabulary[]) => {
     setResults([]);
@@ -86,8 +90,8 @@ export function DictationSession({ topicIds, topicTitle }: Props) {
       <div>
         <h2 className="mb-2 text-xl font-bold">默幾多個？</h2>
         <div className="flex flex-wrap gap-2">
-          {counts.map((n) => (
-            <button key={n} type="button" className={chip(count === n)} onClick={() => setCount(n)}>
+          {countOptions.map((n) => (
+            <button key={n} type="button" className={chip(chosenCount === n)} onClick={() => setCount(n)}>
               {n === 0 ? `全部（${available} 個）` : `${n} 個`}
             </button>
           ))}
@@ -96,7 +100,7 @@ export function DictationSession({ topicIds, topicTitle }: Props) {
       <button
         type="button"
         disabled={available === 0}
-        onClick={() => start(buildDictation(vocabulary, { category, topicIds, count: count || undefined }))}
+        onClick={() => start(buildDictation(vocabulary, { category, count: chosenCount || undefined }))}
         className="h-16 w-full rounded-2xl bg-primary text-xl font-bold text-on-primary disabled:opacity-40 sm:w-auto sm:px-10"
       >
         {available === 0 ? "無詞語可以默" : "開始默書 →"}

@@ -84,7 +84,13 @@ export function EssayManager() {
 
   const set = (patch: Partial<Draft>) => {
     setError("");
-    setDraft((d) => (d ? { ...d, ...patch } : d));
+    setDraft((d) => {
+      if (!d) return d;
+      const next = { ...d, ...patch };
+      // 換咗題目，舊題目嘅段落標籤唔再適用
+      if ("topicId" in patch && patch.topicId !== d.topicId) delete next.paragraphLabels;
+      return next;
+    });
   };
   const qtOptions = curriculum.questionTypes.filter((q) => !draft || q.writingTypeId === draft.writingTypeId);
   const topicOptions = curriculum.topics.filter((t) => draft && t.questionTypeId === draft.questionTypeId);

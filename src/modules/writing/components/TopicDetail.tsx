@@ -35,7 +35,10 @@ export function TopicDetail({ topic, writingType, questionType, levels }: Props)
 
   const vocabulary = useServiceQuery((s) => s.vocabulary.list(), []);
   const topicWords = useServiceQuery(
-    (s) => s.vocabulary.listForTopic(topic.id, questionType.id),
+    async (s) => {
+      const essays = await s.essays.listForTopic(topic.id);
+      return s.vocabulary.listForTopic(topic.id, questionType.id, essays.map((e) => e.content));
+    },
     [topic.id, questionType.id],
   );
   const examples = useServiceQuery((s) => s.examples.listForTopic(topic.id), [topic.id]);
@@ -266,7 +269,10 @@ function EssaysPanel({
   );
   const [recite, setRecite] = useState(false);
   const [copied, setCopied] = useState(false);
-  const essay = essays.find((e) => e.level === level);
+  // 揀咗嘅程度冇範文（例如喺內容管理刪咗），就顯示其他有範文嘅程度
+  const essay =
+    essays.find((e) => e.level === level) ??
+    essays.find((e) => available.some((l) => l.id === e.level));
 
   if (!essay) return <p className="text-lg text-muted">呢條題目暫時未有範文。</p>;
   const chars = countChars(essay.content);

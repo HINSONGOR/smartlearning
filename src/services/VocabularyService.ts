@@ -1,4 +1,5 @@
 import type { LevelId, Vocabulary } from "@/domain/types";
+import { appearsIn } from "@/lib/highlight";
 import { ContentService, matchesSearch } from "./ContentService";
 
 export interface VocabularyFilter {
@@ -20,11 +21,20 @@ export class VocabularyService extends ContentService<Vocabulary, VocabularyFilt
     );
   }
 
-  /** 題目頁用：直接關聯題目嘅詞語，加埋關聯題型嘅詞語 */
-  async listForTopic(topicId: string, questionTypeId: string) {
-    const all = await this.list();
-    return all.filter(
-      (v) => v.topicIds.includes(topicId) || v.questionTypeIds.includes(questionTypeId),
+  /**
+   * 題目頁用嘅詞語：
+   * - 明確連到呢條題目嘅詞語
+   * - 喺呢條題目範文入面出現過嘅詞語
+   * - 冇指定題目、只連到題型／分類嘅通用詞語（例如描寫天氣、交代背景）
+   * 咁就唔會將其他題目嘅詞語（例如「靦腆」）放錯入嚟。
+   */
+  async listForTopic(topicId: string, questionTypeId: string, essayTexts: string[] = []) {
+    const text = essayTexts.join("\n");
+    return (await this.list()).filter(
+      (v) =>
+        v.topicIds.includes(topicId) ||
+        appearsIn(v.word, text) ||
+        (v.topicIds.length === 0 && v.questionTypeIds.includes(questionTypeId)),
     );
   }
 

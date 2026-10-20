@@ -102,10 +102,34 @@ describe("EssayService", () => {
 });
 
 describe("VocabularyService / ExampleService", () => {
-  it("題目頁詞語包括直接關聯題目或題型嘅詞語", async () => {
-    const words = await services.vocabulary.listForTopic("self-discipline", "expository-method");
-    expect(words.map((w) => w.word)).toContain("自律");
-    expect(words.map((w) => w.word)).toContain("那麼");
+  const topicWords = async (topicId: string) => {
+    const topic = (await services.curriculum.getTopic(topicId))!;
+    const essays = await services.essays.listForTopic(topicId);
+    const words = await services.vocabulary.listForTopic(
+      topicId,
+      topic.questionTypeId,
+      essays.map((e) => e.content),
+    );
+    return words.map((w) => w.word);
+  };
+
+  it("題目頁詞語包括直接關聯題目、範文出現過嘅詞語", async () => {
+    const words = await topicWords("self-discipline");
+    expect(words).toContain("自律");
+    expect(words).toContain("那麼");
+  });
+
+  it("題目頁唔會出現其他題目嘅詞語", async () => {
+    const words = await topicWords("memorable-event");
+    expect(words).toContain("不假思索");
+    expect(words).not.toContain("靦腆");
+    expect(words).not.toContain("吝嗇");
+  });
+
+  it("每條題目最少有 4 個重點詞語", async () => {
+    for (const topic of await services.curriculum.listTopics()) {
+      expect((await topicWords(topic.id)).length, topic.id).toBeGreaterThanOrEqual(4);
+    }
   });
 
   it("可以按類別搜尋詞語", async () => {
